@@ -1,0 +1,141 @@
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://127.0.0.1:3010
+- Network:       http://127.0.0.1:3010
+✓ Ready in 689ms
+
+ GET / 200 in 1592ms (next.js: 1556ms, application-code: 36ms)
+ GET /home/shop 200 in 25ms (next.js: 14ms, application-code: 10ms)
+ GET /en-1 200 in 20ms (next.js: 5ms, application-code: 15ms)
+ GET /nope 404 in 11ms (next.js: 4ms, application-code: 7ms)
+Persisting failed: Unable to open static sorted file referenced from 00000044.meta
+
+Caused by:
+    0: Unable to open static sorted file 00000043.sst
+    1: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000043.sst
+    2: No such file or directory (os error 2)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+
+thread 'tokio-runtime-worker' (24992) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 74)
+
+Caused by:
+    0: Looking up task storage for TaskId 74 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000016.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000016.sst
+    4: No such file or directory (os error 2)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'tokio-runtime-worker' (24992) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 74)
+
+Caused by:
+    0: Looking up task storage for TaskId 74 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000016.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000016.sst
+    4: No such file or directory (os error 2)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+
+thread 'tokio-runtime-worker' (24592) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 107)
+
+Caused by:
+    0: Looking up task storage for TaskId 107 from database failed
+    1: Unable to open static sorted file referenced from 00000007.meta
+    2: Unable to open static sorted file 00000001.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000001.sst
+    4: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (24592) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 107)
+
+Caused by:
+    0: Looking up task storage for TaskId 107 from database failed
+    1: Unable to open static sorted file referenced from 00000007.meta
+    2: Unable to open static sorted file 00000001.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000001.sst
+    4: No such file or directory (os error 2)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+
+thread 'tokio-runtime-worker' (26192) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 3 tasks
+
+Caused by:
+    0: Looking up typed data for 3 tasks from database failed
+    1: Unable to open static sorted file referenced from 00000007.meta
+    2: Unable to open static sorted file 00000001.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000001.sst
+    4: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (26192) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 3 tasks
+
+Caused by:
+    0: Looking up typed data for 3 tasks from database failed
+    1: Unable to open static sorted file referenced from 00000007.meta
+    2: Unable to open static sorted file 00000001.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000001.sst
+    4: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (26192) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 64)
+
+Caused by:
+    0: Looking up task storage for TaskId 64 from database failed
+    1: Unable to open static sorted file referenced from 00000007.meta
+    2: Unable to open static sorted file 00000001.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000001.sst
+    4: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (26192) panicked at turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 64)
+
+Caused by:
+    0: Looking up task storage for TaskId 64 from database failed
+    1: Unable to open static sorted file referenced from 00000007.meta
+    2: Unable to open static sorted file 00000001.sst
+    3: Failed to open SST file /media/DDrive/autak-org-one-com-clone/.next/dev/cache/turbopack/v16.2.10/00000001.sst
+    4: No such file or directory (os error 2)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Error: Both middleware file "./src/middleware.ts" and proxy file "./src/proxy.ts" are detected. Please use "./src/proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection: Error: Both middleware file "./src/middleware.ts" and proxy file "./src/proxy.ts" are detected. Please use "./src/proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection:  Error: Both middleware file "./src/middleware.ts" and proxy file "./src/proxy.ts" are detected. Please use "./src/proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)

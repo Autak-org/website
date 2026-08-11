@@ -1,0 +1,169 @@
+@import "tailwindcss";
+@import "../styles/fonts.css";
+
+@theme {
+  /* Brand magenta. 500 is the historic Autak pink and is reserved for large
+     type, buttons and accents; 600 is the smallest shade that clears WCAG AA
+     (5.69:1) for body text on white. */
+  --color-brand-50: #fff0f5;
+  --color-brand-100: #ffe0eb;
+  --color-brand-200: #ffc2d7;
+  --color-brand-300: #ff94b9;
+  --color-brand-400: #ff4d8e;
+  --color-brand-500: #ff0066;
+  --color-brand-600: #cc0052;
+  --color-brand-700: #a30042;
+  --color-brand-800: #7a0030;
+  --color-brand-900: #520021;
+  --color-brand-950: #2e0012;
+
+  --color-ink-50: #f8f8f8;
+  --color-ink-100: #f0f0f0;
+  --color-ink-200: #e2e2e2;
+  --color-ink-300: #c9c9c9;
+  --color-ink-400: #9e9e9e;
+  --color-ink-500: #767676;
+  --color-ink-600: #5c5c5c;
+  --color-ink-700: #4d4d4d;
+  --color-ink-800: #333333;
+  --color-ink-900: #1a1a1a;
+  --color-ink-950: #0d0d0d;
+
+  --font-sans: "Poppins", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Comfortaa", "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  /* Fluid display sizes so headlines stay dramatic without overflowing. */
+  --text-display-sm: clamp(2rem, 1.4rem + 3vw, 3.25rem);
+  --text-display: clamp(2.5rem, 1.4rem + 5vw, 5rem);
+  --text-display-lg: clamp(3rem, 1.2rem + 7.5vw, 7rem);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* One border colour for every frame, on light and on dark. */
+  --color-hairline: #e2e2e2;
+  --color-hairline-dark: rgba(255, 255, 255, 0.14);
+}
+
+@theme inline {
+  /* Header height, so sticky offsets and scroll margins stay in sync. */
+  --spacing-header: 4.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: var(--color-ink-800);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* A focus ring that is part of the design rather than an afterthought.
+     Deliberately high contrast: this site has to be exemplary. */
+  :focus-visible {
+    outline: 3px solid var(--color-brand-500);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-500);
+    color: #ffffff;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  /* Long-form copy coming from the legacy snapshot and the legal pages. */
+  .prose-legal {
+    max-width: 68ch;
+  }
+
+  .prose-legal p {
+    margin-top: 1.25rem;
+    line-height: 1.75;
+    white-space: pre-line;
+  }
+
+  .prose-legal h3 {
+    margin-top: 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-ink-900);
+  }
+
+  .prose-legal h3 + p {
+    margin-top: 0.75rem;
+  }
+
+  /* Clauses keep their own numbering in the source text, so the marker only
+     adds the section sign. */
+  .prose-legal .clause {
+    margin-top: 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-ink-900);
+  }
+
+  .prose-legal .clause::before {
+    content: "§ ";
+    color: var(--color-brand-600);
+  }
+
+  .prose-legal .clause + p {
+    margin-top: 0.75rem;
+  }
+
+  /* Scroll reveal. The hidden state is opted into by the Reveal component
+     once it knows the element is below the fold, so content is never trapped
+     behind a script that failed to run. */
+  .reveal[data-ready="true"] {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 0.7s var(--ease-out-soft),
+      transform 0.7s var(--ease-out-soft);
+  }
+
+  .reveal[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal[data-ready="true"],
+  .reveal[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

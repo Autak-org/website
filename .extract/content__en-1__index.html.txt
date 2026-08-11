@@ -1,0 +1,154 @@
+IMAGES:
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/87143f57-2a13-43de-bba3-d63107b65916._CR0,0,600,180_PT0_SX600__.jpg?etag=%22c198-60c24667%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=600,180
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/ACE%20logo-01.png?etag=%227cdb-60cf28a1%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=1182,341
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?etag=%227590d-629632e5%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=260%2B87
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?etag=%227590d-629632e5%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=359%2B120
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?withoutEnlargement&amp;resize=87,29
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/CYBATHLON_Logo.png?etag=%22455e-63ef7b40%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=300%2B113&amp;extract=0%2B0%2B300%2B113
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Cambio_logo.svg.png?etag=%2216442-624c6eb4%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=341,341
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Download.png?etag=%221da7-60c2498b%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=383,132
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/FlukeLogo.png?etag=%2295d-60c248dd%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=600,122
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Kurtz-Ersa-Logo.png?etag=%229236-60c245cb%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=2012,276
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Logo_DigitalHub2.jpg?etag=%22ffcc-60d4885c%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=329,341
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Logo_Firmenlogo-Einfach-mobil_deutsch_rgb.jpg?etag=%22a772-60c24c65%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=690,213
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/MDR_Logo_2017.svg.png?etag=%229cc5-60135a74%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=301%2B97&amp;extract=0%2B0%2B300%2B97
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/PXL_20230915_134212285.MP.jpg?etag=%2254ce3a-670f89da%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=1013,763&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/PXL_20240504_143605176.MP.jpg?etag=%225eb2a5-670f89dc%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=1013,763&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/PXL_20240514_121537286.MP.jpg?etag=W%2F%226f45d7-670f89df%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=1013,763&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/PXL_20240906_094349740.MP.jpg?etag=W%2F%227966e5-670f889f%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=1013,763&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Postkarten_din_a6_quer_Autak_Seite_1.png?etag=%2234726b-635b9af5%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=1050,757&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/low-tec-logo-top-300x156.png?etag=%22930-601b6f66%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=300,156
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/paypal-me-logo-6405E8A530-seeklogo.com.png?etag=%223910-601b7bda%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=148%2B96
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/right_3.PNG?etag=%22db44d-670f871d%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=525%2B525&amp;extract=0%2B0%2B525%2B511
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/right_inclined_1.png?etag=%22df87f-670f83c8%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=525%2B525&amp;extract=0%2B38%2B525%2B438
+
+TEXT:
+EN | Autak
+DE
+Über uns
+Mitglied werden
+Kontakt
+Impressum
+Projekte
+Rollstuhl
+Lernplattform
+App
+Social Media
+Events
+Connie
+Robotearm
+Shop
+Satzung
+Beitragsordnung
+Datenschutzerklärung
+Praktikum
+EN
+Store
+Project
+Learning Platform
+App
+Critical Social Media
+Events
+Wheelchair
+Connie
+Robot Arm
+Imprint
+Contact
+About Us
+Internship
+SHOP
+JOIN US
+Store
+Project
+Imprint
+Contact
+About Us
+Internship
+DE
+EN
+We are participating in the Cybathlon!
+We are students from different backgrounds and our Motto is:
+"
+Inclusion through innovation
+"
+Autak
+is a non-profit organization that aims to make life a little easier for people with special needs. We consist of three pillars: Hardware, Software and Awareness.
+Can you invite a wheelchair user to your home?
+We are developing a wheelchair that can overcome all obstacles such as stairs and curbs. It is also possible to bring people to eye level with others.
+With your help, we can raise awareness and support more than 140 million wheelchair users worldwide with our developments.
+100% of the profit is reinvested by us in further developments, e.g. in our current prototype of a stair-climbing wheelchair.
+Trailer for our stair climbing wheelchair
+Teammeeting
+Every Thursday for everyone at 6:15 o'clock on
+Video Call
+Autak at
+"Simply ingenious"
+A stair-climbing wheelchair?
+We design mobility.
+There are no limits to the range of applications. The further development of the wheel can be used with a wheelchair, stroller or hospital bed.
+Our ideas
+Wheelchair, Software & Awareness
+Wheelchair
+Software
+Awareness
+Our fantastic
+supporters
+You also can support
+Or
+Account holder
+:
+Autak e.V.
+Bank:
+Deutsche Skatbank
+IBAN:
+DE76 8306 5408 0004 2950 99
+BIC:
+GENODEF1SLR
+Write us!
+For ideas, suggestions or questions we are always at your side!
+Only through feedback from you, our community, can we break down barriers. The wheelchair should look different or fit into your small car, give us feedback!
+Name *
+Telephone number *
+E-Mail *
+Message *
+some-randome-random
++49 24192133973
+info@autak.org
+Autak e.V., Ottostraße 51A, 52070 Aachen, Germany
+DE
+Über uns
+Mitglied werden
+Kontakt
+Impressum
+Projekte
+Rollstuhl
+Lernplattform
+App
+Social Media
+Events
+Connie
+Robotearm
+Shop
+Satzung
+Beitragsordnung
+Datenschutzerklärung
+Praktikum
+EN
+Store
+Project
+Learning Platform
+App
+Critical Social Media
+Events
+Wheelchair
+Connie
+Robot Arm
+Imprint
+Contact
+About Us
+Internship
+Mehr
+More child
+© ALLE RECHTE VORBEHALTEN
+|
+:

@@ -1,0 +1,243 @@
+IMAGES:
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/1-Juliane.png?etag=%22de8c-60a22335%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/1.png?etag=%2260e14-6390ab34%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B216&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/10-Marcel.png?etag=%22a357-60a226ff%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/10.png?etag=%224445c-6390b4f3%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B232&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/11-Rene.png?etag=%22bab4-60a22700%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/11.png?etag=%2244586-6390b4fb%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=184%2B245&amp;extract=3%2B0%2B180%2B239
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/13-Julia.png?etag=%22fd76-60a22700%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=201%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/15-Mirco.png?etag=%22c0d4-60a22b18%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/16-Mark.png?etag=%2210746-60a22b1b%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/17-Raul.png?etag=%221289f-60a22b1c%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/18-Christian.png?etag=%221719d-60a22b1c%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=201%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/19-David.png?etag=%22f3f1-60a22b19%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/20-David.png?etag=%22e089-60a22b19%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B201&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/21-Zachi.png?etag=%22e454-60a22b19%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/22-Lisa.png?etag=%22102e9-60a22b1e%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=201%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/23-Kathy.png?etag=%22ab7a-60a22b1a%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=176%2B176
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/24-Martin.png?etag=%22bd48-60a2d77d%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/25-Horst.png?etag=%22c20d-60a22b1a%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/26-Tanja.png?etag=%221340f-60a22b1f%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B201&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/27-Carsten.png?etag=%22d872-60a22b1b%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=201%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/28-Achim.png?etag=%22c0d6-60a22b1b%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B201&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/29-Dennis.png?etag=%22b049-60a22f18%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/2_Patricia_Fritze.png?etag=%2246d79-6390aba3%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=176%2B176
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/3%20(1).png?etag=%224d7e8-6390b277%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=241%2B202&amp;extract=0%2B0%2B241%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/3-Niko.png?etag=%22ac6c-60a2d77d%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/30-Chenyan.png?etag=%22f6cc-60a2d77c%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B201&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/31-Lukas.png?etag=%22c5a3-60a2d77c%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/4-Manuel.png?etag=%22152e8-60a22336%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/5-Michael.png?etag=%22a384-60a22336%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B171
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/5_Florian_Ernst.png?etag=%2244e22-6390b4e3%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=220%2B200&amp;extract=0%2B0%2B220%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/6-Fiona.png?etag=%22b85e-60a224d0%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/6_Amol_Niranjan_Kodange.png?etag=%225a8d8-6390b251%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=194%2B200&amp;extract=0%2B0%2B193%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/7.png?etag=%224e933-6390b4e8%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B216&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/8-Felix.png?etag=%22ee7b-60a224d0%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B10%2B200%2B180
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/8.png?etag=%223c9d8-6390b4ee%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B240&amp;extract=0%2B0%2B200%2B200
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/9-Thomas.png?etag=%221150c-60a22700%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=200%2B200&amp;extract=0%2B0%2B200%2B178
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/9_Gernot_Suemmermann.jpg?etag=%2286ccc-6368c60e%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=176%2B176&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Abhishek.jpg?etag=%2219a8fc-61f3d6f2%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=195%2B211&amp;extract=0%2B0%2B191%2B211&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Aditi.jpg?etag=%2217926b-61f3d6f5%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=184%2B200&amp;extract=0%2B0%2B184%2B200&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?etag=%227590d-629632e5%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=260%2B87
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?etag=%227590d-629632e5%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=359%2B120
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?withoutEnlargement&amp;resize=87,29
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Ece.jpg?etag=%2260f58-61f3d6fa%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=200%2B217&amp;extract=0%2B18%2B200%2B182&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Neslihan.jpg?etag=%221ad2c5-61f3d707%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=200%2B217&amp;extract=0%2B0%2B200%2B200&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Subhangee.jpg?etag=%22878b8-61f3d709%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=185%2B200&amp;extract=0%2B5%2B178%2B195&amp;quality=85
+
+TEXT:
+About Us | Autak
+DE
+Über uns
+Mitglied werden
+Kontakt
+Impressum
+Projekte
+Rollstuhl
+Lernplattform
+App
+Social Media
+Events
+Connie
+Robotearm
+Shop
+Satzung
+Beitragsordnung
+Datenschutzerklärung
+Praktikum
+EN
+Store
+Project
+Learning Platform
+App
+Critical Social Media
+Events
+Wheelchair
+Connie
+Robot Arm
+Imprint
+Contact
+About Us
+Internship
+SHOP
+JOIN US
+Store
+Project
+Imprint
+Contact
+About Us
+Internship
+DE
+EN
+ABOUT US
+We are committed to accessibility.
+An interdisciplinary team from RWTH & FH Aachen.
+TEAM
+ALUMNI
+SUPPORTERS
+OUR TEAM
+Gernot Sümmermann
+Secretary
+#Maschi #creativity #noSleep
+Always with us, pitching us around the world and bringing us forward with his network.
+Manuel Wessely
+1st Chairman
+#ComputerScientist #Redhair #Confidant
+For Manu,  as a motivated computer scientist, the 10 finger system is a cinch. In addition, he stands up for his fellow men.
+Dr. Thomas Hönig
+#physicist #movie connoisseur #alwaysforreinenda
+He is like a father to one or the other. Every meeting Thomas supports with helpful objections.
+Abhishek Ganesh
+#engineer
+Brilliant mind known throughout the RWTH....
+Amol Kodange
+#engineer
+Brilliant mind known throughout the RWTH....
+Nitish Aggarwal
+Leoni Kaever
+Niklas Degener
+2nd Chairman
+Patricia Fritze
+Felix Reuter
+#Electrical engineering #Flachwitzmeister #Willing to help
+Want to learn about alternating current, you'll get a load of humor right along with Felix.
+Subhangee Sahoo
+#engineer
+Brilliant mind known throughout the RWTH....
+Aditi Mishra
+#engineer
+Brilliant mind known throughout the RWTH....
+Florian Ernst
+ALUMNI
+René Rosenthal
+#mechanic #workshop #tinkerer
+You want to know how to operate a CNC mill or develop a product, then René is behind you.
+Nikolas Roessler
+#BWL_and_Maschi #application_hero #figures
+When it comes to applications, Niko is our man! On top of that, he juggles our finances.
+Ece Angun
+#practicalthinking #problem solver #creative
+.
+Michael Heinrichs
+#Electrical Engineering #ProgrammerBomb #Realist
+Technical understanding with a sure touch, because faster than you can look, Michael has coded something.
+Julia Kampmann
+#Medical_affinity #Motivated #Early_practice_which_will_be_a_meisterOur youngest team member is enthusiastically involved and is certainly up for a chat at trade fairs.
+Simon Kumar
+Madlen Merklinger
+Chenyan Feng
+#electrical engineering #bookworm
+A smart person who is very well read. With her knowledge and cultural travel experience, she wants to make a difference.
+Juliane Schlierkamp
+#production technology #SuperSmart #Allrounder
+In our team with full power behind the organization and can contribute new ideas to any topic.
+Neslihan Altinel
+#Industrial #Arranged #Solution-oriented
+Neslihan's life motto: Don't just meet expectations, exceed them. - Combining quality and quantity.
+Fiona Hönig
+#economy #marketing #engagement 'sustainabilityIf you look at our postings, Fiona had her fingers
+in the game. She also loves to network with others.
+Marcel Wettlaufer
+#Economy_eng #Constructor #Machine_KnowHow
+With a lot of perseverance Marcel manages to combine theory and practice. Constructions are from his hand.
+Harshita Gupta
+SUPPORTERS
+Prof. Dr. Kampker
+Schrimherr
+Founder of Streetscooter
+Mirco Bolten
+EXIST-Coach
+Supports us in the EXIST application
+Raul Krauthausen
+Helped evaluate the initial concepts
+Mark Brandt
+Supports us with his experience
+Carsten
+Supported us with his experience
+Dr. Tanja Römbke
+Supported us with their experience
+David Moser
+Supported us with his experience
+Horst Boltersdorf
+Supports us with his ideas
+Kathy Mulders
+Active mentor
+Helps with strategic planning
+Dennis
+Active mentor
+Helps in strategic execution
+David Lebhuser
+Participated with us in UpdateDeutschland
+Lisa Schmidt
+Helped updateGermany prototype
+Zacharias Wittmann
+Participated with us in UpdateDeutschland
+Christian Bayerlein
+Supported us with his experience
+Lukas J. G. Seidel
+Participated with us in UpdateDeutschland
+Martin Westhoff
+Supported us with his experience
+You want to improve the world with us?
+There is never enough expertise in the team, so get in touch if you are interested. We are looking forward to your contact, because only together we can achieve something!
+Write us!
++49 24192133973
+info@autak.org
+Autak e.V., Ottostraße 51A, 52070 Aachen, Germany
+DE
+Über uns
+Mitglied werden
+Kontakt
+Impressum
+Projekte
+Rollstuhl
+Lernplattform
+App
+Social Media
+Events
+Connie
+Robotearm
+Shop
+Satzung
+Beitragsordnung
+Datenschutzerklärung
+Praktikum
+EN
+Store
+Project
+Learning Platform
+App
+Critical Social Media
+Events
+Wheelchair
+Connie
+Robot Arm
+Imprint
+Contact
+About Us
+Internship
+Mehr
+More child
+© ALLE RECHTE VORBEHALTEN
+|
+:

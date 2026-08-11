@@ -1,0 +1,1 @@
+(function($){$(function(){var isDesktopView=$().isDesktopView(),templateElt=$('.template'),isMobileView=$(templateElt).data('mobile-view'),isTemplatePreview=$(templateElt).data('template-preview');if(isDesktopView&&(!isTemplatePreview||!isMobileView)){$(document.body).addClass('desktopV')}$(window).trigger('view-chosen',[isDesktopView])})}(oneJQuery));

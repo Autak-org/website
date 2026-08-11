@@ -1,0 +1,119 @@
+IMAGES:
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?etag=%227590d-629632e5%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=260%2B87
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?etag=%227590d-629632e5%22&amp;sourceContentType=image%2Fpng&amp;ignoreAspectRatio&amp;resize=359%2B120
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/Autak_Logo_white-NoSlogan.png?withoutEnlargement&amp;resize=87,29
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/unsplash_LXy2DOOxESQ.jpg?etag=&amp;sourceContentType=&amp;ignoreAspectRatio&amp;resize=450%2B300&amp;extract=82%2B0%2B300%2B300
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/unsplash_cqwfzk10UIo.jpg?etag=%2232afd-68debcd7%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=480%2B300&amp;extract=79%2B0%2B300%2B300&amp;quality=85
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/unsplash_eH_ftJYhaTY.jpg?etag=&amp;sourceContentType=&amp;ignoreAspectRatio&amp;resize=449%2B300&amp;extract=82%2B0%2B300%2B300
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/unsplash_f0T-eGanP_4.jpg?etag=&amp;sourceContentType=&amp;ignoreAspectRatio&amp;resize=453%2B300&amp;extract=82%2B0%2B300%2B300
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/unsplash_gavODTHG36Y.jpg?etag=&amp;sourceContentType=&amp;ignoreAspectRatio&amp;resize=450%2B300&amp;extract=70%2B0%2B300%2B300
+https://impro.usercontent.one/appid/oneComWsb/domain/autak.org/media/autak.org/onewebmedia/unsplash_w55SpMmoPgE.jpg?etag=&amp;sourceContentType=&amp;ignoreAspectRatio&amp;resize=450%2B300&amp;extract=82%2B0%2B300%2B300
+https://views.unsplash.com/v?app_id=24411&amp;photo_id=gavODTHG36Y,w55SpMmoPgE,LXy2DOOxESQ,f0T-eGanP_4,eH_ftJYhaTY,cqwfzk10UIo
+
+TEXT:
+Internship | Autak
+DE
+Über uns
+Mitglied werden
+Kontakt
+Impressum
+Projekte
+Rollstuhl
+Lernplattform
+App
+Social Media
+Events
+Connie
+Robotearm
+Shop
+Satzung
+Beitragsordnung
+Datenschutzerklärung
+Praktikum
+EN
+Store
+Project
+Learning Platform
+App
+Critical Social Media
+Events
+Wheelchair
+Connie
+Robot Arm
+Imprint
+Contact
+About Us
+Internship
+SHOP
+JOIN US
+Store
+Project
+Imprint
+Contact
+About Us
+Internship
+DE
+EN
+Use your talent and acquire new experiences
+Our team is constantly evolving and relies on people like you! Share your personal experience and contribute to improving our products and thus empowering our users.
+Open positions
+Social media
+Inclusion is a global long-standing issue. We want to reach people with our projects. Furthermore, our team is constantly looking for new people, both to meet new user requirements and to replace departing members.
+You will learn how to present a project/product and how to plan and execute social campaigns.
+3d modeling
+We will create the 3D models for the load-bearing elements, fasteners, and control elements.
+You will learn how to create models with Fusion 360 and FreeCAD, how to 3D print them, and how to prepare the models for presentation.
+Microcontroller programming
+We use ESP32 chips to control the wheelchair wheels, read the speed, the user interface, and tilt the seat.
+You will learn how to work on firmware in an international team, how firmware integrates into a larger project, and gain experience with ESP32, CAN bus, and 45-volt high-torque motors.
+Construction
+The wheelchair is assembled from numerous milled aluminum parts, screws, tubes, and plastic components. We need a second prototype for presentations, testing, and trials.
+You will learn how to assemble a wheelchair and manufacture its individual parts.
+Continuous integration programming
+To guarantee quality and take our team and our products to the next level, we need automation in all areas.
+You need prior programming knowledge. You will gain experience integrating automation into all areas of a wheelchair-building team.
+Process management
+Our team consists of a core team and a part that comes and goes. To achieve long-term progress, new people need to settle in quickly. To ensure their work flows smoothly into the final product, we need you!
+Are you interested in management roles but have little or no experience? Come and try us out!
+Nichts für dich gefunden?
+Falls du hier nichts für dich gefunden hast, komm gerne zu unserem wöchentlichen Treffen, um etwas für dich zu finden! Es gibt für jeden etwas zu tun.
++49 24192133973
+info@autak.org
+Autak e.V., Ottostraße 51A, 52070 Aachen, Germany
+DE
+Über uns
+Mitglied werden
+Kontakt
+Impressum
+Projekte
+Rollstuhl
+Lernplattform
+App
+Social Media
+Events
+Connie
+Robotearm
+Shop
+Satzung
+Beitragsordnung
+Datenschutzerklärung
+Praktikum
+EN
+Store
+Project
+Learning Platform
+App
+Critical Social Media
+Events
+Wheelchair
+Connie
+Robot Arm
+Imprint
+Contact
+About Us
+Internship
+Mehr
+More child
+© ALLE RECHTE VORBEHALTEN
+|
+:

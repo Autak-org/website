@@ -1,0 +1,8 @@
+▲ Next.js 16.2.10 (webpack)
+- Local:         http://127.0.0.1:3010
+- Network:       http://127.0.0.1:3010
+✓ Ready in 6.1s
+
+○ Compiling /[locale] ...
+⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3010". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET /de 200 in 79s (next.js: 76s, proxy.ts: 851ms, generate-params: 27.0s, application-code: 2.7s)
