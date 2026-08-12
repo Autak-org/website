@@ -10,8 +10,8 @@ const slides: readonly { src: string; alt: Localized<string> }[] = [
   {
     src: "/images/team-group.jpg",
     alt: {
-      de: "Das Autak-Team versammelt sich vor dem Aachener Dom.",
-      en: "The Autak team gathered in front of Aachen Cathedral.",
+      de: "Das autak-Team versammelt sich vor dem Aachener Dom.",
+      en: "The autak team gathered in front of Aachen Cathedral.",
     },
   },
   {
