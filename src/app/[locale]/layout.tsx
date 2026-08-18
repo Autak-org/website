@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { getDictionary, isLocale, locales, type Locale } from "@/i18n";
+import { projects } from "@/content/projects";
+import { getDictionary, isLocale, locales, t, type Locale } from "@/i18n";
 
 type LayoutParams = { params: Promise<{ locale: string }> };
 
@@ -64,7 +65,15 @@ export default async function LocaleLayout({
           {dictionary.a11y.skipToContent}
         </a>
 
-        <SiteHeader locale={locale as Locale} dictionary={dictionary} />
+        <SiteHeader
+          locale={locale as Locale}
+          dictionary={dictionary}
+          projectNav={projects.map((project) => ({
+            slug: project.slug,
+            name: t(project.name, locale),
+            tagline: t(project.tagline, locale),
+          }))}
+        />
         <main id="main">{children}</main>
         <SiteFooter locale={locale as Locale} dictionary={dictionary} />
       </body>

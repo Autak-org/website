@@ -7,8 +7,6 @@ import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 import { site } from "@/lib/site";
 import { routes } from "@/lib/routes";
-import { projects } from "@/content/projects";
-import { t } from "@/i18n/localized";
 import {
   locales,
   localeNames,
@@ -18,14 +16,21 @@ import {
 import type { Dictionary } from "@/i18n/dictionaries/de";
 import { ArrowRight, Check, Chevron, Close, Globe, Menu } from "@/components/icons";
 
+export type ProjectNavItem = {
+  slug: string;
+  name: string;
+  tagline: string;
+};
+
 type Props = {
   locale: Locale;
   dictionary: Dictionary;
+  projectNav: readonly ProjectNavItem[];
 };
 
 type NavLink = { href: string; label: string; hint?: string; external?: boolean };
 
-export function SiteHeader({ locale, dictionary }: Props) {
+export function SiteHeader({ locale, dictionary, projectNav }: Props) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -43,10 +48,10 @@ export function SiteHeader({ locale, dictionary }: Props) {
 
   const projectLinks: NavLink[] = [
     { href: routes.projects(locale), label: nav.allProjects },
-    ...projects.map((project) => ({
+    ...projectNav.map((project) => ({
       href: routes.project(locale, project.slug),
-      label: t(project.name, locale),
-      hint: t(project.tagline, locale),
+      label: project.name,
+      hint: project.tagline,
     })),
   ];
 

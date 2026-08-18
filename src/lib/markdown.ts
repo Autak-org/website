@@ -92,6 +92,41 @@ export function localized(
   };
 }
 
+export function optional(
+  data: Record<string, string>,
+  key: string,
+): string | undefined {
+  const value = data[key]?.trim();
+  return value || undefined;
+}
+
+export function optionalLocalized(
+  data: Record<string, string>,
+  key: string,
+  file: string,
+): { de: string; en: string } | undefined {
+  const de = data[`${key}_de`]?.trim();
+  const en = data[`${key}_en`]?.trim();
+  if (!de && !en) return undefined;
+  if (!de || !en) {
+    throw new Error(`${file}: set both ${key}_de and ${key}_en, or neither.`);
+  }
+  return { de, en };
+}
+
+export function csv(data: Record<string, string>, key: string): string[] {
+  const value = data[key]?.trim();
+  if (!value) return [];
+  return value
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+export function flag(data: Record<string, string>, key: string): boolean {
+  return data[key]?.trim().toLowerCase() === "true";
+}
+
 /** Reads every `*.md` file in a folder, skipping names that start with `_`. */
 export function loadMarkdownDir(relativeDir: string): MarkdownFile[] {
   const dir = path.join(process.cwd(), relativeDir);
@@ -101,7 +136,10 @@ export function loadMarkdownDir(relativeDir: string): MarkdownFile[] {
 
   return fs
     .readdirSync(dir)
-    .filter((name) => name.endsWith(".md") && !name.startsWith("_"))
+    .filter((name) => {
+      if (!name.endsWith(".md") || name.startsWith("_")) return false;
+      return fs.statSync(path.join(dir, name)).isFile();
+    })
     .sort()
     .map((name) => {
       const file = path.join(relativeDir, name);
@@ -114,6 +152,43 @@ export function loadMarkdownDir(relativeDir: string): MarkdownFile[] {
         body,
       };
     });
+}
+
+export function loadMarkdownDirOptional(relativeDir: string): MarkdownFile[] {
+  const dir = path.join(process.cwd(), relativeDir);
+  if (!fs.existsSync(dir)) return [];
+  return loadMarkdownDir(relativeDir);
+}
+
+export function loadMarkdownFile(relativeFile: string): MarkdownFile {
+  const abs = path.join(process.cwd(), relativeFile);
+  if (!fs.existsSync(abs)) {
+    throw new Error(`Content file not found: ${relativeFile}`);
+  }
+
+  const raw = fs.readFileSync(abs, "utf8");
+  const { data, body } = parseFrontmatter(raw, relativeFile);
+  const basename = path.basename(relativeFile).replace(/\.md$/, "");
+  const slug =
+    basename === "index" ? path.basename(path.dirname(relativeFile)) : basename;
+
+  return { slug, file: relativeFile, data, body };
+}
+
+/** Subfolders that do not start with `_` (used for one-folder-per-project). */
+export function listContentDirs(relativeDir: string): string[] {
+  const dir = path.join(process.cwd(), relativeDir);
+  if (!fs.existsSync(dir)) {
+    throw new Error(`Content folder not found: ${relativeDir}`);
+  }
+
+  return fs
+    .readdirSync(dir)
+    .filter((name) => {
+      if (name.startsWith("_") || name.startsWith(".")) return false;
+      return fs.statSync(path.join(dir, name)).isDirectory();
+    })
+    .sort();
 }
 
 export function byOrder(files: MarkdownFile[]): MarkdownFile[] {
