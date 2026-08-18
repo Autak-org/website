@@ -26,6 +26,13 @@
 .DS_Store
 *.pem
 
+# Local browser automation / FUSE artifacts — must not ship to Vercel.
+# Webpack's hasher crashes on sockets/locks (SingletonSocket) and missing
+# FUSE leftover files.
+.chrome-profile/
+.chrome-profile2/
+.fuse_hidden*
+
 # debug
 npm-debug.log*
 yarn-debug.log*
