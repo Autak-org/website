@@ -6,6 +6,10 @@ const nextConfig: NextConfig = {
     // on NTFS/fuse volumes with this large static content tree.
     ignoreBuildErrors: true,
   },
+  // Markdown lives outside `src/`; include it so serverless traces still see it.
+  outputFileTracingIncludes: {
+    "/*": ["./editorial/**/*"],
+  },
   async rewrites() {
     return {
       beforeFiles: [
