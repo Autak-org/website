@@ -17,7 +17,7 @@ export function Flagship({
   const { flagship } = dictionary;
 
   return (
-    <section className="relative overflow-hidden bg-ink-950 py-20 text-white lg:py-28">
+    <section className="relative overflow-hidden bg-ink-950 py-14 text-white sm:py-20 lg:py-28">
       <div
         aria-hidden="true"
         className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-brand-500/20 blur-3xl"

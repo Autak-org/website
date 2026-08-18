@@ -18,7 +18,7 @@ export function NewsPreview({
   const copy = dictionary.pages.news;
 
   return (
-    <section className="bg-white py-20 lg:py-28">
+    <section className="bg-white py-14 sm:py-20 lg:py-28">
       <Container>
         <SectionHeader
           eyebrow={copy.eyebrow}

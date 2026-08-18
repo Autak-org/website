@@ -62,7 +62,7 @@ export default async function LegalPage({ params }: LegalParams) {
 
       <Section>
         <div className="grid gap-10 lg:grid-cols-[1fr_260px] lg:gap-16">
-          <Frame className="prose-legal p-8 sm:p-10">
+          <Frame className="prose-legal p-5 sm:p-10">
             {document.map((block, index) => {
               const key = `${block.type}-${index}`;
 

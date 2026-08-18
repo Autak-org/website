@@ -8,7 +8,7 @@ export function Partners({ dictionary }: { dictionary: Dictionary }) {
   const copy = dictionary.partners;
 
   return (
-    <section className="bg-white py-20 lg:py-28">
+    <section className="bg-white py-14 sm:py-20 lg:py-28">
       <Container>
         <SectionHeader
           eyebrow={copy.eyebrow}

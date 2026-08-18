@@ -155,7 +155,7 @@ export default async function PartnersPage({ params }: LocaleParams) {
       </Section>
 
       <Section divide>
-        <Frame className="p-8 text-center sm:p-12">
+        <Frame className="p-5 text-center sm:p-12">
           <h2 className="text-[length:var(--text-display-sm)] leading-tight font-bold text-balance text-ink-900">
             {copy.ctaTitle}
           </h2>

@@ -42,7 +42,7 @@ export default async function NewsPage({ params }: LocaleParams) {
         breadcrumbLabel={dictionary.a11y.breadcrumb}
       />
 
-      <div id="news-stream" className="bg-white py-20 lg:py-28">
+      <div id="news-stream" className="bg-white py-14 sm:py-20 lg:py-28">
         <Container>
           <div className="grid gap-12 lg:grid-cols-[260px_1fr] lg:gap-16">
             <aside className="hidden lg:block">

@@ -7,7 +7,7 @@ export function Mission({ dictionary }: { dictionary: Dictionary }) {
   const { mission } = dictionary;
 
   return (
-    <section id="mission" className="scroll-mt-header bg-white py-20 lg:py-28">
+    <section id="mission" className="scroll-mt-header bg-white py-14 sm:py-20 lg:py-28">
       <Container>
         <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal>

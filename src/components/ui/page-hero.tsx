@@ -49,8 +49,8 @@ export function PageHero({
 
       <Container
         className={cn(
-          "relative pb-14 lg:pb-20",
-          compact ? "pt-32 lg:pt-36" : "pt-36 lg:pt-44",
+          "relative pb-10 sm:pb-14 lg:pb-20",
+          compact ? "pt-28 sm:pt-32 lg:pt-36" : "pt-28 sm:pt-36 lg:pt-44",
         )}
       >
         {breadcrumbs?.length ? (
@@ -83,7 +83,7 @@ export function PageHero({
 
         <div className="max-w-4xl">
           {eyebrow ? (
-            <p className="flex items-center gap-3 text-xs font-semibold tracking-[0.2em] text-brand-300 uppercase">
+            <p className="flex items-center gap-3 text-xs font-semibold tracking-[0.12em] text-brand-300 uppercase sm:tracking-[0.2em]">
               <span aria-hidden="true" className="h-px w-8 bg-brand-400" />
               {eyebrow}
             </p>
@@ -101,13 +101,13 @@ export function PageHero({
           <Rule tone="dark" className="mt-8" />
 
           {intro ? (
-            <p className="mt-8 max-w-2xl text-lg leading-relaxed text-white/80">
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/80 sm:mt-8 sm:text-lg">
               {intro}
             </p>
           ) : null}
 
           {actions ? (
-            <div className="mt-9 flex flex-wrap gap-3">{actions}</div>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">{actions}</div>
           ) : null}
         </div>
       </Container>

@@ -79,7 +79,7 @@ export default async function ShopPage({ params }: LocaleParams) {
       </Section>
 
       <Section tone="muted" divide>
-        <Frame className="p-8 sm:p-12">
+        <Frame className="p-5 sm:p-12">
           <div className="grid gap-8 lg:grid-cols-[1.3fr_1fr] lg:items-center lg:gap-12">
             <div>
               <h2 className="text-[length:var(--text-display-sm)] leading-tight font-bold text-ink-900">

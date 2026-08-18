@@ -19,7 +19,7 @@ export function Involve({ dictionary }: { dictionary: Dictionary }) {
   return (
     <section
       id="involve"
-      className="scroll-mt-header bg-brand-500 py-20 text-white lg:py-28"
+      className="scroll-mt-header bg-brand-500 py-14 text-white sm:py-20 lg:py-28"
     >
       <Container>
         <Reveal className="max-w-2xl">
@@ -46,7 +46,7 @@ export function Involve({ dictionary }: { dictionary: Dictionary }) {
                 as="li"
                 key={id}
                 delay={index * 100}
-                className="group flex flex-col rounded-2xl border border-white/20 bg-white p-8 text-ink-800"
+                className="group flex flex-col rounded-2xl border border-white/20 bg-white p-6 text-ink-800 sm:p-8"
               >
                 <span className="inline-flex h-13 w-13 items-center justify-center rounded-xl bg-brand-50 p-3 text-brand-600">
                   <Icon className="h-7 w-7" />
@@ -73,7 +73,7 @@ export function Involve({ dictionary }: { dictionary: Dictionary }) {
         </ul>
 
         <Reveal delay={120}>
-          <div className="mt-10 rounded-2xl border border-white/25 bg-white/10 p-8 backdrop-blur-sm">
+          <div className="mt-10 rounded-2xl border border-white/25 bg-white/10 p-5 backdrop-blur-sm sm:p-8">
             <h3 className="text-xs font-semibold tracking-[0.2em] text-white uppercase">
               {involve.bankLabel}
             </h3>
@@ -91,7 +91,7 @@ export function Involve({ dictionary }: { dictionary: Dictionary }) {
               </div>
               <div>
                 <dt className="text-white/70">IBAN</dt>
-                <dd className="mt-1 font-semibold text-white tabular-nums">
+                <dd className="mt-1 font-semibold break-all text-white tabular-nums">
                   {site.bank.iban}
                 </dd>
               </div>

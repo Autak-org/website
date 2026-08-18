@@ -20,7 +20,7 @@ export function Projects({
   return (
     <section
       id="projects"
-      className="scroll-mt-header border-y border-ink-200 bg-ink-50 py-20 lg:py-28"
+      className="scroll-mt-header border-y border-ink-200 bg-ink-50 py-14 sm:py-20 lg:py-28"
     >
       <Container>
         <SectionHeader

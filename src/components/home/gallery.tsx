@@ -74,7 +74,7 @@ export function Gallery({
   }));
 
   return (
-    <section className="border-y border-ink-200 bg-ink-50 py-20 lg:py-28">
+    <section className="border-y border-ink-200 bg-ink-50 py-14 sm:py-20 lg:py-28">
       <Container>
         <SectionHeader
           eyebrow={gallery.eyebrow}
@@ -82,7 +82,7 @@ export function Gallery({
           intro={gallery.subtitle}
         />
 
-        <Reveal className="mt-14">
+        <Reveal className="mt-14 min-w-0">
           <Carousel
             slides={items}
             labels={{

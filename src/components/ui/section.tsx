@@ -21,7 +21,7 @@ export function Container({
   className?: string;
 }) {
   return (
-    <div className={cn("mx-auto w-full max-w-7xl px-6 lg:px-10", className)}>
+    <div className={cn("mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10", className)}>
       {children}
     </div>
   );
@@ -49,7 +49,7 @@ export function Section({
     <section
       id={id}
       className={cn(
-        "scroll-mt-header py-20 lg:py-28",
+        "scroll-mt-header py-14 sm:py-20 lg:py-28",
         sectionBackground[tone],
         divide && (tone === "dark" ? "border-t border-white/15" : "border-t border-ink-200"),
         className,
@@ -91,7 +91,7 @@ export function Eyebrow({
   return (
     <p
       className={cn(
-        "flex items-center gap-3 text-xs font-semibold tracking-[0.2em] uppercase",
+        "flex items-center gap-3 text-xs font-semibold tracking-[0.12em] uppercase sm:tracking-[0.2em]",
         tone === "dark" ? "text-brand-300" : "text-brand-600",
         className,
       )}
@@ -187,7 +187,7 @@ export function SectionHeader({
       {actions ? (
         <div
           className={cn(
-            "mt-8 flex flex-wrap gap-3",
+            "mt-8 flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap",
             centered && "justify-center",
           )}
         >

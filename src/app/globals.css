@@ -34,7 +34,7 @@
 
   /* Fluid display sizes so headlines stay dramatic without overflowing. */
   --text-display-sm: clamp(2rem, 1.4rem + 3vw, 3.25rem);
-  --text-display: clamp(2.5rem, 1.4rem + 5vw, 5rem);
+  --text-display: clamp(2.15rem, 1.1rem + 4.2vw, 5rem);
   --text-display-lg: clamp(3rem, 1.2rem + 7.5vw, 7rem);
 
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
@@ -42,17 +42,20 @@
   /* One border colour for every frame, on light and on dark. */
   --color-hairline: #e2e2e2;
   --color-hairline-dark: rgba(255, 255, 255, 0.14);
+
+  /* Bar height only. --spacing-header adds the notch so sticky offsets match. */
+  --header-bar: 4.5rem;
 }
 
 @theme inline {
-  /* Header height, so sticky offsets and scroll margins stay in sync. */
-  --spacing-header: 4.5rem;
+  --spacing-header: calc(var(--header-bar) + env(safe-area-inset-top, 0px));
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    overflow-x: clip;
   }
 
   body {
@@ -61,6 +64,12 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  a,
+  button {
+    touch-action: manipulation;
   }
 
   /* A focus ring that is part of the design rather than an afterthought.
@@ -80,6 +89,7 @@
   h2,
   h3,
   h4 {
+    overflow-wrap: break-word;
     text-wrap: balance;
     letter-spacing: -0.02em;
   }

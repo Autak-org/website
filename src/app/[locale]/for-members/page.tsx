@@ -58,7 +58,7 @@ export default async function MembersPage({ params }: LocaleParams) {
       />
 
       <Section>
-        <Frame className="p-8 sm:p-12">
+        <Frame className="p-5 sm:p-12">
           <div className="grid gap-8 lg:grid-cols-[1.3fr_1fr] lg:items-center lg:gap-12">
             <div>
               <p className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-4 py-2 text-xs font-semibold tracking-[0.16em] text-brand-600 uppercase">
@@ -159,7 +159,7 @@ export default async function MembersPage({ params }: LocaleParams) {
       </Section>
 
       <Section tone="dark" divide>
-        <Frame tone="dark" className="p-8 text-center sm:p-12">
+        <Frame tone="dark" className="p-5 text-center sm:p-12">
           <h2 className="text-[length:var(--text-display-sm)] leading-tight font-bold text-balance text-white">
             {copy.ctaTitle}
           </h2>

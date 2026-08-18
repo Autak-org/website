@@ -25,7 +25,7 @@ export function Pillars({
   const { pillars } = dictionary;
 
   return (
-    <section className="border-y border-ink-200 bg-ink-50 py-20 lg:py-28">
+    <section className="border-y border-ink-200 bg-ink-50 py-14 sm:py-20 lg:py-28">
       <Container>
         <SectionHeader
           eyebrow={pillars.eyebrow}

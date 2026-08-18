@@ -19,7 +19,7 @@ export function Press({
   const { press, a11y } = dictionary;
 
   return (
-    <section className="bg-white py-20 lg:py-28">
+    <section className="bg-white py-14 sm:py-20 lg:py-28">
       <Container>
         <div className="grid items-start gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
           <Reveal>

@@ -18,7 +18,7 @@ export function Contact({
   return (
     <section
       id="contact"
-      className="scroll-mt-header border-t border-ink-200 bg-ink-50 py-20 lg:py-28"
+      className="scroll-mt-header border-t border-ink-200 bg-ink-50 py-14 sm:py-20 lg:py-28"
     >
       <Container>
         <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
@@ -99,16 +99,16 @@ function ContactRow({
       <a
         href={href}
         {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-        className="group flex items-center gap-5 rounded-2xl border border-ink-200 bg-white p-5 transition-colors duration-300 hover:border-brand-500/70"
+        className="group flex items-center gap-4 rounded-2xl border border-ink-200 bg-white p-4 transition-colors duration-300 hover:border-brand-500/70 sm:gap-5 sm:p-5"
       >
         <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
           <Icon className="h-5 w-5" />
         </span>
         <span className="min-w-0">
-          <span className="block text-xs font-semibold tracking-[0.16em] text-ink-500 uppercase">
+          <span className="block text-xs font-semibold tracking-[0.12em] text-ink-500 uppercase sm:tracking-[0.16em]">
             {label}
           </span>
-          <span className="mt-1 block truncate font-semibold text-ink-900">
+          <span className="mt-1 block font-semibold break-words text-ink-900">
             {value}
           </span>
           {hint ? (

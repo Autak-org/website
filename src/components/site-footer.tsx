@@ -51,7 +51,7 @@ export function SiteFooter({ locale, dictionary }: Props) {
 
   return (
     <footer className="border-t border-ink-200 bg-ink-950 text-ink-300">
-      <div className="mx-auto w-full max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
+      <div className="mx-auto w-full max-w-7xl px-4 py-14 sm:px-6 lg:px-10 lg:py-20">
         {/* Four equal columns on desktop, two on tablet: every heading starts
             on the same baseline and every list shares one left edge. */}
         <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">

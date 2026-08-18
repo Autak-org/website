@@ -24,7 +24,7 @@ export function ContactForm({ dictionary }: { dictionary: Dictionary }) {
 
   return (
     <form
-      className="rounded-2xl border border-ink-200 bg-white p-6 sm:p-8"
+      className="rounded-2xl border border-ink-200 bg-white p-5 sm:p-8"
       onSubmit={(event) => {
         event.preventDefault();
         window.location.href = href;
@@ -67,7 +67,7 @@ export function ContactForm({ dictionary }: { dictionary: Dictionary }) {
             required
             value={message}
             onChange={(event) => setMessage(event.target.value)}
-            className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-ink-900 transition-colors outline-none focus:border-brand-500"
+            className="mt-2 min-h-28 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-base text-ink-900 transition-colors outline-none focus:border-brand-500"
           />
         </div>
       </div>
@@ -113,7 +113,7 @@ function Field({
         autoComplete={autoComplete}
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-ink-900 transition-colors outline-none focus:border-brand-500"
+        className="mt-2 min-h-11 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-base text-ink-900 transition-colors outline-none focus:border-brand-500"
       />
     </div>
   );

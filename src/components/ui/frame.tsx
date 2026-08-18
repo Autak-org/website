@@ -31,7 +31,7 @@ export function Frame({
         tone === "dark"
           ? "border-white/15 bg-white/[0.04]"
           : "border-ink-200 bg-white",
-        padded && "p-6 sm:p-8",
+        padded && "p-5 sm:p-8",
         interactive &&
           "transition-colors duration-300 hover:border-brand-500/70",
         className,
