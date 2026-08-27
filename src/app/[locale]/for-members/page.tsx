@@ -12,7 +12,7 @@ import { Calendar } from "@/components/icons";
 import { eventVideos, memberVoices } from "@/content/media";
 import { featuredProjects } from "@/content/projects";
 import { positions } from "@/content/positions";
-import { localizeVideos } from "@/lib/videos";
+import { localizeVideos, videoLabels } from "@/lib/videos";
 import { resolvePage, type LocaleParams } from "@/lib/page";
 import { getDictionary, isLocale } from "@/i18n";
 import { routes } from "@/lib/routes";
@@ -92,7 +92,7 @@ export default async function MembersPage({ params }: LocaleParams) {
         <div className="mt-12">
           <VideoGallery
             videos={localizeVideos(eventVideos, locale)}
-            playLabel={a11y.playVideo}
+            labels={videoLabels(a11y)}
           />
         </div>
       </Section>

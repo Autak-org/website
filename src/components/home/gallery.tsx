@@ -1,5 +1,8 @@
 import { Container, SectionHeader } from "@/components/ui/section";
-import { Carousel, type Slide } from "@/components/ui/carousel";
+import {
+  ContinuousCarousel,
+} from "@/components/ui/continuous-carousel";
+import type { Slide } from "@/components/ui/carousel";
 import { Reveal } from "@/components/ui/reveal";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries/de";
@@ -81,19 +84,19 @@ export function Gallery({
           title={gallery.title}
           intro={gallery.subtitle}
         />
-
-        <Reveal className="mt-14 min-w-0">
-          <Carousel
-            slides={items}
-            labels={{
-              region: a11y.carousel,
-              previous: a11y.previousSlide,
-              next: a11y.nextSlide,
-              slide: a11y.slide,
-            }}
-          />
-        </Reveal>
       </Container>
+
+      <Reveal className="mt-14 min-w-0">
+        <ContinuousCarousel
+          slides={items}
+          labels={{
+            region: a11y.carousel,
+            previous: a11y.previousSlide,
+            next: a11y.nextSlide,
+            slide: a11y.slide,
+          }}
+        />
+      </Reveal>
     </section>
   );
 }

@@ -3,6 +3,7 @@ import { Container, Eyebrow, Rule } from "@/components/ui/section";
 import { Frame } from "@/components/ui/frame";
 import { Reveal } from "@/components/ui/reveal";
 import { VideoThumb } from "@/components/ui/video";
+import { videoLabels } from "@/lib/videos";
 import { CitationList } from "@/components/citation-list";
 import { pressCitations } from "@/content/media";
 import { site } from "@/lib/site";
@@ -51,7 +52,7 @@ export function Press({
 
           <Reveal delay={120}>
             <VideoThumb
-              playLabel={a11y.playVideo}
+              labels={videoLabels(a11y)}
               video={{
                 id: "press",
                 youtube: site.video.press,

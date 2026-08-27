@@ -17,6 +17,8 @@ export const tr: Dictionary = {
     "footerNav": "Alt bilgide gezinme",
     "externalLink": "yeni bir sekmede açılır",
     "playVideo": "Videoyu oynat",
+    "muteVideo": "Videoyu sessize al",
+    "unmuteVideo": "Sesi aç",
     "carousel": "Resim galerisi",
     "previousSlide": "Önceki resim",
     "nextSlide": "Sonraki resim",

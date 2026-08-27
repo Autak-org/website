@@ -17,6 +17,8 @@ export const nl: Dictionary = {
     "footerNav": "Voettekstnavigatie",
     "externalLink": "wordt geopend in een nieuw tabblad",
     "playVideo": "Speel video af",
+    "muteVideo": "Video dempen",
+    "unmuteVideo": "Geluid aanzetten",
     "carousel": "Afbeeldingengalerij",
     "previousSlide": "Vorige afbeelding",
     "nextSlide": "Volgende afbeelding",

@@ -11,7 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 import { usageVideos, userVoices } from "@/content/media";
 import { news } from "@/content/news";
 import { featuredProjects } from "@/content/projects";
-import { localizeVideos } from "@/lib/videos";
+import { localizeVideos, videoLabels } from "@/lib/videos";
 import { resolvePage, type LocaleParams } from "@/lib/page";
 import { getDictionary, isLocale } from "@/i18n";
 import { routes } from "@/lib/routes";
@@ -87,7 +87,7 @@ export default async function UsersPage({ params }: LocaleParams) {
         <div className="mt-12">
           <VideoGallery
             videos={localizeVideos(usageVideos, locale)}
-            playLabel={a11y.playVideo}
+            labels={videoLabels(a11y)}
           />
         </div>
       </Section>

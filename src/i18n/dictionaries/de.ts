@@ -14,6 +14,8 @@ export const de = {
     footerNav: "Fußzeilen-Navigation",
     externalLink: "öffnet in neuem Tab",
     playVideo: "Video abspielen",
+    muteVideo: "Ton ausschalten",
+    unmuteVideo: "Ton einschalten",
     carousel: "Bildergalerie",
     previousSlide: "Vorheriges Bild",
     nextSlide: "Nächstes Bild",
@@ -160,7 +162,7 @@ export const de = {
     body: "Das MDR-Wissenschaftsmagazin hat unseren Prototyp besucht und gezeigt, wie der Rollstuhl Stufen nimmt.",
     watch: "Beitrag ansehen",
     privacyNote:
-      "Das Video wird erst nach dem Klick von YouTube geladen. Vorher werden keine Daten übertragen.",
+      "YouTube-Videos werden erst nach dem Klick geladen. Kurzclips aus unserer Werkstatt starten stumm, sobald sie sichtbar sind.",
     videoTitle: "MDR „Einfach genial“ über den Autak-Rollstuhl",
     citations: "Weitere Berichte",
   },

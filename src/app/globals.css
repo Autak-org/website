@@ -155,6 +155,23 @@
     opacity: 1;
     transform: none;
   }
+
+  .gallery-marquee {
+    animation: gallery-marquee 55s linear infinite;
+    will-change: transform;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gallery-marquee {
+    animation: none;
+  }
+}
+
+@keyframes gallery-marquee {
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

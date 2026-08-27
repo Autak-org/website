@@ -67,6 +67,25 @@ export function Play({ className }: IconProps) {
   );
 }
 
+export function Volume({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M11 5 6 9H3v6h3l5 4V5Z" />
+      <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+      <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+    </svg>
+  );
+}
+
+export function VolumeOff({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M11 5 6 9H3v6h3l5 4V5Z" />
+      <path d="m22 9-6 6M16 9l6 6" />
+    </svg>
+  );
+}
+
 export function Chevron({ className }: IconProps) {
   return (
     <svg {...base} className={className}>

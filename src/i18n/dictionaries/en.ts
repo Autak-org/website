@@ -16,6 +16,8 @@ export const en: Dictionary = {
     footerNav: "Footer navigation",
     externalLink: "opens in a new tab",
     playVideo: "Play video",
+    muteVideo: "Mute video",
+    unmuteVideo: "Unmute video",
     carousel: "Image gallery",
     previousSlide: "Previous image",
     nextSlide: "Next image",
@@ -163,7 +165,7 @@ export const en: Dictionary = {
     body: "The MDR science programme visited our prototype and showed how the wheelchair takes stairs.",
     watch: "Watch the feature",
     privacyNote:
-      "The video is only loaded from YouTube after you click. Nothing is transmitted before that.",
+      "YouTube videos load only after you click. Short workshop clips start muted when they scroll into view.",
     videoTitle: "MDR “Einfach genial” on the Autak wheelchair",
     citations: "More coverage",
   },

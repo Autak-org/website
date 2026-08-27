@@ -10,7 +10,7 @@ import { VideoGallery } from "@/components/ui/video";
 import { Carousel } from "@/components/ui/carousel";
 import { ArrowRight } from "@/components/icons";
 import { projectBySlug, projects } from "@/content/projects";
-import { localizeVideos } from "@/lib/videos";
+import { localizeVideos, videoLabels } from "@/lib/videos";
 import { getDictionary, isLocale, locales, t } from "@/i18n";
 import { routes } from "@/lib/routes";
 import { site } from "@/lib/site";
@@ -161,7 +161,7 @@ export default async function ProjectPage({ params }: ProjectParams) {
           <div className="mt-12">
             <VideoGallery
               videos={localizeVideos(project.videos, locale)}
-              playLabel={a11y.playVideo}
+              labels={videoLabels(a11y)}
             />
           </div>
         </Section>

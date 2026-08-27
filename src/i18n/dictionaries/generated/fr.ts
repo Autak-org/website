@@ -17,6 +17,8 @@ export const fr: Dictionary = {
     "footerNav": "Navigation en pied de page",
     "externalLink": "s'ouvre dans un nouvel onglet",
     "playVideo": "Lire la vidéo",
+    "muteVideo": "Couper le son",
+    "unmuteVideo": "Activer le son",
     "carousel": "Galerie d'images",
     "previousSlide": "Image précédente",
     "nextSlide": "Image suivante",

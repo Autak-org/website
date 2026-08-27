@@ -14,7 +14,7 @@ import {
   pressCitations,
   showcaseVideos,
 } from "@/content/media";
-import { localizeVideos } from "@/lib/videos";
+import { localizeVideos, videoLabels } from "@/lib/videos";
 import { resolvePage, type LocaleParams } from "@/lib/page";
 import { getDictionary, isLocale, t } from "@/i18n";
 import { routes } from "@/lib/routes";
@@ -100,7 +100,7 @@ export default async function PartnersPage({ params }: LocaleParams) {
         <div className="mt-12">
           <VideoGallery
             videos={localizeVideos(showcaseVideos, locale)}
-            playLabel={a11y.playVideo}
+            labels={videoLabels(a11y)}
           />
         </div>
       </Section>
