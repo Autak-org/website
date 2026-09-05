@@ -1,8 +1,9 @@
 import { Container, Eyebrow, Rule } from "@/components/ui/section";
-import { FrameImage } from "@/components/ui/frame";
 import { Reveal } from "@/components/ui/reveal";
 import { ButtonLink } from "@/components/ui/button";
+import { VideoThumb } from "@/components/ui/video";
 import { ArrowRight, Check } from "@/components/icons";
+import { videoLabels } from "@/lib/videos";
 import { routes } from "@/lib/routes";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries/de";
@@ -14,7 +15,7 @@ export function Flagship({
   locale: Locale;
   dictionary: Dictionary;
 }) {
-  const { flagship } = dictionary;
+  const { flagship, a11y } = dictionary;
 
   return (
     <section className="relative overflow-hidden bg-ink-950 py-14 text-white sm:py-20 lg:py-28">
@@ -24,14 +25,17 @@ export function Flagship({
       />
 
       <Container className="relative">
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <Reveal className="order-2 lg:order-1">
-            <FrameImage
-              src="/images/wheelchair-prototype.jpg"
-              alt={flagship.imageAlt}
-              ratio="16/9"
-              tone="dark"
-              caption={flagship.imageAlt}
+        <div className="grid items-center gap-10 lg:grid-cols-[1.4fr_1fr] lg:gap-12 xl:gap-16">
+          <Reveal className="order-2 w-full lg:order-1">
+            <VideoThumb
+              className="w-full"
+              labels={videoLabels(a11y)}
+              video={{
+                id: "autak-preview",
+                file: "/videos/autak_preview.mp4",
+                poster: "/images/wheelchair-prototype.jpg",
+                title: flagship.imageAlt,
+              }}
             />
           </Reveal>
 

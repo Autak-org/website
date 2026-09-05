@@ -149,7 +149,7 @@ export const en: Dictionary = {
     ],
     cta: "More about the wheelchair",
     imageAlt:
-      "The current Autak prototype: a black wheelchair with a pink logo and several small wheels per side that make climbing stairs possible.",
+      "The current Autak prototype: a black wheelchair with a pink autak logo and several small wheels per side that make climbing stairs possible.",
   },
 
   gallery: {
