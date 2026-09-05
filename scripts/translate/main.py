@@ -1,151 +1,172 @@
-"""CLI entry point for translating the docs/UI-text.
+"""Translate Autak editorial Markdown into machine locales (fr/nl/es/tr).
 
-- This script is executed via `npm run translate`.
-- It reads source files (either a specific one or all of them) under the specified source locale and translates them into the target locale(s).
-- It invokes https://github.com/Cynteract/translation_toolkit for translation.
+Uses https://github.com/Cynteract/translation-toolkit (Google Cloud Translation).
+
+Examples:
+  npm run translate:editorial -- all --from en --to all
+  npm run translate:editorial -- all --from en --to fr
+  npm run translate:editorial -- news/cybathlon.md --from en --to all
+  npm run translate:editorial -- editorial/projects/wheelchair --from en --to all
+
+Options:
+  --force   Re-translate even when target keys already exist
 """
+
+from __future__ import annotations
 
 import argparse
 import html
-import json
 import os
-from pathlib import Path
 import sys
+from pathlib import Path
+
+# Allow `python scripts/translate/main.py` from the repo root.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from translation_toolkit import LocalizationDataset, Translator
 
-from parse.markdown import parse_markdown, unescape_for_markdown
-from parse.json import parse_json, unescape_for_json
-from utils.locales import get_all_locales, assert_locale_exists
-from utils.target_resolver import resolve_path_ext, resolve_locale_rel_path, resolve_full_path, resolve_locale_rel_paths
+from parse.editorial import (
+    english_sources,
+    missing_targets,
+    parse_file,
+    protect_glossary,
+    restore_glossary,
+    serialize,
+    upsert_translations,
+)
+from utils.locales import assert_source_locale, get_target_locales
+from utils.paths import list_editorial_files
 
-def parse_args():
-    """Parses CLI arguments into a (target, locale_map) pair.
 
-    Returns:
-        tuple[str, dict]: 
-            - target(str): The normalized `target` argument
-            - locale_map(dict[str, str]): A dict with "from" and "to" keys holding the requested source/target locale(s).
-    """
-    parser = argparse.ArgumentParser(description="Translation Toolkit CLI")
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Machine-translate editorial/*_en fields into fr/nl/es/tr."
+    )
     parser.add_argument(
         "target",
-        help="Specify 'all', a path (start from 'i18m/[lang]' or 'i18n/[lang]/docusaurus-plugin-content-docs/current')"
+        help="'all', an editorial path, or a path relative to editorial/",
     )
     parser.add_argument(
         "--from",
-        help="source languages (e.g., en, de)."
+        dest="source",
+        required=True,
+        help="Source locale (use 'en' — editorial machine locales are based on English).",
     )
     parser.add_argument(
         "--to",
-        help="target languages (e.g., en, de), or 'all' for all supported languages"
+        dest="to",
+        required=True,
+        help="Target locale code, or 'all' for fr/nl/es/tr.",
     )
-    args = parser.parse_args()
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing machine-translated fields.",
+    )
+    return parser.parse_args()
 
-    target = os.path.normpath(args.target)
-    locale_map = {k: getattr(args, k) for k in ["from", "to"]}
 
-    return target, locale_map
+def translate_file(
+    path: Path,
+    source: str,
+    targets: list[str],
+    *,
+    force: bool,
+    translator: Translator,
+) -> bool:
+    """Translate one editorial file. Returns True if the file was modified."""
+    raw = path.read_text(encoding="utf-8")
+    try:
+        fields, body = parse_file(raw)
+    except ValueError as exc:
+        print(f"[Skip] {path}: {exc}")
+        return False
 
-def translate_file(locale_rel_path, locale_map):
-    """Translates a single source file into one or every target locale.
+    if source != "en":
+        print(
+            f"[Skip] {path}: only English (`*_en`) is used as the MT source "
+            f"(got --from {source})."
+        )
+        return False
 
-    The source file is read once and parsed once, 
-    then reused for every target locale in `locale_map["to"]` 
-    (or every locale in the project when it is "all")
-    
-    So the actual translation call to `Translator.auto_translate`below 
-    is batched across all target locales in one request rather than looping per-locale.
+    sources = english_sources(fields)
+    if not sources:
+        print(f"[Skip] {path}: no *_en fields")
+        return False
 
-    Args:
-        locale_rel_path (str): Path to the file, relative to a locale's root directory 
-            (e.g. "docusaurus-plugin-content-docs/current/index.mdx"),
-            as resolved by utils.target_resolver.
-        locale_map (dict): The "from"/"to" locale codes parsed by parse_args()
-            ("to" may be the literal string "all").
-    """
-    print(f"[Info] Translating file: {locale_rel_path} from \"{locale_map['from']}\" to \"{locale_map['to']}\"")
-
-    # Load the content of the source file
-    full_path_from = resolve_full_path(locale_rel_path, locale_map["from"])
-    with open(full_path_from, "r", encoding="utf-8") as f:
-        content = f.read()
-    
-    # Parse the content based on the file extension into an ordered list of
-    # {"text": str, "shouldTranslate": bool} blocks. 
-    path_ext = resolve_path_ext(locale_rel_path)
-    if path_ext in [".md", ".mdx"]:
-        parsed_blocks = parse_markdown(content)
-    elif path_ext == ".json":
-        # placeholder_table is used to unescape the translated content back into valid JSON
-        parsed_blocks, placeholder_table = parse_json(content)
-
-    # Register only the translatable blocks as entries in a single dataset
-    dataset = LocalizationDataset()
-    for idx, block in enumerate(parsed_blocks):
-        if not block["shouldTranslate"]:
+    # One dataset entry per English field that still needs at least one locale.
+    entries: list[tuple[str, str, dict[str, str], list[str]]] = []
+    for field in sources:
+        locales_needed = missing_targets(fields, field, targets, force=force)
+        if not locales_needed:
             continue
-        dataset.add_entry("docs", f"block_{idx}", locale_map['from'], block["text"])
+        protected, table = protect_glossary(field.value)
+        entries.append((field.key, protected, table, locales_needed))
 
-    # Resolve target locales: "all" expands to every configured locale
-    # (except the source locale itself)
-    if locale_map['to'] == "all":
-        locales_to = get_all_locales(exclude=[locale_map['from']])
-    else:
-        locales_to = [locale_map['to']]
+    if not entries:
+        print(f"[Ok] {path}: already up to date")
+        return False
 
-    # Send every translatable block to Google Cloud Translation in one batched call, 
-    # covering every target locale at once.
-    translator = Translator(service_account_path="service-account-key.json")
+    locale_set = sorted({locale for *_, locales in entries for locale in locales})
+    print(
+        f"[Info] {path}: {len(entries)} field(s) → {', '.join(locale_set)}"
+    )
+
+    dataset = LocalizationDataset()
+    for index, (_key, text, _table, _locales) in enumerate(entries):
+        dataset.add_entry("editorial", f"block_{index}", source, text)
+
     translator.auto_translate(
         dataset,
-        target_locales=locales_to,
-        source_locale=locale_map["from"]
+        target_locales=locale_set,
+        source_locale=source,
     )
 
-    # Reassemble each target locale's file by walking the same block list used to build the dataset
-    for locale_to in locales_to:
-        full_path_to = resolve_full_path(locale_rel_path, locale_to)
+    updated = fields
+    for index, (source_key, _text, table, locales_needed) in enumerate(entries):
+        translations: dict[str, str] = {}
+        for locale in locales_needed:
+            translated = dataset.get_value("editorial", f"block_{index}", locale)
+            translated = html.unescape(translated or "")
+            translations[locale] = restore_glossary(translated, table)
+        updated = upsert_translations(updated, source_key, translations)
 
-        os.makedirs(os.path.dirname(full_path_to), exist_ok=True)
-        with open(full_path_to, "w", encoding="utf-8") as f:
-            for idx, block in enumerate(parsed_blocks):
-                if block["shouldTranslate"]:
-                    translated_content = dataset.get_value("docs", f"block_{idx}", locale_to)
-                    if path_ext == ".json":
-                        # For JSON, unescape any HTML entities and any placeholders
-                        unescaped_content = unescape_for_json(translated_content, placeholder_table)
-                    else:
-                        # For Markdown, unescape any HTML entities
-                        unescaped_content = unescape_for_markdown(translated_content)
-                    f.write(unescaped_content)
-                else:
-                    f.write(block["text"])
+    path.write_text(serialize(updated, body), encoding="utf-8")
+    print(f"[Wrote] {path}")
+    return True
 
-def main():
-    """CLI entry point.
 
-    - `target != "all"`: Resolves the `target` argument into one or more locale-relative file paths, 
-        then hands each one to translate_file(). `target == "all"` walks
-    - `target == "all"`: Walks every translatable file (.md/.mdx/.json) 
-        under the source locale's directory tree
-    """
-    target, locale_map = parse_args()
+def main() -> None:
+    args = parse_args()
+    assert_source_locale(args.source)
+    targets = get_target_locales(args.to, args.source)
 
-    # Fail fast with a clear error if --from refers to a locale 
-    # that isn't configured in i18n/config.json
-    assert_locale_exists(locale_map["from"])
+    sa_path = "service-account-key.json"
+    if not os.path.isfile(sa_path):
+        raise SystemExit(
+            "[Error] Missing service-account-key.json in the project root. "
+            "Place a Google Cloud service account key there (git-ignored)."
+        )
 
-    if target == "all":
-        target_parent_dir = os.path.join("i18n", locale_map["from"])
-        locale_rel_paths = resolve_locale_rel_paths(target_parent_dir, locale_map["from"])
+    files = list_editorial_files(args.target)
+    if not files:
+        raise SystemExit("[Error] No editorial Markdown files matched.")
 
-        # Translate each file
-        for locale_rel_path in locale_rel_paths:
-            translate_file(locale_rel_path, locale_map)
-    else:
-        locale_rel_path = resolve_locale_rel_path(target, locale_map["from"])
-        translate_file(locale_rel_path, locale_map)
+    print(
+        f"[Info] {len(files)} file(s), source={args.source}, "
+        f"targets={', '.join(targets)}, force={args.force}"
+    )
+
+    translator = Translator(service_account_path=sa_path)
+    changed = 0
+    for path in files:
+        if translate_file(
+            path, args.source, targets, force=args.force, translator=translator
+        ):
+            changed += 1
+
+    print(f"[Done] Updated {changed}/{len(files)} file(s).")
+
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
+import {
+  withTranslatedLocales,
+  type Localized,
+} from "@/i18n/localized";
 
 export type MarkdownFile = {
   slug: string;
@@ -85,11 +89,11 @@ export function localized(
   data: Record<string, string>,
   key: string,
   file: string,
-): { de: string; en: string } {
-  return {
+): Localized<string> {
+  return withTranslatedLocales(data, key, {
     de: required(data, `${key}_de`, file),
     en: required(data, `${key}_en`, file),
-  };
+  });
 }
 
 export function optional(
@@ -104,14 +108,14 @@ export function optionalLocalized(
   data: Record<string, string>,
   key: string,
   file: string,
-): { de: string; en: string } | undefined {
+): Localized<string> | undefined {
   const de = data[`${key}_de`]?.trim();
   const en = data[`${key}_en`]?.trim();
   if (!de && !en) return undefined;
   if (!de || !en) {
     throw new Error(`${file}: set both ${key}_de and ${key}_en, or neither.`);
   }
-  return { de, en };
+  return withTranslatedLocales(data, key, { de, en });
 }
 
 export function csv(data: Record<string, string>, key: string): string[] {

@@ -42,6 +42,10 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# Google Cloud Translation (editorial MT) — never commit
+service-account-key.json
+.venv/
+
 # vercel
 .vercel
 

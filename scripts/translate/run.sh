@@ -1,21 +1,24 @@
-#!/bin/bash
+#!/usr/bin/bash
+set -euo pipefail
 
-# Create a virtual environment (if not already created)
-[ ! -d ".venv" ] && IS_FIRST_RUN=true || IS_FIRST_RUN=false
-if $IS_FIRST_RUN; then
-    echo "This is first time running the translation script. Setting up a python virtual environment..."
-    python3 -m venv .venv
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+cd "$ROOT"
+
+IS_FIRST_RUN=false
+if [ ! -d ".venv" ]; then
+  IS_FIRST_RUN=true
+  echo "First run: creating Python virtual environment (.venv)…"
+  python3 -m venv .venv
 fi
 
-# Activate the virtual environment
+# shellcheck disable=SC1091
 source .venv/bin/activate
 
-if $IS_FIRST_RUN; then
-    pip install -r requirements.txt
+if [ "$IS_FIRST_RUN" = true ] || [ ! -f .venv/.translate-deps-ok ]; then
+  echo "Installing translation dependencies…"
+  pip install -r requirements.txt
+  touch .venv/.translate-deps-ok
 fi
 
-# Run the translation script
 python scripts/translate/main.py "$@"
-
-# Deactivate the virtual environment
 deactivate

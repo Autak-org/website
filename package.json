@@ -12,6 +12,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "translate": "tsx scripts/translate-dictionaries.ts",
+    "translate:editorial": "bash scripts/translate/run.sh",
     "check:content": "tsx scripts/check-editorial.ts"
   },
   "dependencies": {

@@ -50,11 +50,15 @@ npm run lint
 npm run typecheck
 ```
 
-Machine-translated locales (FR, NL, ES, TR) are generated from English:
+Machine-translated locales (FR, NL, ES, TR):
 
 ```sh
-npm run translate
+npm run translate              # UI dictionaries → src/i18n/dictionaries/generated/
+npm run translate:editorial -- all --from en --to all   # editorial *_en → *_fr/_nl/_es/_tr
 ```
+
+Editorial MT needs `service-account-key.json` (Google Cloud, git-ignored) and
+creates a local `.venv` on first run. Editors still only maintain `_de` / `_en`.
 
 ## Layout
 

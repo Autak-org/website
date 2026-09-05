@@ -1,7 +1,7 @@
 /**
- * German and English are written by hand. The remaining locales are produced
- * by `npm run translate`, which machine-translates the English dictionary and
- * writes `dictionaries/generated/<locale>.ts`.
+ * German and English are written by hand. Remaining UI locales are produced
+ * by `npm run translate`. Editorial copy for those locales is filled by
+ * `npm run translate:editorial` (optional `*_fr` / `*_nl` / … fields).
  */
 export const sourceLocales = ["de", "en"] as const;
 
@@ -11,6 +11,7 @@ export const locales = [...sourceLocales, ...translatedLocales] as const;
 
 export type Locale = (typeof locales)[number];
 export type SourceLocale = (typeof sourceLocales)[number];
+export type TranslatedLocale = (typeof translatedLocales)[number];
 
 export const defaultLocale: Locale = "de";
 
