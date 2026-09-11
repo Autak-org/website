@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ButtonLink } from "@/components/ui/button";
-import { StarWheel } from "@/components/ui/star-wheel";
 import { ArrowRight } from "@/components/icons";
 import { routes } from "@/lib/routes";
 import { site } from "@/lib/site";
@@ -25,17 +23,20 @@ export function Hero({
 
   return (
     <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden bg-ink-950">
-      <Image
-        src="/images/hero-aachen.jpg"
-        alt={hero.imageAlt}
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-center"
-      />
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster="/images/hero-aachen.jpg"
+        className="absolute inset-0 h-full w-full object-cover object-center"
+        aria-hidden="true"
+      >
+        <source src="/videos/autak_preview.mp4" type="video/mp4" />
+      </video>
 
       {/* Layered scrims keep the headline above 7:1 contrast regardless of
-          what sits behind it in the photograph. */}
+          what sits behind it in the video. */}
       <div
         aria-hidden="true"
         className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/75 to-ink-950/30"
@@ -44,9 +45,6 @@ export function Hero({
         aria-hidden="true"
         className="absolute inset-0 bg-gradient-to-r from-ink-950/90 via-ink-950/35 to-transparent"
       />
-
-      {/* The star wheel from the prototype, used as the page's signature mark. */}
-      <StarWheel className="absolute -top-24 -right-32 hidden h-[34rem] w-[34rem] animate-[spin_60s_linear_infinite] text-white/10 lg:block" />
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-28 pb-8 sm:px-6 lg:px-10 lg:pt-36 lg:pb-14">
         <p className="inline-flex max-w-full items-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-[0.65rem] font-semibold tracking-[0.12em] text-white uppercase backdrop-blur-md sm:px-4 sm:text-xs sm:tracking-[0.14em]">
