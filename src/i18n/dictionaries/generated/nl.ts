@@ -190,8 +190,6 @@ export const nl: Dictionary = {
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Schrijf ons",
-    "body": "Voor ideeën, suggesties of vragen staan ​​wij voor u klaar. Vindt u dat de rolstoel er anders uit moet zien, of in uw kleine auto moet passen? Vertel het ons.",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefoon",
     "addressLabel": "Adres",
@@ -293,7 +291,7 @@ export const nl: Dictionary = {
     "contact": {
       "eyebrow": "Contact",
       "title": "Neem contact op",
-      "intro": "Feedback over de rolstoel, een idee voor een samenwerking of een vraag over het lidmaatschap – wij beantwoorden."
+      "intro": "Of je nu feedback hebt over de rolstoel, een projectidee of iets heel anders — we horen graag van je."
     },
     "legal": {
       "eyebrow": "Legaal",
@@ -380,6 +378,7 @@ export const nl: Dictionary = {
     "seeAllProjects": "Bekijk alle projecten",
     "seeAllNews": "Al het nieuws",
     "apply": "Solliciteer nu",
+    "contactNow": "Neem nu contact op",
     "writeUs": "Schrijf ons",
     "backHome": "Terug naar de startpagina",
     "externalShop": "Ga naar de winkel",
@@ -396,7 +395,6 @@ export const nl: Dictionary = {
     "statutes": "Statuten",
     "contributions": "Schema van bijdragen",
     "rights": "Alle rechten voorbehouden.",
-    "legacyNotice": "Bekijk de oude website",
     "newsletterTitle": "Teamvergadering",
     "newsletterBody": "Donderdag om 18.15 uur, open voor iedereen."
   },

@@ -33,7 +33,7 @@ export const en: Dictionary = {
     projects: "Projects",
     news: "News",
     positions: "Thesis & internship positions",
-    positionsShort: "Positions",
+    positionsShort: "Thesis/internship",
     shop: "Shop",
     contact: "Contact",
     donate: "Donate",
@@ -195,7 +195,7 @@ export const en: Dictionary = {
         cta: "Go to the membership form",
       },
       meeting: {
-        title: "Team meeting",
+        title: "Open online meeting",
         body: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15. Just drop in.",
         cta: "Join the online meeting",
       },
@@ -212,8 +212,6 @@ export const en: Dictionary = {
 
   contact: {
     eyebrow: "Contact",
-    title: "Write, call or drop by!",
-    body: "For ideas, suggestions or questions we are here for you. Tell us.",
     emailLabel: "Email",
     phoneLabel: "Phone",
     addressLabel:
@@ -337,7 +335,7 @@ export const en: Dictionary = {
       eyebrow: "Contact",
       title: "Get in touch",
       intro:
-        "Whether you have feedback on the wheelchair, an idea for a cooperation or a question about membership — we look forward to hearing from you.",
+        "Whether you have feedback on the wheelchair, a project idea or something completely different — we look forward to hearing from you.",
     },
 
     legal: {
@@ -442,6 +440,7 @@ export const en: Dictionary = {
     seeAllProjects: "See all projects",
     seeAllNews: "All news",
     apply: "Apply now",
+    contactNow: "Contact us now",
     writeUs: "Write to us",
     backHome: "Back to the homepage",
     externalShop: "Go to the shop",
@@ -459,8 +458,7 @@ export const en: Dictionary = {
     statutes: "Statutes",
     contributions: "Schedule of contributions",
     rights: "All rights reserved.",
-    legacyNotice: "View the old website",
-    newsletterTitle: "Team meeting",
+    newsletterTitle: "Open online meeting",
     newsletterBody: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15.",
   },
 

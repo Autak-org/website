@@ -134,12 +134,6 @@ export function SiteFooter({ locale, dictionary }: Props) {
           <p>
             © {new Date().getFullYear()} {site.name}. {footer.rights}
           </p>
-          <Link
-            href="/legacy"
-            className="text-ink-500 underline underline-offset-4 transition-colors hover:text-ink-300"
-          >
-            {footer.legacyNotice}
-          </Link>
         </div>
       </div>
     </footer>

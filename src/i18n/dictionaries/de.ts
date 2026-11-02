@@ -30,7 +30,7 @@ export const de = {
     projects: "Projekte",
     news: "Neuigkeiten",
     positions: "Abschlussarbeiten & Praktika",
-    positionsShort: "Positionen",
+    positionsShort: "Abschlussarbeit/Praktikum",
     shop: "Kaufen",
     contact: "Kontakt",
     donate: "Spenden",
@@ -192,7 +192,7 @@ export const de = {
         cta: "Zum Aufnahmeformular",
       },
       meeting: {
-        title: "Teammeeting",
+        title: "Offenes Online-Treffen",
         body: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr. Schau einfach rein.",
         cta: "Zum Onlinetreffen",
       },
@@ -209,8 +209,6 @@ export const de = {
 
   contact: {
     eyebrow: "Kontaktdaten",
-    title: "Schreibt uns!",
-    body: "Für Ideen, Anregungen oder Fragen stehen wir euch jederzeit zur Seite. Gebt uns Feedback.",
     emailLabel: "E-Mail",
     phoneLabel: "Telefon",
     addressLabel:
@@ -334,7 +332,7 @@ export const de = {
       eyebrow: "Kontakt",
       title: "Schreib, ruf an oder komm vorbei!",
       intro:
-        "Ob Feedback zum Rollstuhl, eine Kooperationsidee oder eine Frage zur Mitgliedschaft — wir freuen uns auf dich.",
+        "Ob Feedback zum Rollstuhl, eine Projektidee oder etwas völlig anderes — wir freuen uns auf dich.",
     },
 
     legal: {
@@ -439,7 +437,8 @@ export const de = {
     seeAllProjects: "Alle Projekte ansehen",
     seeAllNews: "Alle Neuigkeiten",
     apply: "Jetzt bewerben",
-    writeUs: "Schreibt uns",
+    contactNow: "Jetzt kontaktieren",
+    writeUs: "Schreib uns",
     backHome: "Zur Startseite",
     externalShop: "Zum Shop",
     or: "oder",
@@ -456,8 +455,7 @@ export const de = {
     statutes: "Satzung",
     contributions: "Beitragsordnung",
     rights: "Alle Rechte vorbehalten.",
-    legacyNotice: "Alte Website ansehen",
-    newsletterTitle: "Teammeeting",
+    newsletterTitle: "Offenes Online-Treffen",
     newsletterBody: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr.",
   },
 

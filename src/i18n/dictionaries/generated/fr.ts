@@ -190,8 +190,6 @@ export const fr: Dictionary = {
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Écrivez-nous",
-    "body": "Pour des idées, des suggestions ou des questions, nous sommes là pour vous. Vous pensez que le fauteuil roulant devrait avoir un aspect différent ou s'adapter à votre petite voiture ? Dites-nous.",
     "emailLabel": "E-mail",
     "phoneLabel": "Téléphone",
     "addressLabel": "Adresse",
@@ -293,7 +291,7 @@ export const fr: Dictionary = {
     "contact": {
       "eyebrow": "Contact",
       "title": "Entrer en contact",
-      "intro": "Commentaires sur le fauteuil roulant, idée de coopération ou question sur l'adhésion - nous répondons."
+      "intro": "Que vous ayez des commentaires sur le fauteuil roulant, une idée de projet ou quelque chose de complètement différent, nous serions ravis d'avoir de vos nouvelles."
     },
     "legal": {
       "eyebrow": "Légal",
@@ -380,6 +378,7 @@ export const fr: Dictionary = {
     "seeAllProjects": "Voir tous les projets",
     "seeAllNews": "Toutes les actualités",
     "apply": "Postulez maintenant",
+    "contactNow": "Contactez-nous maintenant",
     "writeUs": "Écrivez-nous",
     "backHome": "Retour à la page d'accueil",
     "externalShop": "Aller à la boutique",
@@ -396,7 +395,6 @@ export const fr: Dictionary = {
     "statutes": "Statuts",
     "contributions": "Barème des cotisations",
     "rights": "Tous droits réservés.",
-    "legacyNotice": "Consulter l'ancien site Internet",
     "newsletterTitle": "Réunion d'équipe",
     "newsletterBody": "Le jeudi à 18h15, ouvert à tous."
   },
