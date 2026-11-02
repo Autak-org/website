@@ -1,6 +1,6 @@
 export const de = {
   meta: {
-    title: "Autak e.V. — Inklusion durch Innovation",
+    title: "Autak e.V. — Inklusion in Innovation",
     description:
       "Autak e.V. entwickelt einen treppensteigenden Rollstuhl, barrierefreie Software und Bewusstsein für Inklusion.",
   },
@@ -59,16 +59,16 @@ export const de = {
     label: "Mitmachen",
     member: "Mitglied werden",
     memberHint: "Aufnahmeformular ausfüllen",
-    meeting: "Zum Teammeeting",
-    meetingHint: "Donnerstags 18:15 Uhr, per Video",
+    meeting: "Zum Onlinetreffen",
+    meetingHint: "Montags um 17 Uhr und donnerstags um 18:15 Uhr",
     positions: "Offene Positionen",
     positionsHint: "Abschlussarbeiten und Praktika",
     donate: "Spenden",
-    donateHint: "100 % fließen in den Prototyp",
+    donateHint: "100% gehen in Barrierefreiheit",
   },
 
   hero: {
-    eyebrow: "Inklusion durch Innovation",
+    eyebrow: "Inklusion in Innovation",
     titleLead: "Treppen sind",
     titleAccent: "kein Argument",
     body: "Wir bauen einen Rollstuhl, der Stufen und Bordsteinkanten überwindet — und Menschen wieder auf Augenhöhe bringt.",
@@ -106,7 +106,7 @@ export const de = {
       "Mit Ihrer Hilfe können wir das Bewusstsein für mehr als 140 Millionen Rollstuhlfahrende weltweit schärfen und sie mit unseren Entwicklungen unterstützen.",
     ],
     imageAlt:
-      "Zwei Autak-Mitglieder stehen neben einem Roll-Up mit der Aufschrift „Inklusion durch Innovation“ und den drei Säulen Hardware, Software und Awareness.",
+      "Zwei Autak-Mitglieder stehen neben einem Roll-Up mit der Aufschrift „Inklusion in Innovation“ und den drei Säulen Hardware, Software und Awareness.",
   },
 
   pillars: {
@@ -193,12 +193,12 @@ export const de = {
       },
       meeting: {
         title: "Teammeeting",
-        body: "Jeden Donnerstag um 18:15 Uhr, offen für alle. Schau einfach rein.",
-        cta: "Zum Video-Call",
+        body: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr. Schau einfach rein.",
+        cta: "Zum Onlinetreffen",
       },
       donate: {
         title: "Spenden",
-        body: "100 % deiner Spende fließen in den nächsten Prototyp.",
+        body: "100% deiner Spende gehen in Barrierefreiheit.",
         cta: "Über PayPal spenden",
       },
     },
@@ -210,7 +210,7 @@ export const de = {
   contact: {
     eyebrow: "Kontakt",
     title: "Schreibt uns!",
-    body: "Für Ideen, Anregungen oder Fragen stehen wir euch jederzeit zur Seite. Der Rollstuhl sollte anders aussehen oder in euren Kleinwagen passen? Gebt uns Feedback.",
+    body: "Für Ideen, Anregungen oder Fragen stehen wir euch jederzeit zur Seite. Gebt uns Feedback.",
     emailLabel: "E-Mail",
     phoneLabel: "Telefon",
     addressLabel: "Adresse",
@@ -226,7 +226,7 @@ export const de = {
     subjectLabel: "Betreff",
     messageLabel: "Nachricht",
     submit: "Nachricht senden",
-    hours: "Teammeeting jeden Donnerstag um 18:15 Uhr",
+    hours: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr",
   },
 
   pages: {
@@ -234,11 +234,11 @@ export const de = {
       eyebrow: "Über uns",
       title: "Ein interdisziplinäres Team aus Aachen",
       intro:
-        "Studierende und Berufstätige von RWTH und FH Aachen, die zusammen an Barrierefreiheit arbeiten — vom Fräsen über Firmware bis zur Öffentlichkeitsarbeit.",
+        "Studierende und Berufstätige von RWTH und FH Aachen, die zusammen an Barrierefreiheit arbeiten — von CAD über Firmware bis zur Öffentlichkeitsarbeit.",
       groups: {
         team: {
           title: "Unser Team",
-          body: "Die Menschen, die aktuell an Prototyp, App und Events arbeiten.",
+          body: "Die Menschen, die aktuell an Prototypen, Apps und Events arbeiten.",
         },
         alumni: {
           title: "Alumni",
@@ -249,7 +249,7 @@ export const de = {
           body: "Mentorinnen, Schirmherren und Fachleute, die uns mit Erfahrung, Netzwerk und Kritik begleiten.",
         },
       },
-      ctaTitle: "Wollt ihr mit uns die Welt verbessern?",
+      ctaTitle: "Wollt ihr mit uns Barrieren abbauen?",
       ctaBody:
         "Es gibt nie genug Expertise im Team. Meldet euch bei Interesse — nur gemeinsam können wir etwas erreichen.",
     },
@@ -408,13 +408,13 @@ export const de = {
 
     members: {
       eyebrow: "Für Mitglieder",
-      title: "Donnerstag, 18:15 Uhr — und du bist dabei",
+      title: "Montag um 17 Uhr, Donnerstag um 18:15 Uhr — und du bist dabei",
       intro:
         "Löten, konstruieren, programmieren, schreiben, organisieren. Bei Autak findet jede Fähigkeit ein Projekt und jedes Projekt jemanden, der es voranbringt.",
-      meetingTitle: "Komm zum Teammeeting",
+      meetingTitle: "Komm zum offenen Treffen",
       meetingBody:
-        "Jeden Donnerstag um 18:15 Uhr treffen wir uns per Video. Kein Anmeldeformular, keine Voraussetzungen — einfach reinschauen.",
-      meetingCta: "Zum Video-Call",
+        "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr. Kein Anmeldeformular, keine Voraussetzungen — einfach reinschauen.",
+      meetingCta: "Zum Onlinetreffen",
       videoTitle: "Events und Workshops",
       videoIntro: "Aufnahmen aus Werkstatt, Events und Zeitraffer vom Aufbau.",
       voicesTitle: "Stimmen aus dem Team",
@@ -458,7 +458,7 @@ export const de = {
     rights: "Alle Rechte vorbehalten.",
     legacyNotice: "Alte Website ansehen",
     newsletterTitle: "Teammeeting",
-    newsletterBody: "Donnerstags 18:15 Uhr, offen für alle.",
+    newsletterBody: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr.",
   },
 
   notFound: {

@@ -74,9 +74,9 @@ export function SiteHeader({ locale, dictionary, projectNav }: Props) {
   ];
 
   const joinLinks: NavLink[] = [
-    { href: site.joinForm, label: join.member, hint: join.memberHint, external: true },
     { href: site.meeting, label: join.meeting, hint: join.meetingHint, external: true },
     { href: routes.positions(locale), label: join.positions, hint: join.positionsHint },
+    { href: site.joinForm, label: join.member, hint: join.memberHint, external: true },
     { href: site.paypal, label: join.donate, hint: join.donateHint, external: true },
   ];
 
