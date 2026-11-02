@@ -195,7 +195,7 @@ export const en: Dictionary = {
         cta: "Go to the membership form",
       },
       meeting: {
-        title: "Open online meeting",
+        title: "Online meeting",
         body: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15. Just drop in.",
         cta: "Join the online meeting",
       },
@@ -458,7 +458,7 @@ export const en: Dictionary = {
     statutes: "Statutes",
     contributions: "Schedule of contributions",
     rights: "All rights reserved.",
-    newsletterTitle: "Open online meeting",
+    newsletterTitle: "Online meeting",
     newsletterBody: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15.",
   },
 

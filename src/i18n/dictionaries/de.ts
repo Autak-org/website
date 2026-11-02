@@ -192,7 +192,7 @@ export const de = {
         cta: "Zum Aufnahmeformular",
       },
       meeting: {
-        title: "Offenes Online-Treffen",
+        title: "Online-Treffen",
         body: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr. Schau einfach rein.",
         cta: "Zum Onlinetreffen",
       },
@@ -455,7 +455,7 @@ export const de = {
     statutes: "Satzung",
     contributions: "Beitragsordnung",
     rights: "Alle Rechte vorbehalten.",
-    newsletterTitle: "Offenes Online-Treffen",
+    newsletterTitle: "Online-Treffen",
     newsletterBody: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr.",
   },
 
