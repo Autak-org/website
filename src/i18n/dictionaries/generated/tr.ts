@@ -289,7 +289,6 @@ export const tr: Dictionary = {
       "notifyTitle": "Dükkan taşınıyor",
       "notifyBody": "Yeni mağaza çevrimiçi olana kadar doğrudan bizden e-postayla sipariş verin. Kullanılabilirlik ve nakliye masrafları ile cevap vereceğiz.",
       "notifyCta": "E-postayla sipariş verin",
-      "legacyCta": "Eski dükkanı görüntüle"
     },
     "contact": {
       "eyebrow": "Temas etmek",

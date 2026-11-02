@@ -289,7 +289,6 @@ export const nl: Dictionary = {
       "notifyTitle": "De winkel gaat verhuizen",
       "notifyBody": "Totdat de nieuwe winkel online is, kunt u rechtstreeks bij ons per e-mail bestellen. Wij zullen antwoorden met de beschikbaarheid en verzendkosten.",
       "notifyCta": "Bestel per e-mail",
-      "legacyCta": "Bekijk de oude winkel"
     },
     "contact": {
       "eyebrow": "Contact",

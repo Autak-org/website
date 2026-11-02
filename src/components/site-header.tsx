@@ -163,21 +163,13 @@ export function SiteHeader({ locale, dictionary, projectNav }: Props) {
             aria-label={site.name}
           >
             <Image
-              src="/images/logo-mark.png"
+              src="/images/autak-wordmark.png"
               alt=""
-              width={40}
-              height={35}
+              width={716}
+              height={241}
               priority
               className="h-8 w-auto"
             />
-            <span
-              className={cn(
-                "font-display text-lg font-bold transition-colors",
-                solid ? "text-ink-900" : "text-white",
-              )}
-            >
-              autak
-            </span>
           </Link>
 
           <nav

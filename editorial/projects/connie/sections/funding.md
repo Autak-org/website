@@ -6,7 +6,7 @@ title_fr: Où va l'argent ?
 title_nl: Waar gaat het geld naartoe?
 title_es: ¿Adónde va el dinero?
 title_tr: Paranın nereye gittiği
-body_de: 100 % des Gewinns reinvestieren wir in weitere Entwicklungen, zum Beispiel in den aktuellen Prototyp des Treppensteigrollstuhls.
+body_de: 100 % des Gewinns reinvestieren wir in weitere Entwicklungen, zum Beispiel in den aktuellen Prototyp des treppensteigenden Rollstuhls.
 body_en: 100 % of the profit is reinvested into further development, for example into the current stair-climbing wheelchair prototype.
 body_fr: 100 % des bénéfices sont réinvestis dans le développement ultérieur, par exemple dans le prototype actuel de fauteuil roulant monte-escaliers.
 body_nl: 100% van de winst wordt opnieuw geïnvesteerd in verdere ontwikkeling, bijvoorbeeld in het huidige prototype van de trapbeklimmende rolstoel.

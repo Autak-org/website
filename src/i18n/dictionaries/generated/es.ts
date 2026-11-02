@@ -289,7 +289,6 @@ export const es: Dictionary = {
       "notifyTitle": "la tienda se esta moviendo",
       "notifyBody": "Hasta que la nueva tienda esté en línea, realice su pedido directamente con nosotros por correo electrónico. Le responderemos con disponibilidad y costos de envío.",
       "notifyCta": "Orden por correo electrónico",
-      "legacyCta": "Ver la antigua tienda"
     },
     "contact": {
       "eyebrow": "Contacto",

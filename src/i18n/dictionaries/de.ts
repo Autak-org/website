@@ -28,10 +28,10 @@ export const de = {
     home: "Start",
     about: "Über uns",
     projects: "Projekte",
-    news: "News",
+    news: "Neuigkeiten",
     positions: "Abschlussarbeiten & Praktika",
     positionsShort: "Positionen",
-    shop: "Shop",
+    shop: "Kaufen",
     contact: "Kontakt",
     donate: "Spenden",
     join: "Mitmachen",
@@ -42,7 +42,7 @@ export const de = {
   audiences: {
     label: "Wofür interessierst du dich?",
     partners: {
-      name: "Für Partner",
+      name: "Für Partner:innen",
       blurb: "Sponsoring, Kooperationen und Aufträge",
     },
     users: {
@@ -208,12 +208,13 @@ export const de = {
   },
 
   contact: {
-    eyebrow: "Kontakt",
+    eyebrow: "Kontaktdaten",
     title: "Schreibt uns!",
     body: "Für Ideen, Anregungen oder Fragen stehen wir euch jederzeit zur Seite. Gebt uns Feedback.",
     emailLabel: "E-Mail",
     phoneLabel: "Telefon",
-    addressLabel: "Adresse",
+    addressLabel:
+      "Clubraum: Offene Treffen am Montag um 17 Uhr und Donnerstag um 18:15 Uhr",
     directions: "Auf der Karte ansehen",
     imageAlt:
       "Ein Autak-Mitglied im pinken Vereins-T-Shirt vor dem Aachener Dom.",
@@ -226,7 +227,7 @@ export const de = {
     subjectLabel: "Betreff",
     messageLabel: "Nachricht",
     submit: "Nachricht senden",
-    hours: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr",
+    hours: "Offene Treffen online (hybrid), Montag um 17 Uhr und Donnerstag um 18:15 Uhr",
   },
 
   pages: {
@@ -273,7 +274,7 @@ export const de = {
     },
 
     news: {
-      eyebrow: "News",
+      eyebrow: "Neuigkeiten",
       title: "Was bei Autak passiert",
       intro:
         "Prototypen, Events, Presse und Menschen — chronologisch, mit dem Neuesten zuerst.",
@@ -317,24 +318,23 @@ export const de = {
       eyebrow: "Shop",
       title: "Kaufen heißt hier mitentwickeln",
       intro:
-        "100 % des Gewinns fließen zurück in die Entwicklung — zum Beispiel in den nächsten Prototyp des Treppensteigrollstuhls.",
+        "100 % des Gewinns fließen zurück in die Entwicklung — zum Beispiel in den nächsten Prototyp des treppensteigenden Rollstuhls.",
       availability: {
         available: "Verfügbar",
         soon: "Bald verfügbar",
         "sold-out": "Ausverkauft",
       },
-      notifyTitle: "Der Shop zieht gerade um",
+      notifyTitle: "Bestellen",
       notifyBody:
-        "Bis der neue Shop online ist, bestellst du direkt bei uns per E-Mail. Wir melden uns mit Verfügbarkeit und Versandkosten.",
+        "Man kann bei uns aktuell nur direkt per E-Mail bestellen. Wir melden uns dann mit einer Rechnung zurück.",
       notifyCta: "Per E-Mail bestellen",
-      legacyCta: "Alten Shop ansehen",
     },
 
     contact: {
       eyebrow: "Kontakt",
-      title: "Sprecht uns an",
+      title: "Schreib, ruf an oder komm vorbei!",
       intro:
-        "Ob Feedback zum Rollstuhl, eine Kooperationsidee oder eine Frage zur Mitgliedschaft — wir antworten.",
+        "Ob Feedback zum Rollstuhl, eine Kooperationsidee oder eine Frage zur Mitgliedschaft — wir freuen uns auf dich.",
     },
 
     legal: {
@@ -353,7 +353,7 @@ export const de = {
     },
 
     partners: {
-      eyebrow: "Für Partner",
+      eyebrow: "Für Partner:innen",
       title: "Was Sie von einer Zusammenarbeit mit Autak erwarten können",
       intro:
         "Sponsoring, Kooperationen und Auftragsentwicklung: Wir bauen Prototypen statt Präsentationen — und legen offen, wohin jeder Euro fließt.",
@@ -437,7 +437,7 @@ export const de = {
     learnMore: "Mehr erfahren",
     seeProject: "Zum Projekt",
     seeAllProjects: "Alle Projekte ansehen",
-    seeAllNews: "Alle News",
+    seeAllNews: "Alle Neuigkeiten",
     apply: "Jetzt bewerben",
     writeUs: "Schreibt uns",
     backHome: "Zur Startseite",
@@ -446,7 +446,7 @@ export const de = {
   },
 
   footer: {
-    tagline: "Barrierefreiheit durch Innovation.",
+    tagline: "Inklusion in Innovation.",
     sitemap: "Seiten",
     audiences: "Für dich",
     legal: "Rechtliches",

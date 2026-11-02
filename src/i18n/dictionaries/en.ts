@@ -212,11 +212,12 @@ export const en: Dictionary = {
 
   contact: {
     eyebrow: "Contact",
-    title: "Write to us",
+    title: "Write, call or drop by!",
     body: "For ideas, suggestions or questions we are here for you. Tell us.",
     emailLabel: "Email",
     phoneLabel: "Phone",
-    addressLabel: "Address",
+    addressLabel:
+      "Club room: Open meetings on Monday at 17:00 and Thursday at 18:15",
     directions: "View on the map",
     imageAlt:
       "An Autak member in a pink association T-shirt in front of Aachen Cathedral.",
@@ -229,7 +230,7 @@ export const en: Dictionary = {
     subjectLabel: "Subject",
     messageLabel: "Message",
     submit: "Send message",
-    hours: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15",
+    hours: "Open meetings online (hybrid): Mondays at 17:00 and Thursdays at 18:15",
   },
 
   pages: {
@@ -326,18 +327,17 @@ export const en: Dictionary = {
         soon: "Available soon",
         "sold-out": "Sold out",
       },
-      notifyTitle: "The shop is moving",
+      notifyTitle: "Order by email",
       notifyBody:
-        "Until the new shop is online, order directly from us by email. We will reply with availability and shipping costs.",
+        "At the moment, orders can only be placed directly by email. We will reply with an invoice.",
       notifyCta: "Order by email",
-      legacyCta: "View the old shop",
     },
 
     contact: {
       eyebrow: "Contact",
       title: "Get in touch",
       intro:
-        "Feedback on the wheelchair, an idea for a cooperation or a question about membership — we answer.",
+        "Whether you have feedback on the wheelchair, an idea for a cooperation or a question about membership — we look forward to hearing from you.",
     },
 
     legal: {
@@ -449,7 +449,7 @@ export const en: Dictionary = {
   },
 
   footer: {
-    tagline: "Accessibility through innovation.",
+    tagline: "Inclusion in innovation.",
     sitemap: "Pages",
     audiences: "For you",
     legal: "Legal",

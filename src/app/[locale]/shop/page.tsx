@@ -95,9 +95,6 @@ export default async function ShopPage({ params }: LocaleParams) {
               <ButtonLink href={`mailto:${site.email}`} external>
                 {copy.notifyCta}
               </ButtonLink>
-              <ButtonLink href={site.shop} external variant="ghost" arrow>
-                {copy.legacyCta}
-              </ButtonLink>
             </div>
           </div>
         </Frame>
