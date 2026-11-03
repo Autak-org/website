@@ -179,32 +179,37 @@ export function Megaphone({ className }: IconProps) {
   );
 }
 
-export function Instagram({ className }: IconProps) {
+function BrandIcon({
+  src,
+  className,
+}: {
+  src: string;
+  className?: string;
+}) {
+  // Static brand asset — next/image not needed for these tiny icons.
+  // eslint-disable-next-line @next/next/no-img-element
   return (
-    <svg {...base} className={className}>
-      <rect x="3" y="3" width="18" height="18" rx="5" />
-      <circle cx="12" cy="12" r="4" />
-      <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none" />
-    </svg>
+    <img
+      src={src}
+      alt=""
+      width={20}
+      height={20}
+      className={className}
+      aria-hidden
+    />
   );
+}
+
+export function Instagram({ className }: IconProps) {
+  return <BrandIcon src="/images/instagram.png" className={className} />;
 }
 
 export function LinkedIn({ className }: IconProps) {
-  return (
-    <svg {...base} className={className}>
-      <rect x="3" y="3" width="18" height="18" rx="3" />
-      <path d="M8 10.5V17M8 7.5v.01M12 17v-3.6a2.4 2.4 0 0 1 4.8 0V17" />
-    </svg>
-  );
+  return <BrandIcon src="/images/linkedin.png" className={className} />;
 }
 
 export function Facebook({ className }: IconProps) {
-  return (
-    <svg {...base} className={className}>
-      <path d="M14.5 8.5H17M14.5 21V8.8A2.8 2.8 0 0 1 17.3 6H18M11 12.5h4.5" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
-    </svg>
-  );
+  return <BrandIcon src="/images/facebook.png" className={className} />;
 }
 
 export function Heart({ className }: IconProps) {

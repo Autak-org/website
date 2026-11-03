@@ -459,7 +459,7 @@ export const en: Dictionary = {
     statutes: "Statutes",
     contributions: "Schedule of contributions",
     rights: "All rights reserved.",
-    legacyNotice: "View the old website",
+    // legacyNotice: "View the old website",
     newsletterTitle: "Team meeting",
     newsletterBody: "Thursdays at 18:15, open to everyone.",
   },
