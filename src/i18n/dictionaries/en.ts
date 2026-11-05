@@ -2,7 +2,7 @@ import type { Dictionary } from "./de";
 
 export const en: Dictionary = {
   meta: {
-    title: "Autak e.V. — Inclusion through innovation",
+    title: "Autak e.V. — Inclusion in Innovation",
     description:
       "Autak e.V. builds a stair-climbing wheelchair, accessible software and awareness for inclusion.",
   },
@@ -33,7 +33,7 @@ export const en: Dictionary = {
     projects: "Projects",
     news: "News",
     positions: "Thesis & internship positions",
-    positionsShort: "Positions",
+    positionsShort: "Thesis/internship",
     shop: "Shop",
     contact: "Contact",
     donate: "Donate",
@@ -53,27 +53,28 @@ export const en: Dictionary = {
       blurb: "Buy products and shape them",
     },
     members: {
-      name: "For members",
-      blurb: "Join in, build, belong",
+      name: "For visitors",
+      blurb: "Drop by, get to know us, get involved",
     },
   },
 
   join: {
     label: "Join us",
+    visit: "Visit",
     member: "Become a member",
     memberHint: "Fill in the membership form",
-    meeting: "Join the team meeting",
-    meetingHint: "Thursdays 18:15, by video",
+    meeting: "Join the online meeting",
+    meetingHint: "Mondays at 17:00 and Thursdays at 18:15",
     positions: "Open positions",
     positionsHint: "Theses and internships",
     donate: "Donate",
-    donateHint: "100 % goes into the prototype",
+    donateHint: "100% goes to accessibility",
   },
 
   hero: {
-    eyebrow: "Inclusion through innovation",
-    titleLead: "Stairs are",
-    titleAccent: "not an argument",
+    eyebrow: "Inclusion in Innovation",
+    titleLead: "We against",
+    titleAccent: "barriers",
     body: "We build a wheelchair that takes steps and kerbs in its stride — and puts people back at eye level.",
     primary: "Explore the projects",
     secondary: "Support the association",
@@ -109,7 +110,7 @@ export const en: Dictionary = {
       "With your help we can raise awareness for more than 140 million wheelchair users worldwide and support them with what we develop.",
     ],
     imageAlt:
-      "Two Autak members next to a roll-up banner reading “Inclusion through innovation” with the three pillars hardware, software and awareness.",
+      "Two Autak members next to a roll-up banner reading “Inclusion in Innovation” with the three pillars hardware, software and awareness.",
   },
 
   pillars: {
@@ -195,13 +196,13 @@ export const en: Dictionary = {
         cta: "Go to the membership form",
       },
       meeting: {
-        title: "Team meeting",
-        body: "Every Thursday at 18:15, open to everyone. Just drop in.",
-        cta: "Join the video call",
+        title: "Online meeting",
+        body: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15. Just drop in.",
+        cta: "Join the online meeting",
       },
       donate: {
         title: "Donate",
-        body: "100 % of your donation goes into the next prototype.",
+        body: "100% of your donation goes to accessibility.",
         cta: "Donate via PayPal",
       },
     },
@@ -212,11 +213,10 @@ export const en: Dictionary = {
 
   contact: {
     eyebrow: "Contact",
-    title: "Write to us",
-    body: "For ideas, suggestions or questions we are here for you. Think the wheelchair should look different, or fit in your small car? Tell us.",
     emailLabel: "Email",
     phoneLabel: "Phone",
-    addressLabel: "Address",
+    addressLabel:
+      "Club room: Open meetings on Monday at 17:00 and Thursday at 18:15",
     directions: "View on the map",
     imageAlt:
       "An Autak member in a pink association T-shirt in front of Aachen Cathedral.",
@@ -229,7 +229,7 @@ export const en: Dictionary = {
     subjectLabel: "Subject",
     messageLabel: "Message",
     submit: "Send message",
-    hours: "Team meeting every Thursday at 18:15",
+    hours: "Open meetings online (hybrid): Mondays at 17:00 and Thursdays at 18:15",
   },
 
   pages: {
@@ -237,11 +237,11 @@ export const en: Dictionary = {
       eyebrow: "About us",
       title: "An interdisciplinary team from Aachen",
       intro:
-        "Students and professionals from RWTH and FH Aachen working on accessibility together — from milling to firmware to press work.",
+        "Students and professionals from RWTH and FH Aachen working on accessibility together — from CAD through firmware to press work.",
       groups: {
         team: {
           title: "Our team",
-          body: "The people currently working on the prototype, the app and the events.",
+          body: "The people currently working on prototypes, apps and events.",
         },
         alumni: {
           title: "Alumni",
@@ -252,7 +252,7 @@ export const en: Dictionary = {
           body: "Mentors, patrons and experts who back us with experience, networks and criticism.",
         },
       },
-      ctaTitle: "Want to improve the world with us?",
+      ctaTitle: "Want to help us break down barriers?",
       ctaBody:
         "There is never enough expertise in the team. Get in touch if you are interested — we can only do this together.",
     },
@@ -326,18 +326,17 @@ export const en: Dictionary = {
         soon: "Available soon",
         "sold-out": "Sold out",
       },
-      notifyTitle: "The shop is moving",
+      notifyTitle: "Order by email",
       notifyBody:
-        "Until the new shop is online, order directly from us by email. We will reply with availability and shipping costs.",
+        "At the moment, orders can only be placed directly by email. We will reply with an invoice.",
       notifyCta: "Order by email",
-      legacyCta: "View the old shop",
     },
 
     contact: {
       eyebrow: "Contact",
       title: "Get in touch",
       intro:
-        "Feedback on the wheelchair, an idea for a cooperation or a question about membership — we answer.",
+        "Whether you have feedback on the wheelchair, a project idea or something completely different — we look forward to hearing from you.",
     },
 
     legal: {
@@ -411,13 +410,13 @@ export const en: Dictionary = {
 
     members: {
       eyebrow: "For members",
-      title: "Thursday, 18:15 — and you are in",
+      title: "Monday at 17:00, Thursday at 18:15 — and you are in",
       intro:
         "Soldering, designing, programming, writing, organising. At Autak every skill finds a project and every project finds someone to move it forward.",
-      meetingTitle: "Come to the team meeting",
+      meetingTitle: "Come to an open meeting",
       meetingBody:
-        "Every Thursday at 18:15 we meet by video. No registration, no prerequisites — just drop in.",
-      meetingCta: "Join the video call",
+        "We meet in a hybrid format, in person and online: Mondays at 17:00 and Thursdays at 18:15. No registration, no prerequisites — just drop in.",
+      meetingCta: "Join the online meeting",
       videoTitle: "Events and workshops",
       videoIntro: "Footage from the workshop, from events and time lapses of the build.",
       voicesTitle: "Voices from the team",
@@ -442,6 +441,7 @@ export const en: Dictionary = {
     seeAllProjects: "See all projects",
     seeAllNews: "All news",
     apply: "Apply now",
+    contactNow: "Contact us now",
     writeUs: "Write to us",
     backHome: "Back to the homepage",
     externalShop: "Go to the shop",
@@ -449,7 +449,7 @@ export const en: Dictionary = {
   },
 
   footer: {
-    tagline: "Accessibility through innovation.",
+    tagline: "Inclusion in innovation.",
     sitemap: "Pages",
     audiences: "For you",
     legal: "Legal",
@@ -459,9 +459,8 @@ export const en: Dictionary = {
     statutes: "Statutes",
     contributions: "Schedule of contributions",
     rights: "All rights reserved.",
-    // legacyNotice: "View the old website",
-    newsletterTitle: "Team meeting",
-    newsletterBody: "Thursdays at 18:15, open to everyone.",
+    newsletterTitle: "Online meeting",
+    newsletterBody: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15.",
   },
 
   notFound: {

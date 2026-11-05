@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Ignore package lock because of lightningcss non-compatibility with multi-platform setups
+package-lock.json
+
 # dependencies
 /node_modules
 /.pnp

@@ -1,4 +1,4 @@
-import { Container, SectionHeader } from "@/components/ui/section";
+import { Container } from "@/components/ui/section";
 import { FrameImage } from "@/components/ui/frame";
 import { Reveal } from "@/components/ui/reveal";
 import { ContactForm } from "@/components/contact-form";
@@ -23,13 +23,7 @@ export function Contact({
       <Container>
         <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal>
-            <SectionHeader
-              eyebrow={contact.eyebrow}
-              title={contact.title}
-              intro={contact.body}
-            />
-
-            <ul className="mt-10 space-y-3">
+            <ul className="space-y-3">
               <ContactRow
                 Icon={Mail}
                 label={contact.emailLabel}

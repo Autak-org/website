@@ -57,6 +57,7 @@ export const es: Dictionary = {
   },
   "join": {
     "label": "Únase a nosotros",
+    "visit": "Visitar",
     "member": "Hazte miembro",
     "memberHint": "Complete el formulario de membresía",
     "meeting": "Únase a la reunión del equipo",
@@ -190,8 +191,6 @@ export const es: Dictionary = {
   },
   "contact": {
     "eyebrow": "Contacto",
-    "title": "Escríbenos",
-    "body": "Para ideas, sugerencias o preguntas estamos aquí para ayudarle. ¿Cree que la silla de ruedas debería verse diferente o caber en su automóvil pequeño? Cuéntanos.",
     "emailLabel": "Correo electrónico",
     "phoneLabel": "Teléfono",
     "addressLabel": "DIRECCIÓN",
@@ -289,12 +288,11 @@ export const es: Dictionary = {
       "notifyTitle": "la tienda se esta moviendo",
       "notifyBody": "Hasta que la nueva tienda esté en línea, realice su pedido directamente con nosotros por correo electrónico. Le responderemos con disponibilidad y costos de envío.",
       "notifyCta": "Orden por correo electrónico",
-      "legacyCta": "Ver la antigua tienda"
     },
     "contact": {
       "eyebrow": "Contacto",
       "title": "Ponte en contacto",
-      "intro": "Comentarios sobre la silla de ruedas, una idea para una cooperación o una pregunta sobre la membresía: nosotros respondemos."
+      "intro": "Ya sea que tengas comentarios sobre la silla de ruedas, una idea de proyecto o algo completamente diferente, nos encantará saber de ti."
     },
     "legal": {
       "eyebrow": "Legal",
@@ -381,6 +379,7 @@ export const es: Dictionary = {
     "seeAllProjects": "Ver todos los proyectos",
     "seeAllNews": "Todas las noticias",
     "apply": "Aplicar ahora",
+    "contactNow": "Contactar ahora",
     "writeUs": "Escríbenos",
     "backHome": "Volver a la página de inicio",
     "externalShop": "ir a la tienda",
@@ -397,7 +396,6 @@ export const es: Dictionary = {
     "statutes": "Estatutos",
     "contributions": "Calendario de contribuciones",
     "rights": "Reservados todos los derechos.",
-    "legacyNotice": "Ver el sitio web antiguo",
     "newsletterTitle": "reunión de equipo",
     "newsletterBody": "Los jueves a las 18:15, abierto a todos."
   },

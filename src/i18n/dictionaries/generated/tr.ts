@@ -57,6 +57,7 @@ export const tr: Dictionary = {
   },
   "join": {
     "label": "Bize katılın",
+    "visit": "Ziyaret edin",
     "member": "Üye ol",
     "memberHint": "Üyelik formunu doldurun",
     "meeting": "Ekip toplantısına katılın",
@@ -190,8 +191,6 @@ export const tr: Dictionary = {
   },
   "contact": {
     "eyebrow": "Temas etmek",
-    "title": "Bize yazın",
-    "body": "Fikir, öneri veya sorularınız için sizin için buradayız. Tekerlekli sandalyenin farklı görünmesi veya küçük arabanıza sığması gerektiğini mi düşünüyorsunuz? Bize söyle.",
     "emailLabel": "E-posta",
     "phoneLabel": "Telefon",
     "addressLabel": "Adres",
@@ -289,12 +288,11 @@ export const tr: Dictionary = {
       "notifyTitle": "Dükkan taşınıyor",
       "notifyBody": "Yeni mağaza çevrimiçi olana kadar doğrudan bizden e-postayla sipariş verin. Kullanılabilirlik ve nakliye masrafları ile cevap vereceğiz.",
       "notifyCta": "E-postayla sipariş verin",
-      "legacyCta": "Eski dükkanı görüntüle"
     },
     "contact": {
       "eyebrow": "Temas etmek",
       "title": "İletişime geçin",
-      "intro": "Tekerlekli sandalyeyle ilgili geri bildirim, işbirliği fikri veya üyelikle ilgili bir soru - yanıtlıyoruz."
+      "intro": "Tekerlekli sandalye hakkında geri bildiriminiz, bir proje fikriniz ya da tamamen farklı bir konunuz varsa sizden haber almaktan memnuniyet duyarız."
     },
     "legal": {
       "eyebrow": "Yasal",
@@ -381,6 +379,7 @@ export const tr: Dictionary = {
     "seeAllProjects": "Tüm projeleri görün",
     "seeAllNews": "Tüm haberler",
     "apply": "Şimdi başvur",
+    "contactNow": "Şimdi iletişime geçin",
     "writeUs": "Bize yazın",
     "backHome": "Ana sayfaya geri dön",
     "externalShop": "Mağazaya git",
@@ -397,7 +396,6 @@ export const tr: Dictionary = {
     "statutes": "Tüzük",
     "contributions": "Katkı takvimi",
     "rights": "Her hakkı saklıdır.",
-    "legacyNotice": "Eski web sitesini görüntüle",
     "newsletterTitle": "Takım toplantısı",
     "newsletterBody": "Perşembe günleri saat 18:15'te herkese açıktır."
   },

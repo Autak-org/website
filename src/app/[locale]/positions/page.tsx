@@ -40,14 +40,9 @@ export default async function PositionsPage({ params }: LocaleParams) {
         ]}
         breadcrumbLabel={dictionary.a11y.breadcrumb}
         actions={
-          <>
-            <ButtonLink href={`mailto:${site.email}`} external>
-              {common.apply}
-            </ButtonLink>
-            <ButtonLink href={site.meeting} external variant="onDark">
-              {dictionary.join.meeting}
-            </ButtonLink>
-          </>
+          <ButtonLink href={routes.contact(locale)}>
+            {common.contactNow}
+          </ButtonLink>
         }
       />
 

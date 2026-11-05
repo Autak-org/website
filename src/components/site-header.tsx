@@ -57,6 +57,11 @@ export function SiteHeader({ locale, dictionary, projectNav }: Props) {
 
   const audienceLinks: NavLink[] = [
     {
+      href: routes.members(locale),
+      label: audiences.members.name,
+      hint: audiences.members.blurb,
+    },
+    {
       href: routes.partners(locale),
       label: audiences.partners.name,
       hint: audiences.partners.blurb,
@@ -66,15 +71,14 @@ export function SiteHeader({ locale, dictionary, projectNav }: Props) {
       label: audiences.users.name,
       hint: audiences.users.blurb,
     },
-    {
-      href: routes.members(locale),
-      label: audiences.members.name,
-      hint: audiences.members.blurb,
-    },
   ];
 
   const joinLinks: NavLink[] = [
-    { href: site.joinForm, label: join.member, hint: join.memberHint, external: true },
+    {
+      href: routes.members(locale),
+      label: join.visit,
+      hint: audiences.members.blurb,
+    },
     { href: site.meeting, label: join.meeting, hint: join.meetingHint, external: true },
     { href: routes.positions(locale), label: join.positions, hint: join.positionsHint },
     { href: site.paypal, label: join.donate, hint: join.donateHint, external: true },
@@ -163,21 +167,13 @@ export function SiteHeader({ locale, dictionary, projectNav }: Props) {
             aria-label={site.name}
           >
             <Image
-              src="/images/logo-mark.png"
+              src="/images/autak-wordmark.png"
               alt=""
-              width={40}
-              height={35}
+              width={716}
+              height={241}
               priority
               className="h-8 w-auto"
             />
-            <span
-              className={cn(
-                "font-display text-lg font-bold transition-colors",
-                solid ? "text-ink-900" : "text-white",
-              )}
-            >
-              autak
-            </span>
           </Link>
 
           <nav
