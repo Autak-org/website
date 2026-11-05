@@ -57,6 +57,7 @@ export const tr: Dictionary = {
   },
   "join": {
     "label": "Bize katılın",
+    "visit": "Ziyaret edin",
     "member": "Üye ol",
     "memberHint": "Üyelik formunu doldurun",
     "meeting": "Ekip toplantısına katılın",

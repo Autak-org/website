@@ -50,13 +50,14 @@ export const de = {
       blurb: "Produkte kaufen und mitgestalten",
     },
     members: {
-      name: "Für Mitglieder",
-      blurb: "Mitmachen, mitbauen, dabei sein",
+      name: "Für Besucher:innen",
+      blurb: "Reinschnuppern, kennenlernen, mitmachen",
     },
   },
 
   join: {
     label: "Mitmachen",
+    visit: "Besuchen",
     member: "Mitglied werden",
     memberHint: "Aufnahmeformular ausfüllen",
     meeting: "Zum Onlinetreffen",
@@ -69,8 +70,8 @@ export const de = {
 
   hero: {
     eyebrow: "Inklusion in Innovation",
-    titleLead: "Treppen sind",
-    titleAccent: "kein Argument",
+    titleLead: "Wir gegen",
+    titleAccent: "Barrieren",
     body: "Wir bauen einen Rollstuhl, der Stufen und Bordsteinkanten überwindet — und Menschen wieder auf Augenhöhe bringt.",
     primary: "Projekte entdecken",
     secondary: "Verein unterstützen",

@@ -53,13 +53,14 @@ export const en: Dictionary = {
       blurb: "Buy products and shape them",
     },
     members: {
-      name: "For members",
-      blurb: "Join in, build, belong",
+      name: "For visitors",
+      blurb: "Drop by, get to know us, get involved",
     },
   },
 
   join: {
     label: "Join us",
+    visit: "Visit",
     member: "Become a member",
     memberHint: "Fill in the membership form",
     meeting: "Join the online meeting",
@@ -72,8 +73,8 @@ export const en: Dictionary = {
 
   hero: {
     eyebrow: "Inclusion in Innovation",
-    titleLead: "Stairs are",
-    titleAccent: "not an argument",
+    titleLead: "We against",
+    titleAccent: "barriers",
     body: "We build a wheelchair that takes steps and kerbs in its stride — and puts people back at eye level.",
     primary: "Explore the projects",
     secondary: "Support the association",

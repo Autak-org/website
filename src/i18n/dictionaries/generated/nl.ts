@@ -57,6 +57,7 @@ export const nl: Dictionary = {
   },
   "join": {
     "label": "Sluit je bij ons aan",
+    "visit": "Bezoeken",
     "member": "Word lid",
     "memberHint": "Vul het lidmaatschapsformulier in",
     "meeting": "Neem deel aan de teamvergadering",

@@ -57,6 +57,7 @@ export const fr: Dictionary = {
   },
   "join": {
     "label": "Rejoignez-nous",
+    "visit": "Visiter",
     "member": "Devenez membre",
     "memberHint": "Remplissez le formulaire d'adhésion",
     "meeting": "Rejoignez la réunion d'équipe",
