@@ -49,7 +49,7 @@ export function parseFrontmatter(raw: string, file: string): {
     }
   };
 
-  for (const line of match[1].split("\n")) {
+  for (const line of match[1].split(/\r?\n/)) {
     if (currentKey) {
       if (line.startsWith("  ") || line === "") {
         multiline.push(line.replace(/^  /, ""));

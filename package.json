@@ -16,6 +16,7 @@
     "check:content": "tsx scripts/check-editorial.ts"
   },
   "dependencies": {
+    "lightningcss-win32-x64-msvc": "^1.32.0",
     "next": "16.2.10",
     "react": "19.2.4",
     "react-dom": "19.2.4"
