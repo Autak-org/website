@@ -57,6 +57,11 @@ export function SiteHeader({ locale, dictionary, projectNav }: Props) {
 
   const audienceLinks: NavLink[] = [
     {
+      href: routes.members(locale),
+      label: audiences.members.name,
+      hint: audiences.members.blurb,
+    },
+    {
       href: routes.partners(locale),
       label: audiences.partners.name,
       hint: audiences.partners.blurb,
@@ -65,11 +70,6 @@ export function SiteHeader({ locale, dictionary, projectNav }: Props) {
       href: routes.users(locale),
       label: audiences.users.name,
       hint: audiences.users.blurb,
-    },
-    {
-      href: routes.members(locale),
-      label: audiences.members.name,
-      hint: audiences.members.blurb,
     },
   ];
 
