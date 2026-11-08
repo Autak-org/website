@@ -48,10 +48,10 @@ export const fr: Dictionary = {
     },
     "users": {
       "name": "Pour les utilisateurs",
-      "blurb": "Acheter des produits et les façonner"
+      "blurb": "Visualisez et achetez des produits et façonnez-les"
     },
     "members": {
-      "name": "Pour les visiteurs",
+      "name": "Pour les membres",
       "blurb": "Passez nous voir, apprenez à nous connaître, impliquez-vous"
     }
   },
@@ -76,30 +76,13 @@ export const fr: Dictionary = {
     "scroll": "Continuez à lire",
     "imageAlt": "Deux membres d'Autak en T-shirts roses de l'association souriant à côté d'un fauteuil roulant sur la place Katschhof devant la cathédrale d'Aix-la-Chapelle."
   },
-  "stats": {
-    "label": "Autak en chiffres",
-    "items": [
-      {
-        "value": "140 m",
-        "label": "utilisateurs de fauteuils roulants du monde entier, nous voulons supprimer les obstacles pour"
-      },
-      {
-        "value": "100 %",
-        "label": "des bénéfices sont réinvestis dans le développement"
-      },
-      {
-        "value": "3",
-        "label": "piliers : matériel, logiciels et sensibilisation"
-      }
-    ]
-  },
   "mission": {
     "eyebrow": "Notre mission",
     "title": "Pourriez-vous inviter un utilisateur de fauteuil roulant chez vous ?",
-    "lead": "Pour la plupart des gens, cette question se transforme en arithmétique : marches, seuils et portes trop étroites.",
+    "lead": "Après un moment de réflexion, la plupart des gens se rendent compte qu'un petit escalier ou une porte trop étroite peut être un obstacle, et vous devrez répondre à cette question par « Non ».",
     "body": [
       "Autak est une association à but non lucratif qui œuvre pour rendre la vie un peu plus facile aux personnes ayant des besoins particuliers. Nous sommes des étudiants issus de domaines très différents et nous construisons une mobilité qui ne laisse personne de côté.",
-      "Avec votre aide, nous pouvons sensibiliser plus de 140 millions d’utilisateurs de fauteuils roulants dans le monde et les soutenir avec ce que nous développons."
+      "Avec votre aide, nous pouvons sensibiliser plus de 140 millions d’utilisateurs de fauteuils roulants dans le monde et les soutenir avec ce que nous développons. 100 % des bénéfices sont reversés au développement."
     ],
     "imageAlt": "Deux membres d'Autak à côté d'une bannière enroulable indiquant « Inclusion dans l'innovation » avec les trois piliers matériel, logiciel et sensibilisation."
   },

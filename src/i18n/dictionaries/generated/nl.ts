@@ -48,10 +48,10 @@ export const nl: Dictionary = {
     },
     "users": {
       "name": "Voor gebruikers",
-      "blurb": "Koop producten en geef ze vorm"
+      "blurb": "Producten bekijken, kopen en vormgeven"
     },
     "members": {
-      "name": "Voor bezoekers",
+      "name": "Voor leden",
       "blurb": "Kom langs, leer ons kennen, doe mee"
     }
   },
@@ -76,30 +76,13 @@ export const nl: Dictionary = {
     "scroll": "Lees verder",
     "imageAlt": "Twee Autak-leden in roze verenigings-T-shirts lachend naast een rolstoel op het Katschhof-plein voor de Dom van Aken."
   },
-  "stats": {
-    "label": "Autak in cijfers",
-    "items": [
-      {
-        "value": "140 m",
-        "label": "rolstoelgebruikers wereldwijd waarvoor we barrières willen wegnemen"
-      },
-      {
-        "value": "100%",
-        "label": "van de winst vloeit terug naar de ontwikkeling"
-      },
-      {
-        "value": "3",
-        "label": "pijlers: hardware, software en bewustwording"
-      }
-    ]
-  },
   "mission": {
     "eyebrow": "Onze missie",
     "title": "Kunt u een rolstoelgebruiker bij u thuis uitnodigen?",
-    "lead": "Voor de meeste mensen verandert die vraag in rekenen: te smalle treden, drempels en deuren.",
+    "lead": "Na even nadenken realiseren de meeste mensen zich dat een kleine trap of een te smalle deur een obstakel kan zijn, en je zult deze vraag met \"Nee\" moeten beantwoorden.",
     "body": [
-      "Autak is een non-profitorganisatie die zich inzet om het leven van mensen met bijzondere behoeften een beetje gemakkelijker te maken. Wij zijn studenten uit heel verschillende vakgebieden – en we bouwen aan mobiliteit die niemand achterlaat.",
-      "Met uw hulp kunnen we wereldwijd meer dan 140 miljoen rolstoelgebruikers bewust maken en ondersteunen met wat we ontwikkelen."
+      "Autak is een non-profitorganisatie die zich inzet om het leven van mensen met bijzondere behoeften een beetje gemakkelijker te maken. Wij zijn studenten uit heel verschillende vakgebieden en we bouwen aan mobiliteit die niemand achterlaat.",
+      "Met uw hulp kunnen we wereldwijd meer dan 140 miljoen rolstoelgebruikers bewust maken en ondersteunen met wat we ontwikkelen. 100% van de winst gaat terug naar ontwikkeling."
     ],
     "imageAlt": "Twee Autak-leden naast een roll-up banner met de tekst ‘Inclusie in Innovatie’ met de drie pijlers hardware, software en bewustzijn."
   },

@@ -48,10 +48,10 @@ export const tr: Dictionary = {
     },
     "users": {
       "name": "Kullanıcılar için",
-      "blurb": "Ürünleri satın alın ve şekillendirin"
+      "blurb": "Ürünleri görüntüleyin, satın alın ve şekillendirin"
     },
     "members": {
-      "name": "Ziyaretçiler için",
+      "name": "Üyeler için",
       "blurb": "Gelin, bizi tanıyın, dahil olun"
     }
   },
@@ -76,30 +76,13 @@ export const tr: Dictionary = {
     "scroll": "Okumaya devam edin",
     "imageAlt": "Aachen Katedrali'nin önündeki Katschhof meydanında tekerlekli sandalyenin yanında gülümseyen pembe dernek tişörtlü iki Autak üyesi."
   },
-  "stats": {
-    "label": "Sayılarla Autak",
-    "items": [
-      {
-        "value": "140 m",
-        "label": "dünya çapındaki tekerlekli sandalye kullanıcılarının önündeki engelleri kaldırmak istiyoruz"
-      },
-      {
-        "value": "%100",
-        "label": "Kârın yüzde ellisi kalkınmaya geri akıyor"
-      },
-      {
-        "value": "3",
-        "label": "Sütunlar: donanım, yazılım ve farkındalık"
-      }
-    ]
-  },
   "mission": {
     "eyebrow": "Misyonumuz",
     "title": "Tekerlekli sandalye kullanıcısını evinize davet edebilir misiniz?",
-    "lead": "Çoğu insan için bu soru aritmetiğe dönüşüyor: basamaklar, eşikler ve kapılar çok dar.",
+    "lead": "Bir an düşündükten sonra çoğu insan, küçük bir merdiven katının veya çok dar bir kapının engel olabileceğini fark eder ve bu soruyu \"Hayır\" olarak yanıtlamak zorunda kalırsınız.",
     "body": [
-      "Autak, belirli ihtiyaçları olan insanlar için hayatı biraz daha kolaylaştırmak için çalışan, kar amacı gütmeyen bir dernektir. Biz çok farklı alanlardan öğrencileriz ve kimseyi geride bırakmayan hareketlilik inşa ediyoruz.",
-      "Sizin yardımınızla dünya çapında 140 milyondan fazla tekerlekli sandalye kullanıcısını bilinçlendirebilir ve geliştirdiklerimizle onları destekleyebiliriz."
+      "Autak, belirli ihtiyaçları olan insanlar için hayatı biraz daha kolaylaştırmak için çalışan, kar amacı gütmeyen bir dernektir. Biz çok farklı alanlardan öğrencileriz ve kimseyi geride bırakmayan bir hareketlilik inşa ediyoruz.",
+      "Sizin yardımınızla dünya çapında 140 milyondan fazla tekerlekli sandalye kullanıcısını bilinçlendirebilir ve geliştirdiklerimizle onları destekleyebiliriz. Kârın %100'ü geliştirmeye geri dönüyor."
     ],
     "imageAlt": "İki Autak üyesi, donanım, yazılım ve farkındalıktan oluşan üç sütunlu \"İnovasyona Katılım\" yazılı bir pankartın yanında."
   },

@@ -48,10 +48,10 @@ export const es: Dictionary = {
     },
     "users": {
       "name": "Para usuarios",
-      "blurb": "Compra productos y dales forma"
+      "blurb": "Ver y comprar productos y darles forma."
     },
     "members": {
-      "name": "Para visitantes",
+      "name": "Para miembros",
       "blurb": "Visítanos, conócenos, involúcrate"
     }
   },
@@ -76,30 +76,13 @@ export const es: Dictionary = {
     "scroll": "Sigue leyendo",
     "imageAlt": "Dos miembros de Autak con camisetas rosas de la asociación sonriendo junto a una silla de ruedas en la plaza Katschhof, frente a la catedral de Aquisgrán."
   },
-  "stats": {
-    "label": "Autak en números",
-    "items": [
-      {
-        "value": "140 metros",
-        "label": "usuarios de sillas de ruedas en todo el mundo queremos eliminar barreras para"
-      },
-      {
-        "value": "100 %",
-        "label": "de los beneficios vuelve al desarrollo"
-      },
-      {
-        "value": "3",
-        "label": "pilares: hardware, software y concienciación"
-      }
-    ]
-  },
   "mission": {
     "eyebrow": "Nuestra misión",
     "title": "¿Podrías invitar a un usuario de silla de ruedas a tu casa?",
-    "lead": "Para la mayoría de la gente esta pregunta se convierte en aritmética: escalones, umbrales y puertas demasiado estrechas.",
+    "lead": "Después de pensarlo un momento, la mayoría de las personas se dan cuenta de que un pequeño tramo de escaleras o una puerta demasiado estrecha pueden ser un obstáculo, y tendrás que responder a esta pregunta con un \"No\".",
     "body": [
-      "Autak es una asociación sin ánimo de lucro que trabaja para hacer la vida un poco más fácil a personas con necesidades especiales. Somos estudiantes de campos muy diferentes y estamos construyendo una movilidad que no deja a nadie atrás.",
-      "Con tu ayuda podemos concienciar a más de 140 millones de usuarios de sillas de ruedas en todo el mundo y apoyarles con lo que desarrollamos."
+      "Autak es una asociación sin ánimo de lucro que trabaja para hacer la vida un poco más fácil a personas con necesidades especiales. Somos estudiantes de ámbitos muy diferentes y estamos construyendo una movilidad que no deje a nadie atrás.",
+      "Con tu ayuda podemos concienciar a más de 140 millones de usuarios de sillas de ruedas en todo el mundo y apoyarles con lo que desarrollamos. El 100% de los beneficios se destinan al desarrollo."
     ],
     "imageAlt": "Dos socios de Autak junto a un banner enrollable que decía “Inclusión en la Innovación” con los tres pilares hardware, software y concienciación."
   },
