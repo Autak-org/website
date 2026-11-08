@@ -161,8 +161,7 @@ export const en: Dictionary = {
 
   partners: {
     eyebrow: "Supporters",
-    title: "Our fantastic supporters",
-    subtitle: "Without these partners there would be no prototype.",
+    title: "Our fantastic supporters"
   },
 
   involve: {

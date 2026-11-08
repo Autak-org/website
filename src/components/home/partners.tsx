@@ -13,7 +13,6 @@ export function Partners({ dictionary }: { dictionary: Dictionary }) {
         <SectionHeader
           eyebrow={copy.eyebrow}
           title={copy.title}
-          intro={copy.subtitle}
         />
 
         {/* One grid, one border: the logos share a single ruled sheet rather

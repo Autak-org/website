@@ -143,8 +143,7 @@ export const tr: Dictionary = {
   },
   "partners": {
     "eyebrow": "Destekçiler",
-    "title": "Muhteşem destekçilerimiz",
-    "subtitle": "Bu ortaklar olmasaydı prototip olmazdı."
+    "title": "Muhteşem destekçilerimiz"
   },
   "involve": {
     "eyebrow": "Katılın",

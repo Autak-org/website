@@ -143,8 +143,7 @@ export const fr: Dictionary = {
   },
   "partners": {
     "eyebrow": "Partisans",
-    "title": "Nos fantastiques supporters",
-    "subtitle": "Sans ces partenaires, il n'y aurait pas de prototype."
+    "title": "Nos fantastiques supporters"
   },
   "involve": {
     "eyebrow": "Impliquez-vous",
