@@ -82,31 +82,13 @@ export const en: Dictionary = {
       "Two Autak members in pink association T-shirts smiling next to a wheelchair on the Katschhof square in front of Aachen Cathedral.",
   },
 
-  stats: {
-    label: "Autak in numbers",
-    items: [
-      {
-        value: "140 m",
-        label: "wheelchair users worldwide we want to remove barriers for",
-      },
-      {
-        value: "100 %",
-        label: "of the profit flows back into development",
-      },
-      {
-        value: "3",
-        label: "pillars: hardware, software and awareness",
-      },
-    ],
-  },
-
   mission: {
     eyebrow: "Our mission",
     title: "Could you invite a wheelchair user to your home?",
-    lead: "For most people that question turns into arithmetic: steps, thresholds and doors that are too narrow.",
+    lead: "After a moment's thought, most people realize that a small flight of stairs or a door that's too narrow can be an obstacle, and you'll have to answer this question with \"No\".",
     body: [
-      "Autak is a non-profit association working to make life a little easier for people with particular needs. We are students from very different fields — and we are building mobility that leaves nobody behind.",
-      "With your help we can raise awareness for more than 140 million wheelchair users worldwide and support them with what we develop.",
+      "Autak is a non-profit association working to make life a little easier for people with particular needs. We are students from very different fields and we are building mobility that leaves nobody behind.",
+      "With your help we can raise awareness for more than 140 million wheelchair users worldwide and support them with what we develop. 100% of the profits go back into development.",
     ],
     imageAlt:
       "Two Autak members next to a roll-up banner reading “Inclusion in Innovation” with the three pillars hardware, software and awareness.",

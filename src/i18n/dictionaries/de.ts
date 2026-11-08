@@ -79,34 +79,16 @@ export const de = {
       "Zwei Mitglieder von Autak in pinken Vereins-T-Shirts lächeln neben einem Rollstuhl auf dem Katschhof vor dem Aachener Dom.",
   },
 
-  stats: {
-    label: "Autak in Zahlen",
-    items: [
-      {
-        value: "140 Mio.",
-        label: "Rollstuhlfahrende weltweit, für die wir Barrieren abbauen wollen",
-      },
-      {
-        value: "100 %",
-        label: "des Gewinns fließen zurück in die Entwicklung",
-      },
-      {
-        value: "3",
-        label: "Säulen: Hardware, Software und Bewusstseinsbildung",
-      },
-    ],
-  },
-
   mission: {
     eyebrow: "Unsere Mission",
     title: "Können Sie eine Rollstuhlfahrerin zu sich nach Hause einladen?",
-    lead: "Für die meisten Menschen ist diese Frage eine Rechenaufgabe aus Stufen, Schwellen und zu schmalen Türen.",
+    lead: "Nach kurzem Überlegen fällt den meisten Menschen auf, dass eine kleine Treppe oder eine zu schmale Tür ein Hindernis sein kann und Sie diese Frage mit \"Nein\" beantworten müssen.",
     body: [
-      "Autak ist ein gemeinnütziger Verein, der es sich zum Ziel gesetzt hat, Menschen mit besonderen Bedürfnissen das Leben ein wenig zu erleichtern. Wir sind Studierende aus ganz unterschiedlichen Bereichen — und wir bauen an einer Mobilität, die niemanden zurücklässt.",
-      "Mit Ihrer Hilfe können wir das Bewusstsein für mehr als 140 Millionen Rollstuhlfahrende weltweit schärfen und sie mit unseren Entwicklungen unterstützen.",
+      "Autak ist ein gemeinnütziger Verein, der es sich zum Ziel gesetzt hat, Menschen mit besonderen Bedürfnissen das Leben ein wenig zu erleichtern. Wir sind Studierende aus ganz unterschiedlichen Bereichen und wir bauen an einer Mobilität, die niemanden zurücklässt.",
+      "Mit Ihrer Hilfe können wir das Bewusstsein für mehr als 140 Millionen Rollstuhlfahrende weltweit schärfen und sie mit unseren Entwicklungen unterstützen. 100 % des Gewinns fließen zurück in die Entwicklung.",
     ],
     imageAlt:
-      "Zwei Autak-Mitglieder stehen neben einem Roll-Up mit der Aufschrift „Inklusion in Innovation“ und den drei Säulen Hardware, Software und Awareness.",
+      "Zwei Autak-Mitglieder stehen neben einem Roll-Up mit der Aufschrift „Inklusion durch Innovation“ und den drei Säulen Hardware, Software und Awareness.",
   },
 
   pillars: {
