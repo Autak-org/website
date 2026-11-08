@@ -60,7 +60,7 @@ export const en: Dictionary = {
 
   join: {
     label: "Join us",
-    visit: "Visit",
+    visit: "Become a member",
     member: "Become a member",
     memberHint: "Fill in the membership form",
     meeting: "Join the online meeting",
@@ -131,7 +131,7 @@ export const en: Dictionary = {
     ],
     cta: "More about the wheelchair",
     imageAlt:
-      "The current Autak prototype: a black wheelchair with a pink autak logo and several small wheels per side that make climbing stairs possible.",
+      "The current Autak prototype: a black wheelchair with a pink Autak logo and several small wheels per side that make climbing stairs possible.",
   },
 
   gallery: {
