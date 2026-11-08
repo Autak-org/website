@@ -132,7 +132,7 @@ export const fr: Dictionary = {
     "title": "Autak sur « Einfach génial »",
     "body": "Le programme scientifique MDR a visité notre prototype et a montré comment le fauteuil roulant monte les escaliers.",
     "watch": "Regardez la fonctionnalité",
-    "privacyNote": "Les vidéos YouTube ne se chargent qu'après avoir cliqué. Les courts clips d'atelier sont mis en sourdine lorsqu'ils défilent.",
+    "privacyNote": "Les vidéos YouTube ne se chargent qu'après avoir cliqué. Les courts clips d’atelier sont mis en sourdine lorsqu’ils défilent.",
     "videoTitle": "MDR « Einfach genial » sur le fauteuil roulant Autak",
     "citations": "Plus de couverture"
   },
@@ -369,7 +369,7 @@ export const fr: Dictionary = {
     "or": "ou"
   },
   "footer": {
-    "tagline": "Inclusion dans l’innovation.",
+    "tagline": "Inclusion dans l'innovation.",
     "sitemap": "Pages",
     "audiences": "Pour toi",
     "legal": "Légal",

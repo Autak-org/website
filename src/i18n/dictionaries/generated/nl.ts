@@ -6,7 +6,7 @@ import type { Dictionary } from "../de";
 export const nl: Dictionary = {
   "meta": {
     "title": "Autak e.V. — Inclusie in innovatie",
-    "description": "Autak e.V. bouwt een traplooprolstoel, toegankelijke software en bewustwording voor inclusie."
+    "description": "Autak e.V. bouwt een traplooprolstoel, toegankelijke software en bewustzijn voor inclusie."
   },
   "a11y": {
     "skipToContent": "Ga naar de inhoud",
@@ -68,7 +68,7 @@ export const nl: Dictionary = {
     "donateHint": "100% gaat naar toegankelijkheid"
   },
   "hero": {
-    "titleLead": "Opname bij",
+    "titleLead": "Opname in",
     "titleAccent": "Innovatie",
     "body": "Technologie die barrières in het dagelijks leven overwint en mensen in staat stelt een zelfbepaald leven te leiden",
     "primary": "Ontdek de projecten",
@@ -256,7 +256,7 @@ export const nl: Dictionary = {
       "proposalBody": "Een volledig uitgeschreven onderwerp uit ons app-project: een sjabloon voor hoe een scriptie bij ons eruit ziet.",
       "proposalCta": "Download het voorstel (PDF)",
       "nothingTitle": "Niets voor jou hier?",
-      "nothingBody": "Kom naar onze wekelijkse bijeenkomst en vind iets. Voor iedereen is er iets te doen."
+      "nothingBody": "Kom naar onze wekelijkse bijeenkomst en vind iets. Er is voor iedereen iets te doen."
     },
     "shop": {
       "eyebrow": "Winkel",
