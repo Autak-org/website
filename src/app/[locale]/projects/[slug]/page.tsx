@@ -14,6 +14,7 @@ import { localizeVideos, videoLabels } from "@/lib/videos";
 import { getDictionary, isLocale, locales, t } from "@/i18n";
 import { routes } from "@/lib/routes";
 import { site } from "@/lib/site";
+import { RichText } from "@/components/ui/richt-text";
 
 type ProjectParams = { params: Promise<{ locale: string; slug: string }> };
 
@@ -133,7 +134,7 @@ export default async function ProjectPage({ params }: ProjectParams) {
                 </h2>
                 <Rule className="mt-6" />
                 <p className="mt-6 leading-relaxed whitespace-pre-line text-ink-600">
-                  {t(section.body, locale)}
+                  <RichText text={t(section.body, locale)} />
                 </p>
               </div>
 

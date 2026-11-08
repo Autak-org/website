@@ -64,7 +64,7 @@ export const en: Dictionary = {
     member: "Become a member",
     memberHint: "Fill in the membership form",
     meeting: "Join the online meeting",
-    meetingHint: "Mondays at 17:00 and Thursdays at 18:15",
+    meetingHint: "Mondays at 17:00 and Thursdays at 18:00",
     positions: "Open positions",
     positionsHint: "Theses and internships",
     donate: "Donate",
@@ -91,7 +91,7 @@ export const en: Dictionary = {
       "With your help we can raise awareness for more than 140 million wheelchair users worldwide and support them with what we develop. 100% of the profits go back into development.",
     ],
     imageAlt:
-      "Two Autak members next to a roll-up banner reading “Inclusion in Innovation” with the three pillars hardware, software and awareness.",
+      "Two Autak members next to a roll-up banner reading “Inclusion by Innovation” with the three pillars hardware, software and awareness.",
   },
 
   pillars: {
@@ -107,12 +107,12 @@ export const en: Dictionary = {
       },
       software: {
         name: "Software",
-        headline: "Learning platform & navigation",
+        headline: "Navigation app & learning platform",
         body: "Digital tools that find accessible routes and make knowledge available to everyone.",
       },
       awareness: {
         name: "Awareness",
-        headline: "Inclusion & equal opportunity",
+        headline: "Inclusion & equal opportunities",
         body: "Campaigns, events and social media that make barriers visible before we remove them.",
       },
     },
@@ -156,7 +156,7 @@ export const en: Dictionary = {
     eyebrow: "Projects",
     title: "What we are working on",
     subtitle:
-      "From mechanics to the app — every project is built by our team in Aachen.",
+      "From the mechanics to the app, every project starts with our team in Aachen.",
   },
 
   partners: {
@@ -169,7 +169,7 @@ export const en: Dictionary = {
     eyebrow: "Get involved",
     title: "Nobody takes barriers down alone",
     subtitle:
-      "It is feedback from the community that lets us remove barriers for real. Come along — whether you want to solder, program or organise.",
+      "It is feedback from the community that lets us remove barriers for real. Come along, whether you want to solder, program or organise.",
     cards: {
       member: {
         title: "Become a member",
@@ -197,7 +197,7 @@ export const en: Dictionary = {
     emailLabel: "Email",
     phoneLabel: "Phone",
     addressLabel:
-      "Club room: Open meetings on Monday at 17:00 and Thursday at 18:15",
+      "Club room: Open meetings on Monday at 17:00 and Thursday at 18:00",
     directions: "View on the map",
     imageAlt:
       "An Autak member in a pink association T-shirt in front of Aachen Cathedral.",
@@ -210,7 +210,7 @@ export const en: Dictionary = {
     subjectLabel: "Subject",
     messageLabel: "Message",
     submit: "Send message",
-    hours: "Open meetings online (hybrid): Mondays at 17:00 and Thursdays at 18:15",
+    hours: "Open meetings online and in person: Mondays at 17:00 and Thursdays at 18:00",
   },
 
   pages: {
@@ -218,7 +218,7 @@ export const en: Dictionary = {
       eyebrow: "About us",
       title: "An interdisciplinary team from Aachen",
       intro:
-        "Students and professionals from RWTH and FH Aachen working on accessibility together — from CAD through firmware to press work.",
+        "Students from RWTH and FH Aachen and professionals who are working together on accessibility.",
       groups: {
         team: {
           title: "Our team",
@@ -226,7 +226,7 @@ export const en: Dictionary = {
         },
         alumni: {
           title: "Alumni",
-          body: "They shaped Autak and moved on — much of what drives today came from their hands.",
+          body: "They shaped Autak and have moved on, and much of what is driving today came from their hands.",
         },
         supporters: {
           title: "Supporters",
@@ -235,7 +235,7 @@ export const en: Dictionary = {
       },
       ctaTitle: "Want to help us break down barriers?",
       ctaBody:
-        "There is never enough expertise in the team. Get in touch if you are interested — we can only do this together.",
+        "You can never have too much expertise! Feel free to reach out if you're interested. We can only move this project forward together.",
     },
 
     projects: {
@@ -260,7 +260,7 @@ export const en: Dictionary = {
       eyebrow: "News",
       title: "What is happening at Autak",
       intro:
-        "Prototypes, events, press and people — in order, with the latest first.",
+        "Prototypes, events, press and people",
       categories: {
         all: "All",
         prototype: "Prototype",
@@ -290,7 +290,7 @@ export const en: Dictionary = {
       fieldLabel: "Field",
       proposalTitle: "An example topic",
       proposalBody:
-        "A fully written-up topic from our app project — as a template for what a thesis with us looks like.",
+        "A fully written-up topic from our app project: a template for what a thesis with us looks like.",
       proposalCta: "Download the proposal (PDF)",
       nothingTitle: "Nothing for you here?",
       nothingBody:
@@ -339,16 +339,16 @@ export const en: Dictionary = {
       eyebrow: "For partners",
       title: "What to expect from working with Autak",
       intro:
-        "Sponsoring, cooperation and contract development: we build prototypes rather than slide decks — and we are open about where every euro goes.",
+        "Sponsoring, cooperation and contract development: we build prototypes rather than slide decks and we are open about where every euro goes.",
       pressTitle: "In public",
       pressIntro:
-        "Where our work has been covered — from science programmes to innovation schemes.",
+        "Where our work has been covered: from science programmes to innovation schemes.",
       videoTitle: "See what we work on",
       videoIntro:
         "Instead of a brochure: footage from the workshop, test drives and events.",
       capabilitiesTitle: "Location and capabilities",
       capabilitiesIntro:
-        "What we can do ourselves in Aachen — and where we need partners.",
+        "What we can do ourselves in Aachen and where we need partners.",
       financeTitle: "Where the money goes",
       financeIntro:
         "We are a non-profit. How we handle funds is written into our statutes, not left to good intentions.",
@@ -368,7 +368,7 @@ export const en: Dictionary = {
       ],
       ctaTitle: "Let's talk about working together",
       ctaBody:
-        "A donation in kind, manufacturing capacity, funding or a joint project — tell us briefly what you have in mind.",
+        "A donation in kind, manufacturing capacity, funding or a joint project? Tell us briefly what you have in mind.",
     },
 
     users: {
@@ -383,7 +383,7 @@ export const en: Dictionary = {
       voicesTitle: "What users say",
       voicesIntro: "Feedback from field tests and from the shop.",
       projectsTitle: "Products and projects",
-      projectsIntro: "What you can already use — and what is being built.",
+      projectsIntro: "What you can already use and what is being built.",
       ctaTitle: "Feedback is the most important ingredient",
       ctaBody:
         "Think the wheelchair should look different, or fit in your small car? Write to us.",
@@ -391,12 +391,12 @@ export const en: Dictionary = {
 
     members: {
       eyebrow: "For members",
-      title: "Monday at 17:00, Thursday at 18:15 — and you are in",
+      title: "Monday at 17:00 & Thursday at 18:00",
       intro:
         "Soldering, designing, programming, writing, organising. At Autak every skill finds a project and every project finds someone to move it forward.",
       meetingTitle: "Come to an open meeting",
       meetingBody:
-        "We meet in a hybrid format, in person and online: Mondays at 17:00 and Thursdays at 18:15. No registration, no prerequisites — just drop in.",
+        "We meet in a hybrid format, in person and online: Mondays at 17:00 and Thursdays at 18:00. No registration is required, you can just drop by and join in.",
       meetingCta: "Join the online meeting",
       videoTitle: "Events and workshops",
       videoIntro: "Footage from the workshop, from events and time lapses of the build.",
@@ -441,7 +441,7 @@ export const en: Dictionary = {
     contributions: "Schedule of contributions",
     rights: "All rights reserved.",
     newsletterTitle: "Online meeting",
-    newsletterBody: "Open hybrid meetings, in person and online: Mondays at 17:00 and Thursdays at 18:15.",
+    newsletterBody: "Open meetings in person and online: Mondays at 17:00 and Thursdays at 18:00",
   },
 
   notFound: {
