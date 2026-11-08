@@ -57,7 +57,7 @@ export const de = {
 
   join: {
     label: "Mitmachen",
-    visit: "Besuchen",
+    visit: "Mitwirken",
     member: "Mitglied werden",
     memberHint: "Aufnahmeformular ausfüllen",
     meeting: "Zum Onlinetreffen",
@@ -69,10 +69,9 @@ export const de = {
   },
 
   hero: {
-    eyebrow: "Inklusion in Innovation",
-    titleLead: "Wir gegen",
-    titleAccent: "Barrieren",
-    body: "Wir bauen einen Rollstuhl, der Stufen und Bordsteinkanten überwindet — und Menschen wieder auf Augenhöhe bringt.",
+    titleLead: "Inklusion in",
+    titleAccent: "Innovation",
+    body: "Technik, die Barrieren im Alltag überwindet und Menschen ein selbstbestimmtes Leben ermöglicht",
     primary: "Projekte entdecken",
     secondary: "Verein unterstützen",
     scroll: "Weiter",

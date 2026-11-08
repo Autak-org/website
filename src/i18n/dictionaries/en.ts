@@ -72,10 +72,9 @@ export const en: Dictionary = {
   },
 
   hero: {
-    eyebrow: "Inclusion in Innovation",
-    titleLead: "We against",
-    titleAccent: "barriers",
-    body: "We build a wheelchair that takes steps and kerbs in its stride — and puts people back at eye level.",
+    titleLead: "Inclusion in",
+    titleAccent: "Innovation",
+    body: "Technology that overcomes barriers in everyday life and enables people to lead self-determined lives",
     primary: "Explore the projects",
     secondary: "Support the association",
     scroll: "Read on",
