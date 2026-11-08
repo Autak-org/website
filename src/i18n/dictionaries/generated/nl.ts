@@ -6,7 +6,7 @@ import type { Dictionary } from "../de";
 export const nl: Dictionary = {
   "meta": {
     "title": "Autak e.V. — Inclusie in innovatie",
-    "description": "Autak e.V. bouwt een traplooprolstoel, toegankelijke software en bewustzijn voor inclusie."
+    "description": "Autak e.V. bouwt een traplooprolstoel, toegankelijke software en bewustwording voor inclusie."
   },
   "a11y": {
     "skipToContent": "Ga naar de inhoud",
@@ -68,7 +68,7 @@ export const nl: Dictionary = {
     "donateHint": "100% gaat naar toegankelijkheid"
   },
   "hero": {
-    "titleLead": "Opname in",
+    "titleLead": "Opname bij",
     "titleAccent": "Innovatie",
     "body": "Technologie die barrières in het dagelijks leven overwint en mensen in staat stelt een zelfbepaald leven te leiden",
     "primary": "Ontdek de projecten",
@@ -207,7 +207,7 @@ export const nl: Dictionary = {
         }
       },
       "ctaTitle": "Wil jij ons helpen barrières te slechten?",
-      "ctaBody": "Je kunt nooit teveel expertise hebben! Neem gerust contact op als je geïnteresseerd bent. Alleen samen kunnen we dit project vooruit helpen."
+      "ctaBody": "Je kunt nooit teveel expertise hebben!\n\n Neem gerust contact op als je geïnteresseerd bent. Alleen samen kunnen we dit project vooruit helpen."
     },
     "projects": {
       "eyebrow": "Projecten",
@@ -256,24 +256,24 @@ export const nl: Dictionary = {
       "proposalBody": "Een volledig uitgeschreven onderwerp uit ons app-project: een sjabloon voor hoe een scriptie bij ons eruit ziet.",
       "proposalCta": "Download het voorstel (PDF)",
       "nothingTitle": "Niets voor jou hier?",
-      "nothingBody": "Kom naar onze wekelijkse bijeenkomst en vind iets. Er is voor iedereen iets te doen."
+      "nothingBody": "Kom naar onze wekelijkse bijeenkomst en vind iets. Voor iedereen is er iets te doen."
     },
     "shop": {
       "eyebrow": "Winkel",
       "title": "Hier kopen betekent ontwikkeling financieren",
-      "intro": "100% van de winst vloeit terug naar de ontwikkeling – bijvoorbeeld naar het volgende prototype van de traplooprolstoel.",
+      "intro": "100% van de winst wordt geherinvesteerd in ontwikkeling, zoals het volgende prototype van de traplooprolstoel.",
       "availability": {
         "available": "Beschikbaar",
         "soon": "Binnenkort beschikbaar",
         "sold-out": "Uitverkocht"
       },
       "notifyTitle": "Bestel per e-mail",
-      "notifyBody": "Momenteel kunnen bestellingen alleen rechtstreeks per e-mail worden geplaatst. Wij zullen antwoorden met een factuur.",
+      "notifyBody": "Vanaf nu kunt u direct via e-mail een bestelling bij ons plaatsen. Wij sturen u dan de factuur en alle details toe.",
       "notifyCta": "Bestel per e-mail"
     },
     "contact": {
       "eyebrow": "Contact",
-      "title": "Neem contact op",
+      "title": "Schrijf ons, bel ons of kom langs!",
       "intro": "Of u nu feedback heeft over de rolstoel, een projectidee of iets heel anders: wij horen graag van u."
     },
     "legal": {

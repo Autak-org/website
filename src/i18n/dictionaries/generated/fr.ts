@@ -132,7 +132,7 @@ export const fr: Dictionary = {
     "title": "Autak sur « Einfach génial »",
     "body": "Le programme scientifique MDR a visité notre prototype et a montré comment le fauteuil roulant monte les escaliers.",
     "watch": "Regardez la fonctionnalité",
-    "privacyNote": "Les vidéos YouTube ne se chargent qu'après avoir cliqué. Les courts clips d’atelier sont mis en sourdine lorsqu’ils défilent.",
+    "privacyNote": "Les vidéos YouTube ne se chargent qu'après avoir cliqué. Les courts clips d'atelier sont mis en sourdine lorsqu'ils défilent.",
     "videoTitle": "MDR « Einfach genial » sur le fauteuil roulant Autak",
     "citations": "Plus de couverture"
   },
@@ -207,7 +207,7 @@ export const fr: Dictionary = {
         }
       },
       "ctaTitle": "Vous voulez nous aider à faire tomber les barrières ?",
-      "ctaBody": "On n'a jamais trop d'expertise ! N'hésitez pas à nous contacter si vous êtes intéressé. Nous ne pouvons faire avancer ce projet qu’ensemble."
+      "ctaBody": "On n'a jamais trop d'expertise !\n\n N'hésitez pas à nous contacter si vous êtes intéressé. Nous ne pouvons faire avancer ce projet qu’ensemble."
     },
     "projects": {
       "eyebrow": "Projets",
@@ -261,19 +261,19 @@ export const fr: Dictionary = {
     "shop": {
       "eyebrow": "Boutique",
       "title": "Acheter ici, c'est financer le développement",
-      "intro": "100 % des bénéfices sont réinvestis dans le développement, par exemple dans le prochain prototype de fauteuil roulant monte-escalier.",
+      "intro": "100 % des bénéfices sont réinvestis dans le développement, comme le prochain prototype de fauteuil roulant monte-escalier.",
       "availability": {
         "available": "Disponible",
         "soon": "Bientôt disponible",
         "sold-out": "Épuisé"
       },
       "notifyTitle": "Commande par email",
-      "notifyBody": "Pour le moment, les commandes ne peuvent être passées que directement par email. Nous vous répondrons avec une facture.",
+      "notifyBody": "Dès maintenant, vous pouvez passer une commande chez nous directement par e-mail. Nous vous enverrons ensuite la facture et tous les détails.",
       "notifyCta": "Commande par email"
     },
     "contact": {
       "eyebrow": "Contact",
-      "title": "Entrer en contact",
+      "title": "Écrivez-nous, appelez-nous ou passez nous voir !",
       "intro": "Que vous ayez des commentaires sur le fauteuil roulant, une idée de projet ou quelque chose de complètement différent, nous sommes impatients de vous entendre."
     },
     "legal": {
@@ -369,7 +369,7 @@ export const fr: Dictionary = {
     "or": "ou"
   },
   "footer": {
-    "tagline": "Inclusion dans l'innovation.",
+    "tagline": "Inclusion dans l’innovation.",
     "sitemap": "Pages",
     "audiences": "Pour toi",
     "legal": "Légal",

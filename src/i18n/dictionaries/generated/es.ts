@@ -207,7 +207,7 @@ export const es: Dictionary = {
         }
       },
       "ctaTitle": "¿Quieres ayudarnos a derribar barreras?",
-      "ctaBody": "¡Nunca se puede tener demasiada experiencia! No dude en comunicarse si está interesado. Sólo juntos podremos hacer avanzar este proyecto."
+      "ctaBody": "¡Nunca se puede tener demasiada experiencia!\n\n No dude en comunicarse si está interesado. Sólo juntos podremos hacer avanzar este proyecto."
     },
     "projects": {
       "eyebrow": "Proyectos",
@@ -261,19 +261,19 @@ export const es: Dictionary = {
     "shop": {
       "eyebrow": "Comercio",
       "title": "Comprar aquí significa financiar el desarrollo",
-      "intro": "El 100 % de los beneficios se destina al desarrollo, por ejemplo al próximo prototipo de silla de ruedas sube escaleras.",
+      "intro": "El 100% de los beneficios se reinvierte en desarrollo, como el próximo prototipo de silla de ruedas sube escaleras.",
       "availability": {
         "available": "Disponible",
         "soon": "Disponible pronto",
         "sold-out": "Agotado"
       },
       "notifyTitle": "Orden por correo electrónico",
-      "notifyBody": "Por el momento, los pedidos sólo se pueden realizar directamente por correo electrónico. Le responderemos con una factura.",
+      "notifyBody": "Ahora mismo, puede realizar un pedido con nosotros directamente por correo electrónico. Luego te enviaremos la factura y todos los detalles.",
       "notifyCta": "Orden por correo electrónico"
     },
     "contact": {
       "eyebrow": "Contacto",
-      "title": "Ponte en contacto",
+      "title": "¡Escríbanos, llámenos o visítenos!",
       "intro": "Ya sea que tenga comentarios sobre la silla de ruedas, una idea de proyecto o algo completamente diferente, esperamos tener noticias suyas."
     },
     "legal": {

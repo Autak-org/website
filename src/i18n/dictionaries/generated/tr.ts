@@ -81,7 +81,7 @@ export const tr: Dictionary = {
     "title": "Tekerlekli sandalye kullanıcısını evinize davet edebilir misiniz?",
     "lead": "Bir an düşündükten sonra çoğu insan, küçük bir merdiven katının veya çok dar bir kapının engel olabileceğini fark eder ve bu soruyu \"Hayır\" olarak yanıtlamak zorunda kalırsınız.",
     "body": [
-      "Autak, belirli ihtiyaçları olan insanlar için hayatı biraz daha kolaylaştırmak için çalışan, kar amacı gütmeyen bir dernektir. Biz çok farklı alanlardan öğrencileriz ve kimseyi geride bırakmayan bir hareketlilik inşa ediyoruz.",
+      "Autak, belirli ihtiyaçları olan insanlar için hayatı biraz daha kolaylaştırmak için çalışan, kar amacı gütmeyen bir dernektir. Bizler çok farklı alanlardan öğrencileriz ve kimseyi geride bırakmayan bir hareketlilik inşa ediyoruz.",
       "Sizin yardımınızla dünya çapında 140 milyondan fazla tekerlekli sandalye kullanıcısını bilinçlendirebilir ve geliştirdiklerimizle onları destekleyebiliriz. Kârın %100'ü geliştirmeye geri dönüyor."
     ],
     "imageAlt": "İki Autak üyesi, donanım, yazılım ve farkındalığın üç sütununu içeren \"İnovasyon Yoluyla Katılım\" yazılı bir pankartın yanında."
@@ -112,7 +112,7 @@ export const tr: Dictionary = {
     "eyebrow": "Prototipimiz",
     "title": "Merdivenleri başka bir yol parçasına dönüştüren tekerlek",
     "body": [
-      "Hareketliliği tasarlıyoruz ve uygulama alanının sabit bir sınırı yok: tekerleğin yeni nesli tekerlekli sandalyenin, bebek arabasının veya hastane yatağının altına oturabilir."
+      "Mobiliteyi tasarlıyoruz ve uygulama alanının sabit bir sınırı yok: tekerleğin yeni nesli tekerlekli sandalyenin, bebek arabasının veya hastane yatağının altına oturabilir."
     ],
     "features": [
       "Merdivenleri, basamakları ve kaldırımları kullanır",
@@ -158,7 +158,7 @@ export const tr: Dictionary = {
       },
       "meeting": {
         "title": "Çevrimiçi toplantı",
-        "body": "Kişisel ve çevrimiçi açık hibrit toplantılar: Pazartesi 17:00 ve Perşembe 18:15. Sadece uğrayın.",
+        "body": "Açık hibrit toplantılar, şahsen ve çevrimiçi olarak: Pazartesi 17:00 ve Perşembe 18:15. Sadece uğrayın.",
         "cta": "Çevrimiçi toplantıya katılın"
       },
       "donate": {
@@ -207,7 +207,7 @@ export const tr: Dictionary = {
         }
       },
       "ctaTitle": "Engelleri aşmamıza yardım etmek ister misiniz?",
-      "ctaBody": "Asla çok fazla uzmanlığa sahip olamazsın! İlgileniyorsanız iletişime geçmekten çekinmeyin. Bu projeyi ancak birlikte ileriye taşıyabiliriz."
+      "ctaBody": "Asla çok fazla uzmanlığa sahip olamazsın!\n\n İlgileniyorsanız iletişime geçmekten çekinmeyin. Bu projeyi ancak birlikte ileriye taşıyabiliriz."
     },
     "projects": {
       "eyebrow": "Projeler",
@@ -261,19 +261,19 @@ export const tr: Dictionary = {
     "shop": {
       "eyebrow": "Mağaza",
       "title": "Buradan satın almak, kalkınmanın finansmanı anlamına gelir",
-      "intro": "Kârın %100'ü geliştirmeye, örneğin merdiven çıkan tekerlekli sandalyenin bir sonraki prototipine aktarılıyor.",
+      "intro": "Kârın %100'ü, merdiven çıkan tekerlekli sandalyenin bir sonraki prototipi gibi geliştirme çalışmalarına yeniden yatırılıyor.",
       "availability": {
         "available": "Mevcut",
         "soon": "Yakında mevcut",
         "sold-out": "Hepsi satıldı"
       },
       "notifyTitle": "E-postayla sipariş verin",
-      "notifyBody": "Şu anda siparişler yalnızca doğrudan e-posta yoluyla verilebilmektedir. Faturayla cevap vereceğiz.",
+      "notifyBody": "Şu anda doğrudan e-posta yoluyla bize sipariş verebilirsiniz. Daha sonra size faturayı ve tüm ayrıntıları göndereceğiz.",
       "notifyCta": "E-postayla sipariş verin"
     },
     "contact": {
       "eyebrow": "Temas etmek",
-      "title": "İletişime geçin",
+      "title": "Bize yazın, arayın veya uğrayın!",
       "intro": "İster tekerlekli sandalyeyle ilgili geri bildiriminiz, ister bir proje fikriniz, ister tamamen farklı bir şey olsun, sizden haber almak için sabırsızlanıyoruz."
     },
     "legal": {
@@ -284,7 +284,7 @@ export const tr: Dictionary = {
       "contributions": "Katkı takvimi",
       "intro": {
         "imprint": "Alman yasalarının gerektirdiği şekilde sağlayıcının kimliği.",
-        "privacy": "Kişisel verileri nasıl ele alıyoruz.",
+        "privacy": "Kişisel verileri nasıl ele alıyoruz?",
         "statutes": "Autak e.V.'nin tüzüğü",
         "contributions": "Genel kurul tarafından kabul edilen katkı takvimi."
       },
@@ -317,7 +317,7 @@ export const tr: Dictionary = {
         }
       ],
       "ctaTitle": "Birlikte çalışmayı konuşalım",
-      "ctaBody": "Ayni bir bağış mı, üretim kapasitesi mi, finansman mı yoksa ortak bir proje mi? Aklınızdan geçenleri bize kısaca anlatın."
+      "ctaBody": "Ayni bir bağış mı, üretim kapasitesi mi, finansman mı yoksa ortak proje mi? Aklınızdan geçenleri bize kısaca anlatın."
     },
     "users": {
       "eyebrow": "Kullanıcılar için",

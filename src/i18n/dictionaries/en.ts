@@ -235,7 +235,7 @@ export const en: Dictionary = {
       },
       ctaTitle: "Want to help us break down barriers?",
       ctaBody:
-        "You can never have too much expertise! Feel free to reach out if you're interested. We can only move this project forward together.",
+        "You can never have too much expertise!\n\n Feel free to reach out if you're interested. We can only move this project forward together.",
     },
 
     projects: {

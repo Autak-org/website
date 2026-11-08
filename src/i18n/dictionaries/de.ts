@@ -231,7 +231,7 @@ export const de = {
       },
       ctaTitle: "Wollt ihr mit uns Barrieren abbauen?",
       ctaBody:
-        "Expertise kann man nie genug haben! Meldet euch gerne bei Interesse, denn nur gemeinsam bringen wir das Projekt voran.",
+        "Expertise kann man nie genug haben!\n\n Meldet euch gerne bei Interesse, denn nur gemeinsam bringen wir das Projekt voran.",
     },
 
     projects: {
