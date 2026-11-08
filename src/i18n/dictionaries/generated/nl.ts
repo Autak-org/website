@@ -5,7 +5,7 @@ import type { Dictionary } from "../de";
 
 export const nl: Dictionary = {
   "meta": {
-    "title": "Autak e.V. — Inclusie door innovatie",
+    "title": "Autak e.V. — Inclusie in innovatie",
     "description": "Autak e.V. bouwt een traplooprolstoel, toegankelijke software en bewustzijn voor inclusie."
   },
   "a11y": {
@@ -18,7 +18,7 @@ export const nl: Dictionary = {
     "externalLink": "wordt geopend in een nieuw tabblad",
     "playVideo": "Speel video af",
     "muteVideo": "Video dempen",
-    "unmuteVideo": "Geluid aanzetten",
+    "unmuteVideo": "Dempen van video opheffen",
     "carousel": "Afbeeldingengalerij",
     "previousSlide": "Vorige afbeelding",
     "nextSlide": "Volgende afbeelding",
@@ -32,7 +32,7 @@ export const nl: Dictionary = {
     "projects": "Projecten",
     "news": "Nieuws",
     "positions": "Scriptie- en stageplaatsen",
-    "positionsShort": "Posities",
+    "positionsShort": "Scriptie/stage",
     "shop": "Winkel",
     "contact": "Contact",
     "donate": "Doneer",
@@ -51,27 +51,26 @@ export const nl: Dictionary = {
       "blurb": "Koop producten en geef ze vorm"
     },
     "members": {
-      "name": "Voor leden",
-      "blurb": "Doe mee, bouw, hoor erbij"
+      "name": "Voor bezoekers",
+      "blurb": "Kom langs, leer ons kennen, doe mee"
     }
   },
   "join": {
     "label": "Sluit je bij ons aan",
-    "visit": "Bezoeken",
+    "visit": "Bezoek",
     "member": "Word lid",
     "memberHint": "Vul het lidmaatschapsformulier in",
-    "meeting": "Neem deel aan de teamvergadering",
-    "meetingHint": "Donderdag 18:15, via video",
+    "meeting": "Neem deel aan de online bijeenkomst",
+    "meetingHint": "Maandag om 17.00 uur en donderdag om 18.15 uur",
     "positions": "Openstaande posities",
     "positionsHint": "Scripties en stages",
     "donate": "Doneer",
-    "donateHint": "100% gaat in het prototype"
+    "donateHint": "100% gaat naar toegankelijkheid"
   },
   "hero": {
-    "eyebrow": "Inclusie door innovatie",
-    "titleLead": "Trappen zijn",
-    "titleAccent": "geen argument",
-    "body": "We bouwen een rolstoel die met gemak trappen en stoepranden neemt – en mensen weer op ooghoogte brengt.",
+    "titleLead": "Opname in",
+    "titleAccent": "Innovatie",
+    "body": "Technologie die barrières in het dagelijks leven overwint en mensen in staat stelt een zelfbepaald leven te leiden",
     "primary": "Ontdek de projecten",
     "secondary": "Steun de vereniging",
     "scroll": "Lees verder",
@@ -102,7 +101,7 @@ export const nl: Dictionary = {
       "Autak is een non-profitorganisatie die zich inzet om het leven van mensen met bijzondere behoeften een beetje gemakkelijker te maken. Wij zijn studenten uit heel verschillende vakgebieden – en we bouwen aan mobiliteit die niemand achterlaat.",
       "Met uw hulp kunnen we wereldwijd meer dan 140 miljoen rolstoelgebruikers bewust maken en ondersteunen met wat we ontwikkelen."
     ],
-    "imageAlt": "Twee Autak-leden naast een roll-up banner met de tekst ‘Inclusie door innovatie’ met de drie pijlers hardware, software en bewustzijn."
+    "imageAlt": "Twee Autak-leden naast een roll-up banner met de tekst ‘Inclusie in Innovatie’ met de drie pijlers hardware, software en bewustzijn."
   },
   "pillars": {
     "eyebrow": "Drie pijlers",
@@ -138,7 +137,7 @@ export const nl: Dictionary = {
       "Openlijk ontwikkeld, gefinancierd als non-profitorganisatie"
     ],
     "cta": "Meer over de rolstoel",
-    "imageAlt": "Het huidige Autak-prototype: een zwarte rolstoel met een roze logo en meerdere kleine wielen per zijde die traplopen mogelijk maken."
+    "imageAlt": "Het huidige Autak-prototype: een zwarte rolstoel met een roze Autak-logo en meerdere kleine wielen per zijde die traplopen mogelijk maken."
   },
   "gallery": {
     "eyebrow": "Glimpen",
@@ -150,7 +149,7 @@ export const nl: Dictionary = {
     "title": "Autak over “Einfach geniaal”",
     "body": "Het MDR-wetenschapsprogramma bezocht ons prototype en liet zien hoe de rolstoel trappen neemt.",
     "watch": "Bekijk de functie",
-    "privacyNote": "De video wordt pas van YouTube geladen nadat u erop klikt. Daarvoor wordt niets verzonden.",
+    "privacyNote": "YouTube-video's worden pas geladen nadat u erop klikt. Korte workshopclips worden gedempt wanneer ze in beeld scrollen.",
     "videoTitle": "MDR “Einfach genial” op de Autak-rolstoel",
     "citations": "Meer dekking"
   },
@@ -175,13 +174,13 @@ export const nl: Dictionary = {
         "cta": "Ga naar het lidmaatschapsformulier"
       },
       "meeting": {
-        "title": "Teamvergadering",
-        "body": "Elke donderdag om 18.15 uur, open voor iedereen. Kom gewoon binnen.",
-        "cta": "Neem deel aan het videogesprek"
+        "title": "Online bijeenkomst",
+        "body": "Open hybride bijeenkomsten, fysiek en online: maandag om 17.00 uur en donderdag om 18.15 uur. Kom gewoon binnen.",
+        "cta": "Neem deel aan de online bijeenkomst"
       },
       "donate": {
         "title": "Doneer",
-        "body": "100% van uw donatie gaat naar het volgende prototype.",
+        "body": "100% van uw donatie gaat naar toegankelijkheid.",
         "cta": "Doneer via PayPal"
       }
     },
@@ -193,7 +192,7 @@ export const nl: Dictionary = {
     "eyebrow": "Contact",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefoon",
-    "addressLabel": "Adres",
+    "addressLabel": "Clubruimte: Open bijeenkomsten op maandag om 17.00 uur en donderdag om 18.15 uur",
     "directions": "Bekijk op de kaart",
     "imageAlt": "Een Autak-lid in een roze verenigings-T-shirt voor de Dom van Aken.",
     "teamImageAlt": "Het Autak-team in de clubruimte: acht leden op banken voor een plantenmuur, waarvan één rolstoelgebruiker.",
@@ -203,17 +202,17 @@ export const nl: Dictionary = {
     "subjectLabel": "Onderwerp",
     "messageLabel": "Bericht",
     "submit": "Bericht verzenden",
-    "hours": "Teamvergadering elke donderdag om 18:15"
+    "hours": "Open bijeenkomsten online (hybride): maandag om 17.00 uur en donderdag om 18.15 uur"
   },
   "pages": {
     "about": {
       "eyebrow": "Over ons",
       "title": "Een interdisciplinair team uit Aken",
-      "intro": "Studenten en professionals van RWTH en FH Aachen werken samen aan toegankelijkheid – van frezen tot firmware tot perswerk.",
+      "intro": "Studenten en professionals van RWTH en FH Aachen werken samen aan toegankelijkheid – van CAD via firmware tot perswerk.",
       "groups": {
         "team": {
           "title": "Ons team",
-          "body": "De mensen die momenteel aan het prototype, de app en de evenementen werken."
+          "body": "De mensen die momenteel werken aan prototypes, apps en evenementen."
         },
         "alumni": {
           "title": "Alumni",
@@ -224,7 +223,7 @@ export const nl: Dictionary = {
           "body": "Mentoren, opdrachtgevers en experts die ons steunen met ervaring, netwerken en kritiek."
         }
       },
-      "ctaTitle": "Wil jij samen met ons de wereld verbeteren?",
+      "ctaTitle": "Wil jij ons helpen barrières te slechten?",
       "ctaBody": "Er is nooit genoeg expertise in het team. Neem contact met ons op als u geïnteresseerd bent; dit kunnen we alleen samen doen."
     },
     "projects": {
@@ -274,7 +273,7 @@ export const nl: Dictionary = {
       "proposalBody": "Een volledig uitgeschreven onderwerp uit ons app-project – als sjabloon voor hoe een scriptie bij ons eruit ziet.",
       "proposalCta": "Download het voorstel (PDF)",
       "nothingTitle": "Niets voor jou hier?",
-      "nothingBody": "Kom naar onze wekelijkse bijeenkomst en vind iets. Voor iedereen is er iets te doen."
+      "nothingBody": "Kom naar onze wekelijkse bijeenkomst en vind iets. Er is voor iedereen iets te doen."
     },
     "shop": {
       "eyebrow": "Winkel",
@@ -285,14 +284,14 @@ export const nl: Dictionary = {
         "soon": "Binnenkort beschikbaar",
         "sold-out": "Uitverkocht"
       },
-      "notifyTitle": "De winkel gaat verhuizen",
-      "notifyBody": "Totdat de nieuwe winkel online is, kunt u rechtstreeks bij ons per e-mail bestellen. Wij zullen antwoorden met de beschikbaarheid en verzendkosten.",
-      "notifyCta": "Bestel per e-mail",
+      "notifyTitle": "Bestel per e-mail",
+      "notifyBody": "Momenteel kunnen bestellingen alleen rechtstreeks per e-mail worden geplaatst. Wij zullen antwoorden met een factuur.",
+      "notifyCta": "Bestel per e-mail"
     },
     "contact": {
       "eyebrow": "Contact",
       "title": "Neem contact op",
-      "intro": "Of je nu feedback hebt over de rolstoel, een projectidee of iets heel anders — we horen graag van je."
+      "intro": "Of u nu feedback heeft over de rolstoel, een projectidee of iets heel anders: wij horen graag van u."
     },
     "legal": {
       "eyebrow": "Legaal",
@@ -354,11 +353,11 @@ export const nl: Dictionary = {
     },
     "members": {
       "eyebrow": "Voor leden",
-      "title": "Donderdag, 18:15 — en je bent binnen",
+      "title": "Maandag om 17:00 uur, donderdag om 18:15 uur — en je bent binnen",
       "intro": "Solderen, ontwerpen, programmeren, schrijven, organiseren. Bij Autak vindt elke vaardigheid een project en elk project vindt iemand om het vooruit te helpen.",
-      "meetingTitle": "Kom naar de teamvergadering",
-      "meetingBody": "Elke donderdag om 18:15 ontmoeten we elkaar via video. Geen registratie, geen vereisten: kom gewoon langs.",
-      "meetingCta": "Neem deel aan het videogesprek",
+      "meetingTitle": "Kom naar een open bijeenkomst",
+      "meetingBody": "We ontmoeten elkaar in hybride vorm, persoonlijk en online: maandag om 17.00 uur en donderdag om 18.15 uur. Geen registratie, geen vereisten: kom gewoon langs.",
+      "meetingCta": "Neem deel aan de online bijeenkomst",
       "videoTitle": "Evenementen en workshops",
       "videoIntro": "Beelden van de werkplaats, van evenementen en time-lapses van de bouw.",
       "voicesTitle": "Stemmen uit het team",
@@ -379,14 +378,14 @@ export const nl: Dictionary = {
     "seeAllProjects": "Bekijk alle projecten",
     "seeAllNews": "Al het nieuws",
     "apply": "Solliciteer nu",
-    "contactNow": "Neem nu contact op",
+    "contactNow": "Neem nu contact met ons op",
     "writeUs": "Schrijf ons",
     "backHome": "Terug naar de startpagina",
     "externalShop": "Ga naar de winkel",
     "or": "of"
   },
   "footer": {
-    "tagline": "Bereikbaarheid door innovatie.",
+    "tagline": "Inclusie in innovatie.",
     "sitemap": "Pagina's",
     "audiences": "Voor jou",
     "legal": "Legaal",
@@ -396,8 +395,8 @@ export const nl: Dictionary = {
     "statutes": "Statuten",
     "contributions": "Schema van bijdragen",
     "rights": "Alle rechten voorbehouden.",
-    "newsletterTitle": "Teamvergadering",
-    "newsletterBody": "Donderdag om 18.15 uur, open voor iedereen."
+    "newsletterTitle": "Online bijeenkomst",
+    "newsletterBody": "Open hybride bijeenkomsten, fysiek en online: maandag om 17.00 uur en donderdag om 18.15 uur."
   },
   "notFound": {
     "title": "Deze pagina bestaat niet",

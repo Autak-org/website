@@ -5,7 +5,7 @@ import type { Dictionary } from "../de";
 
 export const tr: Dictionary = {
   "meta": {
-    "title": "Autak e.V. — Yenilik yoluyla katılım",
+    "title": "Autak e.V. — İnovasyona Katılım",
     "description": "Autak e.V. merdiven çıkan bir tekerlekli sandalye, erişilebilir bir yazılım ve katılım farkındalığı oluşturur."
   },
   "a11y": {
@@ -17,8 +17,8 @@ export const tr: Dictionary = {
     "footerNav": "Alt bilgide gezinme",
     "externalLink": "yeni bir sekmede açılır",
     "playVideo": "Videoyu oynat",
-    "muteVideo": "Videoyu sessize al",
-    "unmuteVideo": "Sesi aç",
+    "muteVideo": "Videonun sesini kapat",
+    "unmuteVideo": "Videonun sesini aç",
     "carousel": "Resim galerisi",
     "previousSlide": "Önceki resim",
     "nextSlide": "Sonraki resim",
@@ -32,7 +32,7 @@ export const tr: Dictionary = {
     "projects": "Projeler",
     "news": "Haberler",
     "positions": "Tez ve staj pozisyonları",
-    "positionsShort": "Pozisyonlar",
+    "positionsShort": "Tez/staj",
     "shop": "Mağaza",
     "contact": "Temas etmek",
     "donate": "Bağış yapmak",
@@ -51,27 +51,26 @@ export const tr: Dictionary = {
       "blurb": "Ürünleri satın alın ve şekillendirin"
     },
     "members": {
-      "name": "Üyeler için",
-      "blurb": "Katılın, inşa edin, ait olun"
+      "name": "Ziyaretçiler için",
+      "blurb": "Gelin, bizi tanıyın, dahil olun"
     }
   },
   "join": {
     "label": "Bize katılın",
-    "visit": "Ziyaret edin",
+    "visit": "Ziyaret etmek",
     "member": "Üye ol",
     "memberHint": "Üyelik formunu doldurun",
-    "meeting": "Ekip toplantısına katılın",
-    "meetingHint": "Perşembe 18:15, videoyla",
+    "meeting": "Çevrimiçi toplantıya katılın",
+    "meetingHint": "Pazartesi 17:00 ve Perşembe 18:15",
     "positions": "Açık pozisyonlar",
     "positionsHint": "Tezler ve stajlar",
     "donate": "Bağış yapmak",
-    "donateHint": "% 100 prototipe gidiyor"
+    "donateHint": "%100 erişilebilirliğe gidiyor"
   },
   "hero": {
-    "eyebrow": "İnovasyon yoluyla katılım",
-    "titleLead": "Merdivenler",
-    "titleAccent": "bir tartışma değil",
-    "body": "Adım atan, adımlarını yavaşlatan ve insanları tekrar göz hizasına getiren bir tekerlekli sandalye yapıyoruz.",
+    "titleLead": "Dahil olma",
+    "titleAccent": "Yenilik",
+    "body": "Günlük yaşamdaki engelleri aşan ve insanların kendi kararlarını verdikleri yaşamlar sürdürmelerine olanak tanıyan teknoloji",
     "primary": "Projeleri keşfedin",
     "secondary": "Derneği destekleyin",
     "scroll": "Okumaya devam edin",
@@ -102,7 +101,7 @@ export const tr: Dictionary = {
       "Autak, belirli ihtiyaçları olan insanlar için hayatı biraz daha kolaylaştırmak için çalışan, kar amacı gütmeyen bir dernektir. Biz çok farklı alanlardan öğrencileriz ve kimseyi geride bırakmayan hareketlilik inşa ediyoruz.",
       "Sizin yardımınızla dünya çapında 140 milyondan fazla tekerlekli sandalye kullanıcısını bilinçlendirebilir ve geliştirdiklerimizle onları destekleyebiliriz."
     ],
-    "imageAlt": "İki Autak üyesi, donanım, yazılım ve farkındalıktan oluşan üç sütunlu \"İnovasyon yoluyla katılım\" yazan bir pankartın yanında."
+    "imageAlt": "İki Autak üyesi, donanım, yazılım ve farkındalıktan oluşan üç sütunlu \"İnovasyona Katılım\" yazılı bir pankartın yanında."
   },
   "pillars": {
     "eyebrow": "Üç sütun",
@@ -112,7 +111,7 @@ export const tr: Dictionary = {
       "hardware": {
         "name": "Donanım",
         "headline": "Merdiven çıkan tekerlekli sandalye",
-        "body": "Basamak ve kaldırımları kullanan, kullanıcısını tekrar göz hizasına getiren bir tekerlekli sandalye."
+        "body": "Basamak ve kaldırım taşıyabilen, kullanıcısını tekrar göz hizasına getirebilen bir tekerlekli sandalye."
       },
       "software": {
         "name": "Yazılım",
@@ -138,7 +137,7 @@ export const tr: Dictionary = {
       "Açıkça geliştirildi, kar amacı gütmeyen bir kuruluş olarak finanse edildi"
     ],
     "cta": "Tekerlekli sandalye hakkında daha fazla bilgi",
-    "imageAlt": "Mevcut Autak prototipi: pembe logolu ve merdiven çıkmayı mümkün kılan her iki yanında birkaç küçük tekerlek bulunan siyah bir tekerlekli sandalye."
+    "imageAlt": "Mevcut Autak prototipi: pembe Autak logolu siyah bir tekerlekli sandalye ve her iki yanında merdiven çıkmayı mümkün kılan birkaç küçük tekerlek."
   },
   "gallery": {
     "eyebrow": "Bakışlar",
@@ -150,7 +149,7 @@ export const tr: Dictionary = {
     "title": "Autak “Einfach güler yüzlü” üzerine",
     "body": "MDR bilim programı prototipimizi ziyaret etti ve tekerlekli sandalyenin merdivenleri nasıl çıktığını gösterdi.",
     "watch": "Özelliği izleyin",
-    "privacyNote": "Video yalnızca tıkladıktan sonra YouTube'dan yüklenir. Bundan önce hiçbir şey aktarılmaz.",
+    "privacyNote": "YouTube videoları yalnızca tıkladıktan sonra yüklenir. Kısa atölye klipleri görünüme kaydırıldığında sessize alınır.",
     "videoTitle": "Autak tekerlekli sandalyede MDR “Einfach güler yüzlü”",
     "citations": "Daha fazla kapsam"
   },
@@ -175,13 +174,13 @@ export const tr: Dictionary = {
         "cta": "Üyelik formuna git"
       },
       "meeting": {
-        "title": "Takım toplantısı",
-        "body": "Her perşembe saat 18:15'te herkese açıktır. Sadece uğrayın.",
-        "cta": "Video görüşmesine katılın"
+        "title": "Çevrimiçi toplantı",
+        "body": "Kişisel ve çevrimiçi açık hibrit toplantılar: Pazartesi 17:00 ve Perşembe 18:15. Sadece uğrayın.",
+        "cta": "Çevrimiçi toplantıya katılın"
       },
       "donate": {
         "title": "Bağış yapmak",
-        "body": "Bağışınızın %100'ü bir sonraki prototipe gidiyor.",
+        "body": "Bağışınızın %100'ü erişilebilirliğe gider.",
         "cta": "PayPal aracılığıyla bağış yapın"
       }
     },
@@ -193,7 +192,7 @@ export const tr: Dictionary = {
     "eyebrow": "Temas etmek",
     "emailLabel": "E-posta",
     "phoneLabel": "Telefon",
-    "addressLabel": "Adres",
+    "addressLabel": "Kulüp odası: Pazartesi günü saat 17:00 ve Perşembe günü saat 18:15'te açık toplantılar",
     "directions": "Haritada görüntüle",
     "imageAlt": "Aachen Katedrali'nin önünde pembe dernek tişörtü giyen bir Autak üyesi.",
     "teamImageAlt": "Autak ekibi kulüp odasında: Fabrika duvarının önündeki kanepelerde oturan sekiz üyeden biri tekerlekli sandalye kullanıcısı.",
@@ -203,17 +202,17 @@ export const tr: Dictionary = {
     "subjectLabel": "Ders",
     "messageLabel": "Mesaj",
     "submit": "Mesaj gönder",
-    "hours": "Ekip toplantısı her perşembe saat 18:15'te"
+    "hours": "Çevrimiçi açık toplantılar (karma): Pazartesi 17:00 ve Perşembe 18:15"
   },
   "pages": {
     "about": {
       "eyebrow": "Hakkımızda",
       "title": "Aachen'den disiplinler arası bir ekip",
-      "intro": "RWTH ve FH Aachen'den öğrenciler ve profesyoneller, frezelemeden aygıt yazılımına ve baskı çalışmalarına kadar erişilebilirlik üzerinde birlikte çalışıyor.",
+      "intro": "RWTH ve FH Aachen'den öğrenciler ve profesyoneller, CAD'den ürün yazılımına ve baskı çalışmalarına kadar erişilebilirlik üzerinde birlikte çalışıyor.",
       "groups": {
         "team": {
           "title": "Ekibimiz",
-          "body": "Şu anda prototip, uygulama ve etkinlikler üzerinde çalışan kişiler."
+          "body": "Şu anda prototipler, uygulamalar ve etkinlikler üzerinde çalışan insanlar."
         },
         "alumni": {
           "title": "Mezunlar",
@@ -224,7 +223,7 @@ export const tr: Dictionary = {
           "body": "Deneyimleri, ağları ve eleştirileriyle bizi destekleyen mentorlar, patronlar ve uzmanlar."
         }
       },
-      "ctaTitle": "Dünyayı bizimle geliştirmek ister misiniz?",
+      "ctaTitle": "Engelleri aşmamıza yardım etmek ister misiniz?",
       "ctaBody": "Ekipte hiçbir zaman yeterli uzmanlık bulunmuyor. İlgileniyorsanız iletişime geçin; bunu yalnızca birlikte yapabiliriz."
     },
     "projects": {
@@ -285,14 +284,14 @@ export const tr: Dictionary = {
         "soon": "Yakında mevcut",
         "sold-out": "Hepsi satıldı"
       },
-      "notifyTitle": "Dükkan taşınıyor",
-      "notifyBody": "Yeni mağaza çevrimiçi olana kadar doğrudan bizden e-postayla sipariş verin. Kullanılabilirlik ve nakliye masrafları ile cevap vereceğiz.",
-      "notifyCta": "E-postayla sipariş verin",
+      "notifyTitle": "E-postayla sipariş verin",
+      "notifyBody": "Şu anda siparişler yalnızca doğrudan e-posta yoluyla verilebilmektedir. Faturayla cevap vereceğiz.",
+      "notifyCta": "E-postayla sipariş verin"
     },
     "contact": {
       "eyebrow": "Temas etmek",
       "title": "İletişime geçin",
-      "intro": "Tekerlekli sandalye hakkında geri bildiriminiz, bir proje fikriniz ya da tamamen farklı bir konunuz varsa sizden haber almaktan memnuniyet duyarız."
+      "intro": "İster tekerlekli sandalyeyle ilgili geri bildiriminiz, ister bir proje fikriniz, ister tamamen farklı bir şey olsun, sizden haber almak için sabırsızlanıyoruz."
     },
     "legal": {
       "eyebrow": "Yasal",
@@ -313,7 +312,7 @@ export const tr: Dictionary = {
       "title": "Autak ile çalışmaktan neler beklenebilir?",
       "intro": "Sponsorluk, işbirliği ve sözleşme geliştirme: slayt sunumları yerine prototipler üretiyoruz ve her avronun nereye gittiği konusunda açığız.",
       "pressTitle": "halka açık",
-      "pressIntro": "Bilim programlarından inovasyon planlarına kadar çalışmalarımızın kapsandığı yerler.",
+      "pressIntro": "Bilim programlarından inovasyon programlarına kadar çalışmalarımızın kapsandığı yerler.",
       "videoTitle": "Ne üzerinde çalıştığımızı görün",
       "videoIntro": "Broşür yerine: atölyeden, test sürüşlerinden ve etkinliklerden görüntüler.",
       "capabilitiesTitle": "Konum ve yetenekler",
@@ -354,11 +353,11 @@ export const tr: Dictionary = {
     },
     "members": {
       "eyebrow": "Üyeler için",
-      "title": "Perşembe, 18:15 — ve siz de buradasınız",
+      "title": "Pazartesi 17:00, Perşembe 18:15 — ve siz de buradasınız",
       "intro": "Lehimleme, tasarlama, programlama, yazma, organize etme. Autak'ta her beceri bir proje bulur ve her proje onu ileriye taşıyacak birini bulur.",
-      "meetingTitle": "Ekip toplantısına gelin",
-      "meetingBody": "Her perşembe saat 18:15'te görüntülü olarak buluşuyoruz. Kayıt yok, ön koşul yok; sadece uğrayın.",
-      "meetingCta": "Video görüşmesine katılın",
+      "meetingTitle": "Açık toplantıya gelin",
+      "meetingBody": "Hibrit bir formatta, yüz yüze ve online olarak buluşuyoruz: Pazartesi 17:00 ve Perşembe 18:15. Kayıt yok, ön koşul yok; sadece uğrayın.",
+      "meetingCta": "Çevrimiçi toplantıya katılın",
       "videoTitle": "Etkinlikler ve atölyeler",
       "videoIntro": "Atölyeden, olaylardan ve yapım aşamasında geçen sürelerden görüntüler.",
       "voicesTitle": "Ekipten sesler",
@@ -366,7 +365,7 @@ export const tr: Dictionary = {
       "projectsTitle": "İnsanları arayan projeler",
       "projectsIntro": "Her proje şu anda tam olarak hangi işin beklediğini söylüyor.",
       "positionsTitle": "Açık tezler ve stajlar",
-      "positionsIntro": "Resmi olarak denetlenir, konusu açık: Çalışmanız rafta değil prototipte biter.",
+      "positionsIntro": "Resmi olarak denetlenir, konusu açıktır: Çalışmanız rafta değil prototipte biter.",
       "ctaTitle": "Başlamaya hazır mısınız?",
       "ctaBody": "Üye olmak üyelik formundan geçer. Bırakmak hemen işe yarar."
     }
@@ -379,14 +378,14 @@ export const tr: Dictionary = {
     "seeAllProjects": "Tüm projeleri görün",
     "seeAllNews": "Tüm haberler",
     "apply": "Şimdi başvur",
-    "contactNow": "Şimdi iletişime geçin",
+    "contactNow": "Şimdi bizimle iletişime geçin",
     "writeUs": "Bize yazın",
     "backHome": "Ana sayfaya geri dön",
     "externalShop": "Mağazaya git",
     "or": "veya"
   },
   "footer": {
-    "tagline": "Yenilik yoluyla erişilebilirlik.",
+    "tagline": "Yeniliğe katılım.",
     "sitemap": "Sayfalar",
     "audiences": "Senin için",
     "legal": "Yasal",
@@ -396,8 +395,8 @@ export const tr: Dictionary = {
     "statutes": "Tüzük",
     "contributions": "Katkı takvimi",
     "rights": "Her hakkı saklıdır.",
-    "newsletterTitle": "Takım toplantısı",
-    "newsletterBody": "Perşembe günleri saat 18:15'te herkese açıktır."
+    "newsletterTitle": "Çevrimiçi toplantı",
+    "newsletterBody": "Kişisel ve çevrimiçi açık hibrit toplantılar: Pazartesi 17:00 ve Perşembe 18:15."
   },
   "notFound": {
     "title": "Bu sayfa mevcut değil",
