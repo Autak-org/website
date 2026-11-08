@@ -396,8 +396,9 @@ export const en: Dictionary = {
         "Soldering, designing, programming, writing, organising. At Autak every skill finds a project and every project finds someone to move it forward.",
       meetingTitle: "Come to an open meeting",
       meetingBody:
-        "We meet in a hybrid format, in person and online: Mondays at 17:00 and Thursdays at 18:00. No registration is required, you can just drop by and join in.",
+        "Open meetings in person and online every Monday at 17:00 and every Thursday at 18:00.\n\n No prior registration is required. Just drop by and join in!",
       meetingCta: "Join the online meeting",
+      meetingWhere: "Or drop by",
       videoTitle: "Events and workshops",
       videoIntro: "Footage from the workshop, from events and time lapses of the build.",
       voicesTitle: "Voices from the team",

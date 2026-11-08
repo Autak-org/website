@@ -387,13 +387,14 @@ export const de = {
 
     members: {
       eyebrow: "Für Mitglieder",
-      title: "Montag um 17:00 Uhr, Donnerstag um 18:00 Uhr",
+      title: "Montag um 17:00 Uhr & Donnerstag um 18:00 Uhr",
       intro:
         "Löten, konstruieren, programmieren, schreiben, organisieren. Bei Autak findet jede Fähigkeit ein Projekt und jedes Projekt jemanden, der es voranbringt.",
       meetingTitle: "Komm zum offenen Treffen",
       meetingBody:
-        "Offene Treffen hybrid vor Ort und online: Montag um 17:00 Uhr und Donnerstag um 18:00 Uhr. Es ist keine vorherige Anmeldung nötig, du kannst einfach reinschauen und mitmachen.",
+        "Offene Treffen vor Ort und online jeden Montag um 17:00 Uhr und jeden Donnerstag um 18:00 Uhr.\n\n Es ist keine vorherige Anmeldung nötig. Du kannst einfach reinschauen und mitmachen!",
       meetingCta: "Zum Onlinetreffen",
+      meetingWhere: "Oder komm vorbei",
       videoTitle: "Events und Workshops",
       videoIntro: "Aufnahmen aus Werkstatt, Events und Zeitraffer vom Aufbau.",
       voicesTitle: "Stimmen aus dem Team",

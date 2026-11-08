@@ -57,11 +57,11 @@ export const fr: Dictionary = {
   },
   "join": {
     "label": "Rejoignez-nous",
-    "visit": "Visite",
+    "visit": "Devenez membre",
     "member": "Devenez membre",
     "memberHint": "Remplissez le formulaire d'adhésion",
     "meeting": "Rejoignez la réunion en ligne",
-    "meetingHint": "Les lundis à 17h00 et jeudis à 18h15",
+    "meetingHint": "Les lundis à 17h00 et jeudis à 18h00",
     "positions": "Postes ouverts",
     "positionsHint": "Thèses et stages",
     "donate": "Faire un don",
@@ -84,7 +84,7 @@ export const fr: Dictionary = {
       "Autak est une association à but non lucratif qui œuvre pour rendre la vie un peu plus facile aux personnes ayant des besoins particuliers. Nous sommes des étudiants issus de domaines très différents et nous construisons une mobilité qui ne laisse personne de côté.",
       "Avec votre aide, nous pouvons sensibiliser plus de 140 millions d’utilisateurs de fauteuils roulants dans le monde et les soutenir avec ce que nous développons. 100 % des bénéfices sont reversés au développement."
     ],
-    "imageAlt": "Deux membres d'Autak à côté d'une bannière enroulable indiquant « Inclusion dans l'innovation » avec les trois piliers matériel, logiciel et sensibilisation."
+    "imageAlt": "Deux membres d'Autak à côté d'une bannière enroulable indiquant « Inclusion par l'innovation » avec les trois piliers matériel, logiciel et sensibilisation."
   },
   "pillars": {
     "eyebrow": "Trois piliers",
@@ -98,7 +98,7 @@ export const fr: Dictionary = {
       },
       "software": {
         "name": "Logiciel",
-        "headline": "Plateforme d'apprentissage et navigation",
+        "headline": "Application de navigation et plateforme d'apprentissage",
         "body": "Des outils numériques qui trouvent des itinéraires accessibles et mettent les connaissances à la disposition de tous."
       },
       "awareness": {
@@ -139,7 +139,7 @@ export const fr: Dictionary = {
   "projects": {
     "eyebrow": "Projets",
     "title": "Ce sur quoi nous travaillons",
-    "subtitle": "De la mécanique à l'application, chaque projet est construit par notre équipe à Aix-la-Chapelle."
+    "subtitle": "De la mécanique à l'application, chaque projet commence avec notre équipe à Aix-la-Chapelle."
   },
   "partners": {
     "eyebrow": "Partisans",
@@ -149,7 +149,7 @@ export const fr: Dictionary = {
   "involve": {
     "eyebrow": "Impliquez-vous",
     "title": "Personne ne fait tomber les barrières seul",
-    "subtitle": "Ce sont les retours de la communauté qui nous permettent de réellement lever les barrières. Venez, que vous souhaitiez souder, programmer ou organiser.",
+    "subtitle": "Ce sont les retours de la communauté qui nous permettent de réellement lever les barrières. Venez nombreux, que vous souhaitiez souder, programmer ou organiser.",
     "cards": {
       "member": {
         "title": "Devenez membre",
@@ -175,7 +175,7 @@ export const fr: Dictionary = {
     "eyebrow": "Contact",
     "emailLabel": "E-mail",
     "phoneLabel": "Téléphone",
-    "addressLabel": "Salle Club : Réunions ouvertes le lundi à 17h00 et le jeudi à 18h15",
+    "addressLabel": "Salle Club : Réunions ouvertes le lundi à 17h00 et le jeudi à 18h00",
     "directions": "Voir sur la carte",
     "imageAlt": "Un membre d'Autak portant un T-shirt rose de l'association devant la cathédrale d'Aix-la-Chapelle.",
     "teamImageAlt": "L'équipe Autak dans la salle du club : huit membres assis sur des canapés devant un mur végétal, dont un en fauteuil roulant.",
@@ -185,13 +185,13 @@ export const fr: Dictionary = {
     "subjectLabel": "Sujet",
     "messageLabel": "Message",
     "submit": "Envoyer un message",
-    "hours": "Réunions ouvertes en ligne (hybrides) : les lundis à 17h00 et les jeudis à 18h15"
+    "hours": "Réunions ouvertes en ligne et en personne : les lundis à 17h00 et les jeudis à 18h00"
   },
   "pages": {
     "about": {
       "eyebrow": "À propos de nous",
       "title": "Une équipe interdisciplinaire d’Aix-la-Chapelle",
-      "intro": "Des étudiants et des professionnels de RWTH et de FH Aix-la-Chapelle travaillent ensemble sur l'accessibilité - de la CAO au travail sur presse en passant par le micrologiciel.",
+      "intro": "Des étudiants de RWTH et de FH Aix-la-Chapelle et des professionnels qui travaillent ensemble sur l'accessibilité.",
       "groups": {
         "team": {
           "title": "Notre équipe",
@@ -199,7 +199,7 @@ export const fr: Dictionary = {
         },
         "alumni": {
           "title": "Anciens élèves",
-          "body": "Ils ont façonné Autak et ont évolué – une grande partie de ce qui les motive aujourd’hui est venue de leurs mains."
+          "body": "Ils ont façonné Autak et ont évolué, et une grande partie de ce qui la motive aujourd’hui est venue de leurs mains."
         },
         "supporters": {
           "title": "Partisans",
@@ -207,7 +207,7 @@ export const fr: Dictionary = {
         }
       },
       "ctaTitle": "Vous voulez nous aider à faire tomber les barrières ?",
-      "ctaBody": "Il n’y a jamais assez d’expertise dans l’équipe. Contactez-nous si vous êtes intéressé – nous ne pouvons le faire qu’ensemble."
+      "ctaBody": "On n'a jamais trop d'expertise ! N'hésitez pas à nous contacter si vous êtes intéressé. Nous ne pouvons faire avancer ce projet qu’ensemble."
     },
     "projects": {
       "eyebrow": "Projets",
@@ -227,7 +227,7 @@ export const fr: Dictionary = {
     "news": {
       "eyebrow": "Nouvelles",
       "title": "Que se passe-t-il chez Autak",
-      "intro": "Prototypes, événements, presse et personnes – dans l'ordre, les derniers en premier.",
+      "intro": "Prototypes, événements, presse et personnes",
       "categories": {
         "all": "Tous",
         "prototype": "Prototype",
@@ -253,7 +253,7 @@ export const fr: Dictionary = {
       "learnLabel": "Ce que vous apprendrez",
       "fieldLabel": "Champ",
       "proposalTitle": "Un exemple de sujet",
-      "proposalBody": "Un sujet entièrement rédigé de notre projet d'application — comme modèle pour à quoi ressemble une thèse avec nous.",
+      "proposalBody": "Un sujet entièrement rédigé issu de notre projet d'application : un modèle pour à quoi ressemble une thèse avec nous.",
       "proposalCta": "Téléchargez la proposition (PDF)",
       "nothingTitle": "Rien pour toi ici ?",
       "nothingBody": "Venez à notre réunion hebdomadaire et trouvez quelque chose. Il y a quelque chose à faire pour tout le monde."
@@ -293,9 +293,9 @@ export const fr: Dictionary = {
     "partners": {
       "eyebrow": "Pour les partenaires",
       "title": "À quoi s'attendre en travaillant avec Autak",
-      "intro": "Sponsoring, coopération et développement de contrats : nous construisons des prototypes plutôt que des diapositives - et nous sommes ouverts sur la destination de chaque euro.",
+      "intro": "Sponsoring, coopération et développement de contrats : nous construisons des prototypes plutôt que des diapositives et nous sommes ouverts sur la destination de chaque euro.",
       "pressTitle": "En public",
-      "pressIntro": "Où notre travail a été couvert – des programmes scientifiques aux programmes d’innovation.",
+      "pressIntro": "Où notre travail a été couvert : des programmes scientifiques aux programmes d'innovation.",
       "videoTitle": "Découvrez sur quoi nous travaillons",
       "videoIntro": "Au lieu d'une brochure : des images de l'atelier, des essais routiers et des événements.",
       "capabilitiesTitle": "Emplacement et capacités",
@@ -317,7 +317,7 @@ export const fr: Dictionary = {
         }
       ],
       "ctaTitle": "Parlons de travailler ensemble",
-      "ctaBody": "Un don en nature, une capacité de production, un financement ou un projet commun, dites-nous brièvement ce que vous avez en tête."
+      "ctaBody": "Un don en nature, une capacité de fabrication, un financement ou un projet commun ? Dites-nous brièvement ce que vous avez en tête."
     },
     "users": {
       "eyebrow": "Pour les utilisateurs",
@@ -330,17 +330,18 @@ export const fr: Dictionary = {
       "voicesTitle": "Ce que disent les utilisateurs",
       "voicesIntro": "Retours d'essais sur le terrain et en boutique.",
       "projectsTitle": "Produits et projets",
-      "projectsIntro": "Ce que vous pouvez déjà utiliser – et ce qui est en cours de construction.",
+      "projectsIntro": "Ce que vous pouvez déjà utiliser et ce qui est en cours de construction.",
       "ctaTitle": "Les commentaires sont l’ingrédient le plus important",
       "ctaBody": "Vous pensez que le fauteuil roulant devrait avoir un aspect différent ou s'adapter à votre petite voiture ? Écrivez-nous."
     },
     "members": {
       "eyebrow": "Pour les membres",
-      "title": "Lundi à 17h00, jeudi à 18h15 — et vous êtes dans",
+      "title": "Lundi à 17h00 et jeudi à 18h00",
       "intro": "Souder, concevoir, programmer, écrire, organiser. Chez Autak chaque compétence trouve un projet et chaque projet trouve quelqu'un pour le faire avancer.",
       "meetingTitle": "Venez à une réunion ouverte",
-      "meetingBody": "Nous nous réunissons sous un format hybride, en personne et en ligne : les lundis à 17h00 et les jeudis à 18h15. Pas d'inscription, pas de prérequis, il suffit de venir.",
+      "meetingBody": "Réunions ouvertes en personne et en ligne tous les lundis à 17h00 et tous les jeudis à 18h00.\n\n Aucune inscription préalable n’est requise. Passez nous voir et participez !",
       "meetingCta": "Rejoignez la réunion en ligne",
+      "meetingWhere": "Ou passez nous voir",
       "videoTitle": "Événements et ateliers",
       "videoIntro": "Images de l'atelier, des événements et des timelapses de la construction.",
       "voicesTitle": "Voix de l'équipe",
@@ -379,7 +380,7 @@ export const fr: Dictionary = {
     "contributions": "Barème des cotisations",
     "rights": "Tous droits réservés.",
     "newsletterTitle": "Réunion en ligne",
-    "newsletterBody": "Réunions hybrides ouvertes, en personne et en ligne : les lundis à 17h00 et les jeudis à 18h15."
+    "newsletterBody": "Réunions ouvertes en personne et en ligne : les lundis à 17h00 et les jeudis à 18h00"
   },
   "notFound": {
     "title": "Cette page n'existe pas",
