@@ -47,10 +47,10 @@ export const de = {
     },
     users: {
       name: "Für Nutzer:innen",
-      blurb: "Produkte kaufen und mitgestalten",
+      blurb: "Produkte ansehen, kaufen und mitgestalten",
     },
     members: {
-      name: "Für Besucher:innen",
+      name: "Für Mitwirkende",
       blurb: "Reinschnuppern, kennenlernen, mitmachen",
     },
   },

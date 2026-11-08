@@ -26,8 +26,8 @@ export default async function HomePage({
   return (
     <>
       <Hero locale={locale} dictionary={dictionary} />
-      <Stats dictionary={dictionary} />
       <Mission dictionary={dictionary} />
+      <Stats dictionary={dictionary} />
       <Pillars locale={locale} dictionary={dictionary} />
       <Flagship locale={locale} dictionary={dictionary} />
       <Gallery locale={locale} dictionary={dictionary} />

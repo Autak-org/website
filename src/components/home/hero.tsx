@@ -73,14 +73,14 @@ export function Hero({
       {/* Three doors into the site, one per audience. */}
       <nav
         aria-label={audiences.label}
-        className="relative border-t border-white/15 bg-ink-950/40 backdrop-blur-md"
+        className="relative bg-ink-950/40 backdrop-blur-md"
       >
-        <ul className="mx-auto grid w-full max-w-7xl divide-y divide-white/15 px-4 sm:grid-cols-3 sm:divide-x sm:divide-y-0 sm:px-6 lg:px-10">
+        <ul className="mx-auto grid w-full max-w-7xl px-4 sm:grid-cols-3 sm:px-6 lg:px-10">
           {entries.map((entry) => (
             <li key={entry.href} className="sm:first:-ml-6 sm:first:pl-6 lg:first:-ml-10 lg:first:pl-10">
               <Link
                 href={entry.href}
-                className="group flex min-h-14 items-center justify-between gap-4 py-4 sm:px-6 sm:py-5 sm:first:pl-0"
+                className="group flex min-h-14 items-center justify-start gap-5 py-5 sm:px-6 sm:py-5 sm:first:pl-0"
               >
                 <span>
                   <span className="block text-sm font-semibold text-white">

@@ -50,10 +50,10 @@ export const en: Dictionary = {
     },
     users: {
       name: "For users",
-      blurb: "Buy products and shape them",
+      blurb: "View and buy products and shape them",
     },
     members: {
-      name: "For visitors",
+      name: "For members",
       blurb: "Drop by, get to know us, get involved",
     },
   },
