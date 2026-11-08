@@ -301,7 +301,7 @@ export const en: Dictionary = {
       eyebrow: "Shop",
       title: "Buying here means funding development",
       intro:
-        "100 % of the profit flows back into development — for example into the next prototype of the stair-climbing wheelchair.",
+        "100% of the profits are reinvested in development, such as the next prototype of the stair-climbing wheelchair.",
       availability: {
         available: "Available",
         soon: "Available soon",
@@ -309,13 +309,13 @@ export const en: Dictionary = {
       },
       notifyTitle: "Order by email",
       notifyBody:
-        "At the moment, orders can only be placed directly by email. We will reply with an invoice.",
+        "Right now, you can place an order with us directly via email. We'll then send you the invoice and all the details.",
       notifyCta: "Order by email",
     },
 
     contact: {
       eyebrow: "Contact",
-      title: "Get in touch",
+      title: "Write to us, give us a call, or stop by!",
       intro:
         "Whether you have feedback on the wheelchair, a project idea or something completely different — we look forward to hearing from you.",
     },

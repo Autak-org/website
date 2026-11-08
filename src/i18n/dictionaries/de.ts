@@ -297,7 +297,7 @@ export const de = {
       eyebrow: "Shop",
       title: "Kaufen heißt hier mitentwickeln",
       intro:
-        "100 % des Gewinns fließen zurück in die Entwicklung: zum Beispiel in den nächsten Prototyp des treppensteigenden Rollstuhls.",
+        "100 % des Gewinns fließen zurück in die Entwicklung, wie etwa in den nächsten Prototyp des treppensteigenden Rollstuhls.",
       availability: {
         available: "Verfügbar",
         soon: "Bald verfügbar",
@@ -305,13 +305,13 @@ export const de = {
       },
       notifyTitle: "Bestellen",
       notifyBody:
-        "Man kann bei uns aktuell nur direkt per E-Mail bestellen. Wir melden uns dann mit einer Rechnung zurück.",
+        "Aktuell kannst du direkt per E-Mail bei uns bestellen. Wir schicken dir im Anschluss die Rechnung und alle Details zu.",
       notifyCta: "Per E-Mail bestellen",
     },
 
     contact: {
       eyebrow: "Kontakt",
-      title: "Schreib, ruf an oder komm vorbei!",
+      title: "Schreib uns, ruf an oder komm vorbei!",
       intro:
         "Ob Feedback zum Rollstuhl, eine Projektidee oder etwas völlig anderes. Wir freuen uns auf dich!",
     },
