@@ -14,7 +14,7 @@ import { localizeVideos, videoLabels } from "@/lib/videos";
 import { getDictionary, isLocale, locales, t } from "@/i18n";
 import { routes } from "@/lib/routes";
 import { site } from "@/lib/site";
-import { RichText } from "@/components/ui/richt-text";
+import { RichText } from "@/components/ui/rich-text";
 
 type ProjectParams = { params: Promise<{ locale: string; slug: string }> };
 
