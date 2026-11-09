@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 1
 outlet: CYBATHLON
 year: 2024
 title_de: Assistenztechnik im Wettbewerb

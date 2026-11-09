@@ -2,24 +2,24 @@
 order: 4
 pillar: software
 featured: true
-name_de: BusBuddy
-name_en: BusBuddy
-name_fr: BusBuddy
-name_nl: BusBuddy
-name_es: BusBuddy
-name_tr: BusBuddy
-tagline_de: Barrierefrei von A nach B — mit einer App, die nur zwei Farben braucht
-tagline_en: Barrier-free from A to B — with an app that only needs two colours
-tagline_fr: Un déplacement sans obstacle d'un point A à un point B — grâce à une application qui ne nécessite que deux couleurs
-tagline_nl: Van A naar B zonder obstakels — met een app die slechts twee kleuren nodig heeft.
-tagline_es: Sin barreras de A a B, con una aplicación que solo necesita dos colores.
-tagline_tr: A noktasından B noktasına engelsiz ulaşım — sadece iki renge ihtiyaç duyan bir uygulama ile.
-summary_de: Rot heißt falscher Bus, grün heißt richtiger Bus. Mehr braucht es oft nicht.
-summary_en: Red means wrong bus, green means right bus. Often that is all it takes.
-summary_fr: Rouge signifie mauvais bus, vert signifie bon bus. Souvent, cela suffit.
-summary_nl: Rood betekent verkeerde bus, groen betekent juiste bus. Vaak is dat alles wat nodig is.
-summary_es: Rojo significa autobús equivocado, verde significa autobús correcto. A menudo, eso es todo lo que se necesita.
-summary_tr: Kırmızı yanlış otobüs, yeşil doğru otobüs anlamına gelir. Çoğu zaman bu kadarı yeterlidir.
+name_de: BusBuddy App
+name_en: BusBuddy App
+name_fr: BusBuddy App
+name_nl: BusBuddy App
+name_es: BusBuddy App
+name_tr: BusBuddy App
+tagline_de: Barrierefrei von A nach B
+tagline_en: Barrier-free from A to B
+tagline_fr: Un déplacement sans obstacle d'un point A à un point B
+tagline_nl: Van A naar B zonder obstakels
+tagline_es: Sin barreras de A a B
+tagline_tr: A noktasından B noktasına engelsiz ulaşım
+summary_de: Die App, die einem zeigen kann, welcher Bus der richtige ist.
+summary_en: The app that can show you which bus to take.
+summary_fr: L'application qui vous aide à trouver le bon bus.
+summary_nl: De app die je kan laten zien welke bus je moet nemen.
+summary_es: La aplicación que te ayuda a saber qué autobús es el adecuado.
+summary_tr: Hangi otobüsün doğru olduğunu gösteren uygulama.
 status_de: In Aachen getestet
 status_en: Tested in Aachen
 status_fr: Testé sur Aachen

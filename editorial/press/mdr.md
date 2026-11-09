@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 outlet: MDR — Einfach genial
 year: 2023
 title_de: Wissenschaftsmagazin über den treppensteigenden Rollstuhl

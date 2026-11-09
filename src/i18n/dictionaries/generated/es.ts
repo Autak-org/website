@@ -93,18 +93,18 @@ export const es: Dictionary = {
     "items": {
       "hardware": {
         "name": "Hardware",
-        "headline": "Silla de ruedas para subir escaleras",
-        "body": "Una silla de ruedas que sube escalones y bordillos y devuelve al usuario al nivel de los ojos."
+        "headline": "Herramientas y equipos para la vida cotidiana",
+        "body": "Inspirándonos en los afectados, desarrollamos soluciones basadas en objetos para hacer la vida más fácil."
       },
       "software": {
         "name": "Software",
-        "headline": "Aplicación de navegación y plataforma de aprendizaje",
+        "headline": "Aplicaciones y sitios web",
         "body": "Herramientas digitales que encuentran rutas accesibles y ponen el conocimiento al alcance de todos."
       },
       "awareness": {
         "name": "Conciencia",
-        "headline": "Inclusión e igualdad de oportunidades",
-        "body": "Campañas, eventos y redes sociales que hacen visibles las barreras antes de que las eliminemos."
+        "headline": "Hablar y comprender",
+        "body": "Campañas, eventos y publicaciones en redes sociales que resaltan las barreras, incluso para aquellos que no se ven directamente afectados por ellas."
       }
     }
   },
@@ -211,7 +211,7 @@ export const es: Dictionary = {
     "projects": {
       "eyebrow": "Proyectos",
       "title": "Hardware, software y concienciación",
-      "intro": "Cada proyecto alimenta uno de los tres pilares. Juntos suman una movilidad que no deja a nadie atrás.",
+      "intro": "Estos son los tres pilares de nuestra organización. Cada uno de nuestros proyectos se enmarca en uno de estos pilares.",
       "contribution": "Puedes ayudar con",
       "status": "Estado"
     },
@@ -221,7 +221,7 @@ export const es: Dictionary = {
       "videos": "Vídeos",
       "gallery": "Galería",
       "nextProject": "Próximo proyecto",
-      "contributeTitle": "donde puedes contribuir"
+      "contributeTitle": "Puedes contribuir aquí"
     },
     "news": {
       "eyebrow": "Noticias",
@@ -292,15 +292,15 @@ export const es: Dictionary = {
     "partners": {
       "eyebrow": "Para socios",
       "title": "Qué esperar de trabajar con Autak",
-      "intro": "Patrocinio, cooperación y desarrollo de contratos: construimos prototipos en lugar de diapositivas y somos abiertos sobre adónde va cada euro.",
+      "intro": "Dependemos de patrocinios y asociaciones. A cambio, canalizamos todos los fondos y bienes directamente a nuestro trabajo para crear productos de alta calidad. Toda ayuda es bienvenida, por eso nos esforzamos en destacar quiénes son nuestros patrocinadores.",
       "pressTitle": "En público",
-      "pressIntro": "Dónde se ha cubierto nuestro trabajo: desde programas científicos hasta esquemas de innovación.",
+      "pressIntro": "Nuestro trabajo ya ha aparecido en informes que van desde transmisiones regionales hasta programas de innovación. En general, nos esforzamos por mostrar a nuestros patrocinadores al público.",
       "videoTitle": "Mira en qué trabajamos",
       "videoIntro": "En lugar de un folleto: imágenes del taller, pruebas de conducción y eventos.",
       "capabilitiesTitle": "Ubicación y capacidades",
-      "capabilitiesIntro": "Qué podemos hacer nosotros mismos en Aquisgrán y dónde necesitamos socios.",
+      "capabilitiesIntro": "Lo que traemos con nosotros en Aquisgrán.",
       "financeTitle": "donde va el dinero",
-      "financeIntro": "Somos una organización sin fines de lucro. La forma en que manejamos los fondos está escrita en nuestros estatutos y no se deja en manos de buenas intenciones.",
+      "financeIntro": "Como organización sin fines de lucro, todos los fondos deben gastarse de acuerdo con nuestros estatutos. En concreto, esto significa que incluso los fondos que no están destinados a un fin específico se utilizan para apoyar el desarrollo de nuestros equipos. Para obtener más información, lea nuestros estatutos.",
       "finance": [
         {
           "title": "100 % en desarrollo",
@@ -309,48 +309,38 @@ export const es: Dictionary = {
         {
           "title": "Dirigido por voluntarios",
           "body": "La asociación se basa en el trabajo voluntario. Las cuotas de membresía y las donaciones cubren material, talleres y eventos."
-        },
-        {
-          "title": "Recibos a pedido",
-          "body": "Emitimos un recibo de donación simplificado y nuestros estatutos y calendario de aportaciones son públicos."
         }
       ],
       "ctaTitle": "Hablemos de trabajar juntos",
-      "ctaBody": "¿Una donación en especie, capacidad de fabricación, financiación o un proyecto conjunto? Cuéntanos brevemente qué tienes en mente."
+      "ctaBody": "Donaciones en especie, capacidad de fabricación, financiación o proyecto conjunto: estamos abiertos a sus sugerencias e ideas."
     },
     "users": {
       "eyebrow": "Para usuarios",
       "title": "Construido con las personas que lo usan",
-      "intro": "Nuestros productos surgen de los comentarios de usuarios de sillas de ruedas, familiares y evaluadores. Cada pedido financia la siguiente iteración.",
-      "newsTitle": "Nuevo en Autak",
-      "newsIntro": "Los últimos pasos del desarrollo, brevemente.",
+      "intro": "Nuestros productos se desarrollan en base a los comentarios de los afectados, sus seres queridos y los sujetos de prueba. Tu opinión es importante para nosotros.",
+      "projectsTitle": "Productos y Proyectos",
+      "projectsIntro": "En qué estamos trabajando o en qué ya hemos trabajado.",
       "videoTitle": "Productos en uso",
-      "videoIntro": "Clips cortos de pruebas y uso diario.",
-      "voicesTitle": "Lo que dicen los usuarios",
-      "voicesIntro": "Comentarios de las pruebas de campo y del taller.",
-      "projectsTitle": "Productos y proyectos",
-      "projectsIntro": "Lo que ya puedes usar y lo que se está construyendo.",
+      "videoIntro": "Modelos actuales y fotos de nuestros prototipos.",
       "ctaTitle": "La retroalimentación es el ingrediente más importante",
-      "ctaBody": "¿Cree que la silla de ruedas debería verse diferente o caber en su automóvil pequeño? Escríbanos."
+      "ctaBody": "¿Tiene una gran idea sobre cómo podríamos hacerle la vida más fácil también? Escríbanos."
     },
     "members": {
       "eyebrow": "Para miembros",
       "title": "Lunes a las 17:00 y jueves a las 18:00",
-      "intro": "Soldar, diseñar, programar, escribir, organizar. En Autak cada habilidad encuentra un proyecto y cada proyecto encuentra a alguien que lo saca adelante.",
+      "intro": "Soldar, diseñar, programar, escribir y organizar son habilidades que no sólo necesitamos sino que también podemos enseñar.",
       "meetingTitle": "Ven a una reunión abierta",
       "meetingBody": "Reuniones abiertas presenciales y online todos los lunes a las 17:00 horas y todos los jueves a las 18:00 horas.\n\n No se requiere registro previo. ¡Visítanos y únete!",
       "meetingCta": "Únase a la reunión en línea",
       "meetingWhere": "O pasar por",
       "videoTitle": "Eventos y talleres",
-      "videoIntro": "Imágenes del taller, de eventos y lapsos de tiempo de la construcción.",
+      "videoIntro": "Imágenes del taller, de los eventos y del montaje.",
       "voicesTitle": "Voces del equipo",
       "voicesIntro": "Cómo los miembros comenzaron con nosotros.",
       "projectsTitle": "Proyectos buscando personas",
-      "projectsIntro": "Cada proyecto dice exactamente qué trabajo está esperando en este momento.",
-      "positionsTitle": "Tesis abiertas y prácticas",
-      "positionsIntro": "Formalmente supervisado, de tema abierto: tu trabajo termina en el prototipo, no en un estante.",
+      "projectsIntro": "Si no encuentras nada, ¿por qué no pasas por aquí y comienzas tu propio proyecto?",
       "ctaTitle": "¿Listo para empezar?",
-      "ctaBody": "Convertirse en miembro pasa por el formulario de membresía. La instalación funciona de inmediato."
+      "ctaBody": "Convertirse en miembro pasa por el formulario de membresía. Pero no dudes en pasarte antes y conocernos."
     }
   },
   "common": {

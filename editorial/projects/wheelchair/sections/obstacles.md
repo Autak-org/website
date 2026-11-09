@@ -6,13 +6,12 @@ title_fr: obstacles quotidiens
 title_nl: Dagelijkse obstakels
 title_es: Obstáculos cotidianos
 title_tr: Günlük engeller
-body_de: Die Räder passen sich jedem Untergrund an — Bordsteinkanten, Kopfsteinpflaster oder Waldboden. Die Sternräder verändern ihre Höhe und gleichen die Neigung der Fahrbahn aus.
-body_en: |-
-  The wheels adapt to any surface: kerbs, cobblestones or a forest path. The star wheels change height to compensate for the camber of the road.
-body_fr: Les roues s'adaptent à toutes les surfaces : bordures, pavés ou chemins forestiers. La hauteur des roues en étoile varie pour compenser le dévers de la route.
-body_nl: De wielen passen zich aan elke ondergrond aan: stoepranden, kasseien of een bospad. De sterwielen veranderen van hoogte om de helling van de weg te compenseren.
-body_es: Las ruedas se adaptan a cualquier superficie: bordillos, adoquines o senderos forestales. Las ruedas de estrella cambian de altura para compensar la inclinación del terreno.
-body_tr: Tekerlekler her türlü yüzeye uyum sağlar: kaldırım kenarları, parke taşları veya orman yolları. Yıldız şeklindeki tekerlekler, yolun eğimini dengelemek için yükseklik değiştirir.
+body_de: Ob Treppen oder Kanten, Hindernisse sind individuell unterschiedlich. Deshalb versuchen wir einen Rollstuhl zu entwickeln, der so viele Baustellen wie nur möglich anpackt. Denn es sind nicht die genormten Treppen, die das Problem darstellen.
+body_en: Whether it's stairs or curbs, obstacles vary from person to person. That's why we're trying to develop a wheelchair that can tackle as many challenges as possible. After all, it's not the standardized stairs that pose the problem.
+body_fr: Qu'il s'agisse d'escaliers ou de rebords, les obstacles varient d'une personne à l'autre. C'est pourquoi nous nous efforçons de mettre au point un fauteuil roulant capable de surmonter le plus grand nombre possible de difficultés. Car ce ne sont pas les escaliers standardisés qui posent problème.
+body_nl: Of het nu gaat om trappen of drempels: obstakels verschillen van persoon tot persoon. Daarom proberen we een rolstoel te ontwikkelen die zoveel mogelijk situaties aankan. Het zijn namelijk niet de gestandaardiseerde trappen die het probleem vormen.
+body_es: Ya sean escaleras o bordes, los obstáculos varían de una persona a otra. Por eso intentamos desarrollar una silla de ruedas que se adapte al mayor número posible de situaciones. Porque el problema no son las escaleras que cumplen con las normas.
+body_tr: İster merdivenler ister kenarlar olsun, engeller kişiden kişiye farklılık gösterir. Bu nedenle, mümkün olduğunca çok sayıda zorlu durumu aşabilecek bir tekerlekli sandalye geliştirmeye çalışıyoruz. Çünkü asıl sorun, standart merdivenler değildir.
 image: /images/media/wheelchair-stairs.jpg
 image_alt_de: Der Rollstuhl im Außeneinsatz auf unebenem Untergrund.
 image_alt_en: The wheelchair outdoors on uneven ground.

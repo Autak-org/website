@@ -99,18 +99,18 @@ export const de = {
     items: {
       hardware: {
         name: "Hardware",
-        headline: "Treppensteigender Rollstuhl",
-        body: "Ein Rollstuhl, der Stufen und Bordsteinkanten überwindet und seine Nutzerin auf Augenhöhe bringt.",
+        headline: "Werkzeuge und Geräte für den Alltag",
+        body: "Durch Betroffene inspiriert entwickeln wir gegenstandsbasierte Lösungen, um das Leben einfacher zu machen.",
       },
       software: {
         name: "Software",
-        headline: "Navigationsapp & Lernplattform",
+        headline: "Apps und Websites",
         body: "Digitale Werkzeuge, die barrierefreie Wege finden und Wissen für alle zugänglich machen.",
       },
       awareness: {
         name: "Awareness",
-        headline: "Inklusion & Chancengleichheit",
-        body: "Aktionen, Events und Social Media, die Barrieren sichtbar machen, bevor wir sie abbauen.",
+        headline: "Reden und Verstehen",
+        body: "Aktionen, Events und Social-Media-Posts, die Barrieren sichtbar machen auch für die, die sie nicht betreffen.",
       },
     },
   },
@@ -238,7 +238,7 @@ export const de = {
       eyebrow: "Projekte",
       title: "Hardware, Software und Awareness",
       intro:
-        "Jedes Projekt zahlt auf eine der drei Säulen ein. Zusammen ergeben sie eine Mobilität, die niemanden zurücklässt.",
+        "Das sind die drei Säulen unseres Vereins. Jedes unserer Projekte lässt sich einer dieser Säulen zuordnen.",
       contribution: "Mitarbeit möglich bei",
       status: "Stand",
     },
@@ -335,19 +335,21 @@ export const de = {
       eyebrow: "Für Partner:innen",
       title: "Was Sie von einer Zusammenarbeit mit Autak erwarten können",
       intro:
-        "Sponsoring, Kooperationen und Auftragsentwicklung: Wir bauen Prototypen statt Präsentationen und legen offen, wohin jeder Euro fließt.",
+        "Wir sind auf Sponsoring und Kooperationen angewiesen. Im gegenzug lassen wir die Gelder und Güter vollständig in unsere Arbeit fließen, um präsentierbare Produkte hervorzubringen. Jede helfende Hand kommt uns gelegen, weshalb wir uns auch mühe geben zu zeigen wer unsere Sponsoren sind.",
       pressTitle: "In der Öffentlichkeit",
       pressIntro:
-        "Berichte über unsere Initiative: von Wissenschaftsmagazinen bis zu Innovationsprogrammen.",
+        "Über unsere Arbeit wurde bereits berichtet in Beiträgen von Regionalsendern bis hin zu Innovationsprogrammen. Generell sind wir bemüht uns für unsere Sponsoren der Öffentlichkeit zu präsentieren.",
       videoTitle: "Sehen, woran wir arbeiten",
       videoIntro:
         "Statt einer Broschüre: Aufnahmen aus Werkstatt, Testfahrten und Events.",
       capabilitiesTitle: "Standort und Fähigkeiten",
       capabilitiesIntro:
-        "Was wir in Aachen selbst können und wo wir Partner brauchen.",
+
+        "Was wir in Aachen selbst mitbringen.",
+
       financeTitle: "Wohin das Geld fließt",
       financeIntro:
-        "Wir sind gemeinnützig. Der Umgang mit Mitteln ist Teil unserer Satzung, nicht eine Frage des guten Willens.",
+        "Als gemeinnütziger Verein, müssen alle Gelder satzungsgemäß ausgegeben werden. Im Konkreten bedeutet das: selbst Gelder, die nicht zweckgebunden sind, werden für die Entwicklung in den Teams ausgegeben. Für mehr Informationen lesen sie bitte unsere Satzung.",
       finance: [
         {
           title: "100 % in die Entwicklung",
@@ -357,57 +359,47 @@ export const de = {
           title: "Ehrenamtlich getragen",
           body: "Der Verein arbeitet ehrenamtlich. Mitgliedsbeiträge und Spenden decken Material, Werkstatt und Events.",
         },
-        {
-          title: "Nachweis auf Anfrage",
-          body: "Für Zuwendungen stellen wir einen vereinfachten Zuwendungsnachweis aus; Satzung und Beitragsordnung sind öffentlich.",
-        },
       ],
       ctaTitle: "Lassen Sie uns über eine Zusammenarbeit sprechen",
       ctaBody:
-        "Sachspende, Fertigungskapazität, Förderung oder ein gemeinsames Projekt? Schreiben Sie uns gerne, was Sie sich vorstellen.",
+        "Sachspende, Fertigungskapazität, Förderung oder ein gemeinsames Projekt: Wir sind offen für Ihre Vorschläge und Ideen.",
+
     },
 
     users: {
       eyebrow: "Für Nutzer:innen",
       title: "Entwickelt mit den Menschen, die es benutzen",
       intro:
-        "Unsere Produkte entstehen aus Rückmeldungen von Rollstuhlfahrenden, Angehörigen und Testpersonen. Jede Bestellung finanziert die nächste Iteration.",
-      newsTitle: "Neu bei Autak",
-      newsIntro: "Die letzten Schritte in der Entwicklung, kurz zusammengefasst.",
-      videoTitle: "Produkte im Einsatz",
-      videoIntro: "Kurze Aufnahmen aus Tests und dem Alltag.",
-      voicesTitle: "Stimmen von Nutzer:innen",
-      voicesIntro: "Rückmeldungen aus Feldtests und aus dem Shop.",
+        "Unsere Produkte entstehen aus Rückmeldungen von Betroffenen, Angehörigen und Testpersonen. Eure Meinung ist uns wichtig.",
       projectsTitle: "Produkte und Projekte",
-      projectsIntro: "Was heute schon nutzbar ist und was gerade entsteht.",
+      projectsIntro: "Woran wir arbeiten oder schon gearbeitet haben.",
+      videoTitle: "Produkte im Einsatz",
+      videoIntro: "Aktuelle Modelle und Fotos rund um unsere Prototypen.",
       ctaTitle: "Feedback ist die wichtigste Zutat",
       ctaBody:
-        "Der Rollstuhl sollte anders aussehen oder in Ihren Kleinwagen passen? Schreiben Sie uns.",
+        "Sie haben eine großartige Idee wie wir auch ihnen das Leben erleichtern könnten? Schreiben Sie uns.",
     },
 
     members: {
       eyebrow: "Für Mitglieder",
       title: "Montag um 17:00 Uhr & Donnerstag um 18:00 Uhr",
       intro:
-        "Löten, konstruieren, programmieren, schreiben, organisieren. Bei Autak findet jede Fähigkeit ein Projekt und jedes Projekt jemanden, der es voranbringt.",
+        "Löten, Konstruieren, Programmieren, Schreiben, Organisieren sind alles Fähigkeit, die wir sowohl brauchen, aber auch vermitteln können.",
       meetingTitle: "Komm zum offenen Treffen",
       meetingBody:
         "Offene Treffen vor Ort und online jeden Montag um 17:00 Uhr und jeden Donnerstag um 18:00 Uhr.\n\n Es ist keine vorherige Anmeldung nötig. Du kannst einfach reinschauen und mitmachen!",
       meetingCta: "Zum Onlinetreffen",
       meetingWhere: "Oder komm vorbei",
       videoTitle: "Events und Workshops",
-      videoIntro: "Aufnahmen aus Werkstatt, Events und Zeitraffer vom Aufbau.",
+      videoIntro: "Aufnahmen aus Werkstatt, Events und vom Aufbau.",
       voicesTitle: "Stimmen aus dem Team",
       voicesIntro: "Wie Mitglieder bei uns angefangen haben.",
       projectsTitle: "Projekte, die Verstärkung suchen",
       projectsIntro:
-        "Zu jedem Projekt steht, welche Arbeit gerade konkret ansteht.",
-      positionsTitle: "Offene Abschlussarbeiten und Praktika",
-      positionsIntro:
-        "Formal betreut, thematisch offen: Deine Arbeit landet im Prototyp, nicht im Regal.",
+        "Wenn du nichts findest, komm doch vorbei und starte dein eigenes Projekt.",
       ctaTitle: "Bereit einzusteigen?",
       ctaBody:
-        "Mitglied werden geht über das Aufnahmeformular. Reinschauen geht sofort.",
+        "Mitglied werden geht über das Aufnahmeformular. Schau aber auch gerne vorher vorbei und lern uns kennen.",
     },
   },
 

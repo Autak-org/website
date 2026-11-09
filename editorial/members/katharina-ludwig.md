@@ -1,10 +1,10 @@
 ---
 group: team
-order: 15
+order: 14
 name: Katharina Ludwig
 photo: /images/people/bild_folgt.jpeg
 tags: #Informatik, #Kreativ
-bio_de: Als Informatikstudentin entwickle ich die Webseite und die BusBuddy-App mit und trage so zu einfacherer Mobilität für alle bei.
+bio_de: Als Informatikstudent entwickle ich die Webseite und die BusBuddy-App mit und trage so zu einfacherer Mobilität für alle bei.
 bio_en: As a computer science student, I help develop the website and the BusBuddy app, thereby contributing to easier mobility for everyone.
 bio_fr: En tant qu'étudiant en informatique, je participe au développement du site web et de l'application BusBuddy, contribuant ainsi à faciliter la mobilité pour tous.
 bio_nl: Als student informatica werk ik mee aan de ontwikkeling van de website en de BusBuddy-app, en draag ik zo bij aan eenvoudigere mobiliteit voor iedereen.

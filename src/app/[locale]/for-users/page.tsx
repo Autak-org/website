@@ -59,53 +59,7 @@ export default async function UsersPage({ params }: LocaleParams) {
 
       <Section>
         <SectionHeader
-          eyebrow="01 / 04"
-          title={copy.newsTitle}
-          intro={copy.newsIntro}
-          actions={
-            <ButtonLink href={routes.news(locale)} variant="ghost" arrow>
-              {common.seeAllNews}
-            </ButtonLink>
-          }
-        />
-
-        <ul className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {latest.map((item, index) => (
-            <Reveal as="li" key={item.slug} delay={(index % 3) * 90}>
-              <NewsCard item={item} locale={locale} dictionary={dictionary} />
-            </Reveal>
-          ))}
-        </ul>
-      </Section>
-
-      <Section tone="muted" divide>
-        <SectionHeader
-          eyebrow="02 / 04"
-          title={copy.videoTitle}
-          intro={copy.videoIntro}
-        />
-        <div className="mt-12">
-          <VideoGallery
-            videos={localizeVideos(usageVideos, locale)}
-            labels={videoLabels(a11y)}
-          />
-        </div>
-      </Section>
-
-      <Section divide>
-        <SectionHeader
-          eyebrow="03 / 04"
-          title={copy.voicesTitle}
-          intro={copy.voicesIntro}
-        />
-        <div className="mt-12">
-          <VoiceGrid voices={userVoices} locale={locale} />
-        </div>
-      </Section>
-
-      <Section tone="muted" divide>
-        <SectionHeader
-          eyebrow="04 / 04"
+          eyebrow="01 / 02"
           title={copy.projectsTitle}
           intro={copy.projectsIntro}
           actions={
@@ -122,6 +76,20 @@ export default async function UsersPage({ params }: LocaleParams) {
             </Reveal>
           ))}
         </ul>
+      </Section>
+
+      <Section tone="muted" divide>
+        <SectionHeader
+          eyebrow="02 / 02"
+          title={copy.videoTitle}
+          intro={copy.videoIntro}
+        />
+        <div className="mt-12">
+          <VideoGallery
+            videos={localizeVideos(usageVideos, locale)}
+            labels={videoLabels(a11y)}
+          />
+        </div>
       </Section>
 
       <Section divide>
