@@ -93,18 +93,18 @@ export const tr: Dictionary = {
     "items": {
       "hardware": {
         "name": "Donanım",
-        "headline": "Merdiven çıkan tekerlekli sandalye",
-        "body": "Basamak ve kaldırım taşıyabilen, kullanıcısını tekrar göz hizasına getirebilen bir tekerlekli sandalye."
+        "headline": "Günlük Yaşam İçin Araçlar ve Ekipmanlar",
+        "body": "Etkilenenlerden ilham alarak hayatı kolaylaştıracak nesne tabanlı çözümler geliştiriyoruz."
       },
       "software": {
         "name": "Yazılım",
-        "headline": "Navigasyon uygulaması ve öğrenme platformu",
+        "headline": "Uygulamalar ve Web Siteleri",
         "body": "Erişilebilir rotalar bulan ve bilgiyi herkesin kullanımına sunan dijital araçlar."
       },
       "awareness": {
         "name": "Farkındalık",
-        "headline": "Katılım ve fırsat eşitliği",
-        "body": "Engelleri kaldırmadan önce görünür kılan kampanyalar, etkinlikler ve sosyal medya."
+        "headline": "Konuşmak ve Anlamak",
+        "body": "Engelleri vurgulayan kampanyalar, etkinlikler ve sosyal medya gönderileri - bunlardan doğrudan etkilenmeyenler için bile."
       }
     }
   },
@@ -157,7 +157,7 @@ export const tr: Dictionary = {
       },
       "meeting": {
         "title": "Çevrimiçi toplantı",
-        "body": "Açık hibrit toplantılar, şahsen ve çevrimiçi olarak: Pazartesi 17:00 ve Perşembe 18:15. Sadece uğrayın.",
+        "body": "Kişisel ve çevrimiçi açık hibrit toplantılar: Pazartesi 17:00 ve Perşembe 18:15. Sadece uğrayın.",
         "cta": "Çevrimiçi toplantıya katılın"
       },
       "donate": {
@@ -211,7 +211,7 @@ export const tr: Dictionary = {
     "projects": {
       "eyebrow": "Projeler",
       "title": "Donanım, yazılım ve farkındalık",
-      "intro": "Her proje üç sütundan birini besler. Birlikte kimseyi geride bırakmayan hareketliliğe katkıda bulunurlar.",
+      "intro": "Bunlar organizasyonumuzun üç temel direğidir. Projelerimizin her biri bu sütunlardan birinin kapsamına giriyor.",
       "contribution": "yardımcı olabilirsiniz",
       "status": "Durum"
     },
@@ -221,7 +221,7 @@ export const tr: Dictionary = {
       "videos": "Videolar",
       "gallery": "Galeri",
       "nextProject": "Sonraki proje",
-      "contributeTitle": "Nerede katkıda bulunabilirsiniz?"
+      "contributeTitle": "Buradan katkıda bulunabilirsiniz"
     },
     "news": {
       "eyebrow": "Haberler",
@@ -292,15 +292,15 @@ export const tr: Dictionary = {
     "partners": {
       "eyebrow": "Ortaklar için",
       "title": "Autak ile çalışmaktan neler beklenebilir?",
-      "intro": "Sponsorluk, işbirliği ve sözleşme geliştirme: slayt sunumları yerine prototipler üretiyoruz ve her avronun nereye gittiği konusunda açığız.",
+      "intro": "Sponsorluklara ve ortaklıklara güveniyoruz. Karşılığında, tüm fonları ve malları doğrudan yüksek kaliteli ürünler yaratmak için çalışmalarımıza aktarıyoruz. Her yardım eli memnuniyetle karşılanır, bu nedenle sponsorlarımızın kim olduğunu vurgulamaya özen gösteriyoruz.",
       "pressTitle": "halka açık",
-      "pressIntro": "Çalışmamızın kapsadığı yerler: bilim programlarından inovasyon planlarına.",
+      "pressIntro": "Çalışmalarımız halihazırda bölgesel yayınlardan inovasyon programlarına kadar çeşitli raporlarda yer alıyor. Genel olarak sponsorlarımızı kamuoyuna tanıtmaya çalışıyoruz.",
       "videoTitle": "Ne üzerinde çalıştığımızı görün",
       "videoIntro": "Broşür yerine: atölyeden, test sürüşlerinden ve etkinliklerden görüntüler.",
       "capabilitiesTitle": "Konum ve yetenekler",
-      "capabilitiesIntro": "Aachen'de kendimiz neler yapabiliriz ve ortaklara ihtiyacımız var.",
+      "capabilitiesIntro": "Aachen'de yanımızda getireceklerimiz.",
       "financeTitle": "Para nereye gidiyor",
-      "financeIntro": "Biz kar amacı gütmeyen bir kuruluşuz. Fonları nasıl kullanacağımız tüzüğümüzde yazılıdır, iyi niyetlere bırakılmamıştır.",
+      "financeIntro": "Kâr amacı gütmeyen bir kuruluş olarak tüm fonların tüzüğümüze uygun şekilde harcanması gerekir. Spesifik olarak bu, belirli bir amaç için ayrılmamış fonların bile ekiplerimizin gelişimini desteklemek için kullanıldığı anlamına gelir. Daha fazla bilgi için lütfen tüzüğümüzü okuyun.",
       "finance": [
         {
           "title": "%100 gelişime açık",
@@ -309,48 +309,38 @@ export const tr: Dictionary = {
         {
           "title": "Gönüllüler tarafından yönetiliyor",
           "body": "Dernek gönüllü çalışma esasına göre çalışmaktadır. Üyelik ücretleri ve bağışlar materyalleri, atölye çalışmalarını ve etkinlikleri kapsar."
-        },
-        {
-          "title": "Talep üzerine makbuzlar",
-          "body": "Basitleştirilmiş bir bağış makbuzu düzenliyoruz ve tüzüğümüz ve katkı programlarımız kamuya açık."
         }
       ],
       "ctaTitle": "Birlikte çalışmayı konuşalım",
-      "ctaBody": "Ayni bir bağış mı, üretim kapasitesi mi, finansman mı yoksa ortak bir proje mi? Aklınızdan geçenleri bize kısaca anlatın."
+      "ctaBody": "Ayni bağış, üretim kapasitesi, finansman veya ortak proje: öneri ve fikirlerinize açığız."
     },
     "users": {
       "eyebrow": "Kullanıcılar için",
       "title": "Onu kullanan insanlarla inşa edildi",
-      "intro": "Ürünlerimiz tekerlekli sandalye kullanıcıları, akrabalar ve test uzmanlarından gelen geri bildirimlerden kaynaklanmaktadır. Her sipariş bir sonraki yinelemeyi finanse eder.",
-      "newsTitle": "Autak'ta yeni",
-      "newsIntro": "Kısaca geliştirmedeki son adımlar.",
+      "intro": "Ürünlerimiz etkilenen kişilerden, sevdiklerinden ve test deneklerinden alınan geri bildirimlere göre geliştirilmektedir. Fikriniz bizim için önemlidir.",
+      "projectsTitle": "Ürünler ve Projeler",
+      "projectsIntro": "Üzerinde çalıştığımız veya halihazırda üzerinde çalıştığımız şey.",
       "videoTitle": "Kullanılan ürünler",
-      "videoIntro": "Testlerden ve günlük kullanımdan kısa klipler.",
-      "voicesTitle": "Kullanıcılar ne diyor?",
-      "voicesIntro": "Saha testlerinden ve mağazadan geri bildirim.",
-      "projectsTitle": "Ürünler ve projeler",
-      "projectsIntro": "Zaten kullanabileceğiniz ve inşa edilenler.",
+      "videoIntro": "Güncel modeller ve prototiplerimizin fotoğrafları.",
       "ctaTitle": "Geri bildirim en önemli bileşendir",
-      "ctaBody": "Tekerlekli sandalyenin farklı görünmesi veya küçük arabanıza sığması gerektiğini mi düşünüyorsunuz? Bize yazın."
+      "ctaBody": "Sizin de hayatınızı nasıl kolaylaştırabileceğimize dair harika bir fikriniz var mı? Bize yazın."
     },
     "members": {
       "eyebrow": "Üyeler için",
       "title": "Pazartesi 17:00 ve Perşembe 18:00",
-      "intro": "Lehimleme, tasarlama, programlama, yazma, organize etme. Autak'ta her beceri bir proje bulur ve her proje onu ileriye taşıyacak birini bulur.",
+      "intro": "Lehimleme, tasarlama, programlama, yazma ve organize etme, yalnızca ihtiyacımız olan değil aynı zamanda öğretebileceğimiz becerilerdir.",
       "meetingTitle": "Açık toplantıya gelin",
       "meetingBody": "Her Pazartesi saat 17:00 ve Perşembe saat 18:00'de yüz yüze ve çevrimiçi olarak açık toplantılar.\n\n Önceden kayıt yapılmasına gerek yoktur. Sadece uğrayın ve katılın!",
       "meetingCta": "Çevrimiçi toplantıya katılın",
       "meetingWhere": "Veya uğrayın",
       "videoTitle": "Etkinlikler ve atölyeler",
-      "videoIntro": "Atölyeden, olaylardan ve yapım aşamasında geçen sürelerden görüntüler.",
+      "videoIntro": "Atölyeden, etkinliklerden ve kurulumdan görüntüler.",
       "voicesTitle": "Ekipten sesler",
       "voicesIntro": "Üyeler bizimle nasıl başladı?",
       "projectsTitle": "İnsanları arayan projeler",
-      "projectsIntro": "Her proje şu anda tam olarak hangi işin beklediğini söylüyor.",
-      "positionsTitle": "Açık tezler ve stajlar",
-      "positionsIntro": "Resmi olarak denetlenir, konusu açıktır: Çalışmanız rafta değil prototipte biter.",
+      "projectsIntro": "Hiçbir şey bulamazsanız neden uğrayıp kendi projenizi başlatmıyorsunuz?",
       "ctaTitle": "Başlamaya hazır mısınız?",
-      "ctaBody": "Üye olmak üyelik formundan geçer. Bırakmak hemen işe yarar."
+      "ctaBody": "Üye olmak üyelik formundan geçer. Ancak önceden uğrayıp bizi tanımaktan çekinmeyin."
     }
   },
   "common": {

@@ -93,18 +93,18 @@ export const nl: Dictionary = {
     "items": {
       "hardware": {
         "name": "Hardware",
-        "headline": "Traplopen rolstoel",
-        "body": "Een rolstoel die treden en stoepranden neemt en de gebruiker weer op ooghoogte brengt."
+        "headline": "Gereedschappen en uitrusting voor het dagelijks leven",
+        "body": "Geïnspireerd door de getroffenen ontwikkelen wij objectgebaseerde oplossingen om het leven gemakkelijker te maken."
       },
       "software": {
         "name": "Software",
-        "headline": "Navigatie-app en leerplatform",
+        "headline": "Apps en websites",
         "body": "Digitale tools die toegankelijke routes vinden en kennis voor iedereen beschikbaar maken."
       },
       "awareness": {
         "name": "Bewustzijn",
-        "headline": "Inclusie en gelijke kansen",
-        "body": "Campagnes, evenementen en sociale media die barrières zichtbaar maken voordat we ze wegnemen."
+        "headline": "Spreken en begrijpen",
+        "body": "Campagnes, evenementen en posts op sociale media die barrières onder de aandacht brengen, zelfs voor degenen die er niet direct door worden getroffen."
       }
     }
   },
@@ -211,7 +211,7 @@ export const nl: Dictionary = {
     "projects": {
       "eyebrow": "Projecten",
       "title": "Hardware, software en bewustzijn",
-      "intro": "Ieder project voedt één van de drie pijlers. Samen zorgen ze voor een mobiliteit waarbij niemand achterblijft.",
+      "intro": "Dit zijn de drie pijlers van onze organisatie. Elk van onze projecten valt onder één van deze pijlers.",
       "contribution": "Jij kunt meehelpen",
       "status": "Status"
     },
@@ -221,7 +221,7 @@ export const nl: Dictionary = {
       "videos": "Video's",
       "gallery": "Galerij",
       "nextProject": "Volgende project",
-      "contributeTitle": "Waar jij een bijdrage kunt leveren"
+      "contributeTitle": "Je kunt hier een bijdrage leveren"
     },
     "news": {
       "eyebrow": "Nieuws",
@@ -292,15 +292,15 @@ export const nl: Dictionary = {
     "partners": {
       "eyebrow": "Voor partners",
       "title": "Wat je kunt verwachten als je met Autak werkt",
-      "intro": "Sponsoring, samenwerking en contractontwikkeling: we bouwen prototypes in plaats van slidedecks en zijn open over waar elke euro naartoe gaat.",
+      "intro": "Wij zijn afhankelijk van sponsoring en samenwerkingsverbanden. In ruil daarvoor kunnen we alle fondsen en goederen rechtstreeks in ons werk steken om producten van hoge kwaliteit te creëren. Iedere helpende hand is welkom en daarom maken wij er een punt van om in de kijker te zetten wie onze sponsors zijn.",
       "pressTitle": "In het openbaar",
-      "pressIntro": "Waar ons werk aan bod kwam: van wetenschapsprogramma's tot innovatieprogramma's.",
+      "pressIntro": "Ons werk is al te zien geweest in reportages variërend van regionale uitzendingen tot innovatieprogramma’s. Over het algemeen streven we ernaar om onze sponsors aan het publiek onder de aandacht te brengen.",
       "videoTitle": "Bekijk waar wij aan werken",
       "videoIntro": "In plaats van een brochure: beelden van de werkplaats, proefritten en evenementen.",
       "capabilitiesTitle": "Locatie en mogelijkheden",
-      "capabilitiesIntro": "Wat we zelf kunnen doen in Aken en waar we partners nodig hebben.",
+      "capabilitiesIntro": "Wat we meenemen in Aken.",
       "financeTitle": "Waar het geld naartoe gaat",
-      "financeIntro": "Wij zijn een non-profitorganisatie. Hoe we met geld omgaan, staat in onze statuten en wordt niet aan goede bedoelingen overgelaten.",
+      "financeIntro": "Als non-profitorganisatie moeten alle fondsen worden besteed in overeenstemming met onze statuten. Concreet betekent dit dat ook gelden die niet voor een specifiek doel bestemd zijn, worden ingezet ter ondersteuning van de ontwikkeling van onze teams. Voor meer informatie kunt u onze statuten lezen.",
       "finance": [
         {
           "title": "100% in ontwikkeling",
@@ -309,48 +309,38 @@ export const nl: Dictionary = {
         {
           "title": "Gerund door vrijwilligers",
           "body": "De vereniging draait op vrijwilligerswerk. Lidmaatschapsgelden en donaties dekken materiaal, workshops en evenementen."
-        },
-        {
-          "title": "Ontvangsten op aanvraag",
-          "body": "We geven een vereenvoudigd donatiebewijs uit en onze statuten en het schema van bijdragen zijn openbaar."
         }
       ],
       "ctaTitle": "Laten we het hebben over samenwerken",
-      "ctaBody": "Een schenking in natura, productiecapaciteit, financiering of een gezamenlijk project? Vertel ons kort wat u in gedachten heeft."
+      "ctaBody": "Schenkingen in natura, productiecapaciteit, financiering of een gezamenlijk project: wij staan ​​open voor uw suggesties en ideeën."
     },
     "users": {
       "eyebrow": "Voor gebruikers",
       "title": "Gebouwd met de mensen die het gebruiken",
-      "intro": "Onze producten komen voort uit feedback van rolstoelgebruikers, familieleden en testers. Elke bestelling financiert de volgende iteratie.",
-      "newsTitle": "Nieuw bij Autak",
-      "newsIntro": "De laatste stappen in de ontwikkeling in het kort.",
-      "videoTitle": "Producten in gebruik",
-      "videoIntro": "Korte clips van tests en dagelijks gebruik.",
-      "voicesTitle": "Wat gebruikers zeggen",
-      "voicesIntro": "Feedback uit veldtesten en uit de winkel.",
+      "intro": "Onze producten zijn ontwikkeld op basis van feedback van getroffenen, hun dierbaren en proefpersonen. Uw mening is belangrijk voor ons.",
       "projectsTitle": "Producten en projecten",
-      "projectsIntro": "Wat je al kunt gebruiken en wat er gebouwd wordt.",
+      "projectsIntro": "Waar we mee bezig zijn of al aan hebben gewerkt.",
+      "videoTitle": "Producten in gebruik",
+      "videoIntro": "Huidige modellen en foto's van onze prototypes.",
       "ctaTitle": "Feedback is het belangrijkste ingrediënt",
-      "ctaBody": "Vindt u dat de rolstoel er anders uit moet zien, of in uw kleine auto moet passen? Schrijf ons."
+      "ctaBody": "Heeft u ook een goed idee hoe wij uw leven gemakkelijker kunnen maken? Schrijf ons."
     },
     "members": {
       "eyebrow": "Voor leden",
       "title": "Maandag om 17.00 uur en donderdag om 18.00 uur",
-      "intro": "Solderen, ontwerpen, programmeren, schrijven, organiseren. Bij Autak vindt elke vaardigheid een project en elk project vindt iemand om het vooruit te helpen.",
+      "intro": "Solderen, ontwerpen, programmeren, schrijven en organiseren zijn allemaal vaardigheden die we niet alleen nodig hebben, maar die we ook kunnen leren.",
       "meetingTitle": "Kom naar een open bijeenkomst",
       "meetingBody": "Open bijeenkomsten persoonlijk en online elke maandag om 17.00 uur en elke donderdag om 18.00 uur.\n\n Er is geen voorafgaande registratie vereist. Kom gewoon langs en doe mee!",
       "meetingCta": "Neem deel aan de online bijeenkomst",
       "meetingWhere": "Of kom langs",
       "videoTitle": "Evenementen en workshops",
-      "videoIntro": "Beelden van de werkplaats, van evenementen en time-lapses van de bouw.",
+      "videoIntro": "Beeldmateriaal van de workshop, van evenementen en opstelling.",
       "voicesTitle": "Stemmen uit het team",
       "voicesIntro": "Hoe leden bij ons zijn begonnen.",
       "projectsTitle": "Projecten op zoek naar mensen",
-      "projectsIntro": "Bij elk project staat precies welk werk er op dit moment te wachten staat.",
-      "positionsTitle": "Open scripties en stages",
-      "positionsIntro": "Formeel begeleid, open in onderwerp: jouw werk komt terecht in het prototype, niet op de plank.",
+      "projectsIntro": "Als u niets kunt vinden, waarom komt u dan niet langs en start u uw eigen project?",
       "ctaTitle": "Klaar om te beginnen?",
-      "ctaBody": "Lid worden gaat via het lidmaatschapsformulier. Inbrengen werkt meteen."
+      "ctaBody": "Lid worden gaat via het lidmaatschapsformulier. Maar kom gerust vooraf even langs om kennis met ons te maken."
     }
   },
   "common": {
