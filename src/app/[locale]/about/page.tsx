@@ -72,15 +72,12 @@ export default async function AboutPage({ params }: LocaleParams) {
             {pages.about.ctaTitle}
           </h2>
           <Rule className="mx-auto mt-6 max-w-24" />
-          <p className="mx-auto mt-6 max-w-2xl leading-relaxed text-pretty text-ink-500">
+          <p className="mx-auto mt-6 max-w-2xl leading-relaxed whitespace-pre-line text-pretty text-ink-500">
             {pages.about.ctaBody}
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <ButtonLink href={site.joinForm} external>
-              {dictionary.join.member}
-            </ButtonLink>
-            <ButtonLink href={routes.members(locale)} variant="secondary" arrow>
-              {dictionary.audiences.members.name}
+            <ButtonLink href={routes.members(locale)} arrow>
+              {dictionary.nav.join}
             </ButtonLink>
             <ButtonLink href={routes.contact(locale)} variant="ghost" arrow>
               {common.writeUs}

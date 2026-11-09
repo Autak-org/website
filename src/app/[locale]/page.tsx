@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/i18n";
 import { Hero } from "@/components/home/hero";
-import { Stats } from "@/components/home/stats";
 import { Mission } from "@/components/home/mission";
 import { Pillars } from "@/components/home/pillars";
 import { Flagship } from "@/components/home/flagship";
@@ -26,7 +25,6 @@ export default async function HomePage({
   return (
     <>
       <Hero locale={locale} dictionary={dictionary} />
-      <Stats dictionary={dictionary} />
       <Mission dictionary={dictionary} />
       <Pillars locale={locale} dictionary={dictionary} />
       <Flagship locale={locale} dictionary={dictionary} />

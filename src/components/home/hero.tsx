@@ -47,13 +47,6 @@ export function Hero({
       />
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-28 pb-8 sm:px-6 lg:px-10 lg:pt-36 lg:pb-14">
-        <p className="inline-flex max-w-full items-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-[0.65rem] font-semibold tracking-[0.12em] text-white uppercase backdrop-blur-md sm:px-4 sm:text-xs sm:tracking-[0.14em]">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-400 opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-brand-500" />
-          </span>
-          {hero.eyebrow}
-        </p>
 
         <h1 className="mt-8 max-w-4xl text-[length:var(--text-display-lg)] leading-[0.92] font-bold text-white">
           {hero.titleLead}{" "}
@@ -80,14 +73,14 @@ export function Hero({
       {/* Three doors into the site, one per audience. */}
       <nav
         aria-label={audiences.label}
-        className="relative border-t border-white/15 bg-ink-950/40 backdrop-blur-md"
+        className="relative bg-ink-950/40 backdrop-blur-md"
       >
-        <ul className="mx-auto grid w-full max-w-7xl divide-y divide-white/15 px-4 sm:grid-cols-3 sm:divide-x sm:divide-y-0 sm:px-6 lg:px-10">
+        <ul className="mx-auto grid w-full max-w-7xl px-4 sm:grid-cols-3 sm:px-6 lg:px-10">
           {entries.map((entry) => (
             <li key={entry.href} className="sm:first:-ml-6 sm:first:pl-6 lg:first:-ml-10 lg:first:pl-10">
               <Link
                 href={entry.href}
-                className="group flex min-h-14 items-center justify-between gap-4 py-4 sm:px-6 sm:py-5 sm:first:pl-0"
+                className="group flex min-h-14 items-center justify-start gap-5 py-5 sm:px-6 sm:py-5 sm:first:pl-0"
               >
                 <span>
                   <span className="block text-sm font-semibold text-white">

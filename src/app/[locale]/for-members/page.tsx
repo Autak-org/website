@@ -61,23 +61,38 @@ export default async function MembersPage({ params }: LocaleParams) {
         <Frame className="p-5 sm:p-12">
           <div className="grid gap-8 lg:grid-cols-[1.3fr_1fr] lg:items-center lg:gap-12">
             <div>
-              <p className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-4 py-2 text-xs font-semibold tracking-[0.16em] text-brand-600 uppercase">
-                <Calendar className="h-4 w-4" />
-                {dictionary.contact.hours}
-              </p>
               <h2 className="mt-6 text-[length:var(--text-display-sm)] leading-tight font-bold text-ink-900">
                 {copy.meetingTitle}
               </h2>
               <Rule className="mt-6" />
-              <p className="mt-6 leading-relaxed text-ink-600">
+              <p className="mt-6 leading-relaxed whitespace-pre-line text-ink-600">
                 {copy.meetingBody}
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-3 lg:justify-end">
+            <div className="flex flex-col items-start gap-4 lg:justify-self-end">
               <ButtonLink href={site.meeting} external size="lg">
                 {copy.meetingCta}
               </ButtonLink>
+
+              <div>
+                <p className="text-base font-semibold text-ink-900">
+                  {copy.meetingWhere}
+                </p>
+                <address className="mt-2 text-sm leading-relaxed text-ink-600 not-italic">
+                  Ottostraße 51A
+                  <br />
+                  52070 Aachen
+                </address>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Autak%20e.V.%2C%20Ottostra%C3%9Fe%2051A%2C%2052070%20Aachen%2C%20Germany"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
+                >
+                  {dictionary.contact.directions}
+                </a>
+              </div>
             </div>
           </div>
         </Frame>

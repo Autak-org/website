@@ -5,7 +5,7 @@ import type { Dictionary } from "../de";
 
 export const fr: Dictionary = {
   "meta": {
-    "title": "Autak e.V. — L'inclusion par l'innovation",
+    "title": "Autak e.V. — Inclusion dans l'innovation",
     "description": "Autak e.V. construit un fauteuil roulant monte-escalier, des logiciels accessibles et une sensibilisation à l'inclusion."
   },
   "a11y": {
@@ -17,8 +17,8 @@ export const fr: Dictionary = {
     "footerNav": "Navigation en pied de page",
     "externalLink": "s'ouvre dans un nouvel onglet",
     "playVideo": "Lire la vidéo",
-    "muteVideo": "Couper le son",
-    "unmuteVideo": "Activer le son",
+    "muteVideo": "Vidéo muette",
+    "unmuteVideo": "Activer le son de la vidéo",
     "carousel": "Galerie d'images",
     "previousSlide": "Image précédente",
     "nextSlide": "Image suivante",
@@ -32,7 +32,7 @@ export const fr: Dictionary = {
     "projects": "Projets",
     "news": "Nouvelles",
     "positions": "Postes de thèse et de stage",
-    "positionsShort": "Postes",
+    "positionsShort": "Thèse/stage",
     "shop": "Boutique",
     "contact": "Contact",
     "donate": "Faire un don",
@@ -48,61 +48,43 @@ export const fr: Dictionary = {
     },
     "users": {
       "name": "Pour les utilisateurs",
-      "blurb": "Acheter des produits et les façonner"
+      "blurb": "Visualisez et achetez des produits et façonnez-les"
     },
     "members": {
       "name": "Pour les membres",
-      "blurb": "Participez, construisez, appartenez"
+      "blurb": "Passez nous voir, apprenez à nous connaître, impliquez-vous"
     }
   },
   "join": {
     "label": "Rejoignez-nous",
-    "visit": "Visiter",
+    "visit": "Devenez membre",
     "member": "Devenez membre",
     "memberHint": "Remplissez le formulaire d'adhésion",
-    "meeting": "Rejoignez la réunion d'équipe",
-    "meetingHint": "Les jeudis 18h15, par vidéo",
+    "meeting": "Rejoignez la réunion en ligne",
+    "meetingHint": "Les lundis à 17h00 et jeudis à 18h00",
     "positions": "Postes ouverts",
     "positionsHint": "Thèses et stages",
     "donate": "Faire un don",
-    "donateHint": "100 % sont consacrés au prototype"
+    "donateHint": "100 % va à l'accessibilité"
   },
   "hero": {
-    "eyebrow": "L’inclusion grâce à l’innovation",
-    "titleLead": "Les escaliers sont",
-    "titleAccent": "pas un argument",
-    "body": "Nous construisons un fauteuil roulant qui franchit des marches et freine dans sa foulée – et place les gens à la hauteur des yeux.",
+    "titleLead": "Inclusion dans",
+    "titleAccent": "Innovation",
+    "body": "Une technologie qui surmonte les obstacles de la vie quotidienne et permet aux gens de mener une vie autodéterminée",
     "primary": "Découvrez les projets",
     "secondary": "Soutenez l'association",
     "scroll": "Continuez à lire",
     "imageAlt": "Deux membres d'Autak en T-shirts roses de l'association souriant à côté d'un fauteuil roulant sur la place Katschhof devant la cathédrale d'Aix-la-Chapelle."
   },
-  "stats": {
-    "label": "Autak en chiffres",
-    "items": [
-      {
-        "value": "140 m",
-        "label": "utilisateurs de fauteuils roulants du monde entier, nous voulons supprimer les obstacles pour"
-      },
-      {
-        "value": "100 %",
-        "label": "des bénéfices sont réinvestis dans le développement"
-      },
-      {
-        "value": "3",
-        "label": "piliers : matériel, logiciels et sensibilisation"
-      }
-    ]
-  },
   "mission": {
     "eyebrow": "Notre mission",
     "title": "Pourriez-vous inviter un utilisateur de fauteuil roulant chez vous ?",
-    "lead": "Pour la plupart des gens, cette question se transforme en arithmétique : marches, seuils et portes trop étroites.",
+    "lead": "Après un moment de réflexion, la plupart des gens se rendent compte qu'un petit escalier ou une porte trop étroite peut être un obstacle, et vous devrez répondre à cette question par « Non ».",
     "body": [
       "Autak est une association à but non lucratif qui œuvre pour rendre la vie un peu plus facile aux personnes ayant des besoins particuliers. Nous sommes des étudiants issus de domaines très différents et nous construisons une mobilité qui ne laisse personne de côté.",
-      "Avec votre aide, nous pouvons sensibiliser plus de 140 millions d’utilisateurs de fauteuils roulants dans le monde et les soutenir avec ce que nous développons."
+      "Avec votre aide, nous pouvons sensibiliser plus de 140 millions d’utilisateurs de fauteuils roulants dans le monde et les soutenir avec ce que nous développons. 100 % des bénéfices sont reversés au développement."
     ],
-    "imageAlt": "Deux membres d'Autak à côté d'une bannière enroulable indiquant « L'inclusion par l'innovation » avec les trois piliers matériel, logiciel et sensibilisation."
+    "imageAlt": "Deux membres d'Autak à côté d'une bannière enroulable indiquant « Inclusion par l'innovation » avec les trois piliers matériel, logiciel et sensibilisation."
   },
   "pillars": {
     "eyebrow": "Trois piliers",
@@ -116,7 +98,7 @@ export const fr: Dictionary = {
       },
       "software": {
         "name": "Logiciel",
-        "headline": "Plateforme d'apprentissage et navigation",
+        "headline": "Application de navigation et plateforme d'apprentissage",
         "body": "Des outils numériques qui trouvent des itinéraires accessibles et mettent les connaissances à la disposition de tous."
       },
       "awareness": {
@@ -138,7 +120,7 @@ export const fr: Dictionary = {
       "Développé ouvertement, financé en tant qu'organisation à but non lucratif"
     ],
     "cta": "En savoir plus sur le fauteuil roulant",
-    "imageAlt": "Le prototype actuel d'Autak : un fauteuil roulant noir avec un logo rose et plusieurs petites roues de chaque côté qui permettent de monter les escaliers."
+    "imageAlt": "Le prototype Autak actuel : un fauteuil roulant noir avec un logo Autak rose et plusieurs petites roues de chaque côté qui permettent de monter les escaliers."
   },
   "gallery": {
     "eyebrow": "Aperçus",
@@ -150,24 +132,23 @@ export const fr: Dictionary = {
     "title": "Autak sur « Einfach génial »",
     "body": "Le programme scientifique MDR a visité notre prototype et a montré comment le fauteuil roulant monte les escaliers.",
     "watch": "Regardez la fonctionnalité",
-    "privacyNote": "La vidéo n'est chargée depuis YouTube qu'après avoir cliqué. Rien n'est transmis avant cela.",
+    "privacyNote": "Les vidéos YouTube ne se chargent qu'après avoir cliqué. Les courts clips d’atelier sont mis en sourdine lorsqu’ils défilent.",
     "videoTitle": "MDR « Einfach genial » sur le fauteuil roulant Autak",
     "citations": "Plus de couverture"
   },
   "projects": {
     "eyebrow": "Projets",
     "title": "Ce sur quoi nous travaillons",
-    "subtitle": "De la mécanique à l'application, chaque projet est construit par notre équipe à Aix-la-Chapelle."
+    "subtitle": "De la mécanique à l'application, chaque projet commence avec notre équipe à Aix-la-Chapelle."
   },
   "partners": {
     "eyebrow": "Partisans",
-    "title": "Nos fantastiques supporters",
-    "subtitle": "Sans ces partenaires, il n'y aurait pas de prototype."
+    "title": "Nos fantastiques supporters"
   },
   "involve": {
     "eyebrow": "Impliquez-vous",
     "title": "Personne ne fait tomber les barrières seul",
-    "subtitle": "Ce sont les retours de la communauté qui nous permettent de réellement lever les barrières. Venez, que vous souhaitiez souder, programmer ou organiser.",
+    "subtitle": "Ce sont les retours de la communauté qui nous permettent de réellement lever les barrières. Venez nombreux, que vous souhaitiez souder, programmer ou organiser.",
     "cards": {
       "member": {
         "title": "Devenez membre",
@@ -175,13 +156,13 @@ export const fr: Dictionary = {
         "cta": "Accédez au formulaire d'adhésion"
       },
       "meeting": {
-        "title": "Réunion d'équipe",
-        "body": "Tous les jeudis à 18h15, ouvert à tous. Venez simplement.",
-        "cta": "Rejoignez l'appel vidéo"
+        "title": "Réunion en ligne",
+        "body": "Réunions hybrides ouvertes, en personne et en ligne : les lundis à 17h00 et les jeudis à 18h15. Venez simplement.",
+        "cta": "Rejoignez la réunion en ligne"
       },
       "donate": {
         "title": "Faire un don",
-        "body": "100 % de votre don va au prochain prototype.",
+        "body": "100% de votre don va à l'accessibilité.",
         "cta": "Faites un don via PayPal"
       }
     },
@@ -193,7 +174,7 @@ export const fr: Dictionary = {
     "eyebrow": "Contact",
     "emailLabel": "E-mail",
     "phoneLabel": "Téléphone",
-    "addressLabel": "Adresse",
+    "addressLabel": "Salle Club : Réunions ouvertes le lundi à 17h00 et le jeudi à 18h00",
     "directions": "Voir sur la carte",
     "imageAlt": "Un membre d'Autak portant un T-shirt rose de l'association devant la cathédrale d'Aix-la-Chapelle.",
     "teamImageAlt": "L'équipe Autak dans la salle du club : huit membres assis sur des canapés devant un mur végétal, dont un en fauteuil roulant.",
@@ -203,29 +184,29 @@ export const fr: Dictionary = {
     "subjectLabel": "Sujet",
     "messageLabel": "Message",
     "submit": "Envoyer un message",
-    "hours": "Réunion d'équipe tous les jeudis à 18h15"
+    "hours": "Réunions ouvertes en ligne et en personne : les lundis à 17h00 et les jeudis à 18h00"
   },
   "pages": {
     "about": {
       "eyebrow": "À propos de nous",
       "title": "Une équipe interdisciplinaire d’Aix-la-Chapelle",
-      "intro": "Des étudiants et des professionnels de RWTH et de la FH Aix-la-Chapelle travaillent ensemble sur l'accessibilité, du fraisage au firmware en passant par le travail sur presse.",
+      "intro": "Des étudiants de RWTH et de FH Aix-la-Chapelle et des professionnels qui travaillent ensemble sur l'accessibilité.",
       "groups": {
         "team": {
           "title": "Notre équipe",
-          "body": "Les personnes qui travaillent actuellement sur le prototype, l'application et les événements."
+          "body": "Les personnes qui travaillent actuellement sur des prototypes, des applications et des événements."
         },
         "alumni": {
           "title": "Anciens élèves",
-          "body": "Ils ont façonné Autak et ont évolué – une grande partie de ce qui les motive aujourd’hui est venue de leurs mains."
+          "body": "Ils ont façonné Autak et ont évolué, et une grande partie de ce qui la motive aujourd’hui est venue de leurs mains."
         },
         "supporters": {
           "title": "Partisans",
           "body": "Des mentors, des mécènes et des experts qui nous soutiennent avec leur expérience, leurs réseaux et leurs critiques."
         }
       },
-      "ctaTitle": "Vous voulez améliorer le monde avec nous ?",
-      "ctaBody": "Il n’y a jamais assez d’expertise dans l’équipe. Contactez-nous si vous êtes intéressé – nous ne pouvons le faire qu’ensemble."
+      "ctaTitle": "Vous voulez nous aider à faire tomber les barrières ?",
+      "ctaBody": "On n'a jamais trop d'expertise !\n\n N'hésitez pas à nous contacter si vous êtes intéressé. Nous ne pouvons faire avancer ce projet qu’ensemble."
     },
     "projects": {
       "eyebrow": "Projets",
@@ -245,7 +226,7 @@ export const fr: Dictionary = {
     "news": {
       "eyebrow": "Nouvelles",
       "title": "Que se passe-t-il chez Autak",
-      "intro": "Prototypes, événements, presse et personnes – dans l'ordre, les derniers en premier.",
+      "intro": "Prototypes, événements, presse et personnes",
       "categories": {
         "all": "Tous",
         "prototype": "Prototype",
@@ -271,7 +252,7 @@ export const fr: Dictionary = {
       "learnLabel": "Ce que vous apprendrez",
       "fieldLabel": "Champ",
       "proposalTitle": "Un exemple de sujet",
-      "proposalBody": "Un sujet entièrement rédigé de notre projet d'application — comme modèle pour à quoi ressemble une thèse avec nous.",
+      "proposalBody": "Un sujet entièrement rédigé issu de notre projet d'application : un modèle pour à quoi ressemble une thèse avec nous.",
       "proposalCta": "Téléchargez la proposition (PDF)",
       "nothingTitle": "Rien pour toi ici ?",
       "nothingBody": "Venez à notre réunion hebdomadaire et trouvez quelque chose. Il y a quelque chose à faire pour tout le monde."
@@ -279,20 +260,20 @@ export const fr: Dictionary = {
     "shop": {
       "eyebrow": "Boutique",
       "title": "Acheter ici, c'est financer le développement",
-      "intro": "100 % des bénéfices sont réinvestis dans le développement, par exemple dans le prochain prototype de fauteuil roulant monte-escalier.",
+      "intro": "100 % des bénéfices sont réinvestis dans le développement, comme le prochain prototype de fauteuil roulant monte-escalier.",
       "availability": {
         "available": "Disponible",
         "soon": "Bientôt disponible",
         "sold-out": "Épuisé"
       },
-      "notifyTitle": "La boutique déménage",
-      "notifyBody": "En attendant que la nouvelle boutique soit en ligne, commandez directement chez nous par email. Nous vous répondrons avec la disponibilité et les frais d'expédition.",
-      "notifyCta": "Commande par email",
+      "notifyTitle": "Commande par email",
+      "notifyBody": "Dès maintenant, vous pouvez passer une commande chez nous directement par e-mail. Nous vous enverrons ensuite la facture et tous les détails.",
+      "notifyCta": "Commande par email"
     },
     "contact": {
       "eyebrow": "Contact",
-      "title": "Entrer en contact",
-      "intro": "Que vous ayez des commentaires sur le fauteuil roulant, une idée de projet ou quelque chose de complètement différent, nous serions ravis d'avoir de vos nouvelles."
+      "title": "Écrivez-nous, appelez-nous ou passez nous voir !",
+      "intro": "Que vous ayez des commentaires sur le fauteuil roulant, une idée de projet ou quelque chose de complètement différent, nous sommes impatients de vous entendre."
     },
     "legal": {
       "eyebrow": "Légal",
@@ -311,9 +292,9 @@ export const fr: Dictionary = {
     "partners": {
       "eyebrow": "Pour les partenaires",
       "title": "À quoi s'attendre en travaillant avec Autak",
-      "intro": "Sponsoring, coopération et développement de contrats : nous construisons des prototypes plutôt que des diapositives - et nous sommes ouverts sur la destination de chaque euro.",
+      "intro": "Sponsoring, coopération et développement de contrats : nous construisons des prototypes plutôt que des diapositives et nous sommes ouverts sur la destination de chaque euro.",
       "pressTitle": "En public",
-      "pressIntro": "Où notre travail a été couvert – des programmes scientifiques aux programmes d’innovation.",
+      "pressIntro": "Où notre travail a été couvert : des programmes scientifiques aux programmes d'innovation.",
       "videoTitle": "Découvrez sur quoi nous travaillons",
       "videoIntro": "Au lieu d'une brochure : des images de l'atelier, des essais routiers et des événements.",
       "capabilitiesTitle": "Emplacement et capacités",
@@ -335,7 +316,7 @@ export const fr: Dictionary = {
         }
       ],
       "ctaTitle": "Parlons de travailler ensemble",
-      "ctaBody": "Un don en nature, une capacité de production, un financement ou un projet commun : dites-nous brièvement ce que vous avez en tête."
+      "ctaBody": "Un don en nature, une capacité de fabrication, un financement ou un projet commun ? Dites-nous brièvement ce que vous avez en tête."
     },
     "users": {
       "eyebrow": "Pour les utilisateurs",
@@ -348,17 +329,18 @@ export const fr: Dictionary = {
       "voicesTitle": "Ce que disent les utilisateurs",
       "voicesIntro": "Retours d'essais sur le terrain et en boutique.",
       "projectsTitle": "Produits et projets",
-      "projectsIntro": "Ce que vous pouvez déjà utiliser – et ce qui est en cours de construction.",
+      "projectsIntro": "Ce que vous pouvez déjà utiliser et ce qui est en cours de construction.",
       "ctaTitle": "Les commentaires sont l’ingrédient le plus important",
       "ctaBody": "Vous pensez que le fauteuil roulant devrait avoir un aspect différent ou s'adapter à votre petite voiture ? Écrivez-nous."
     },
     "members": {
       "eyebrow": "Pour les membres",
-      "title": "Jeudi, 18h15 — et vous êtes là",
+      "title": "Lundi à 17h00 et jeudi à 18h00",
       "intro": "Souder, concevoir, programmer, écrire, organiser. Chez Autak chaque compétence trouve un projet et chaque projet trouve quelqu'un pour le faire avancer.",
-      "meetingTitle": "Venez à la réunion d'équipe",
-      "meetingBody": "Tous les jeudis à 18h15 nous nous retrouvons par vidéo. Pas d'inscription, pas de prérequis, il suffit de venir.",
-      "meetingCta": "Rejoignez l'appel vidéo",
+      "meetingTitle": "Venez à une réunion ouverte",
+      "meetingBody": "Réunions ouvertes en personne et en ligne tous les lundis à 17h00 et tous les jeudis à 18h00.\n\n Aucune inscription préalable n’est requise. Passez nous voir et participez !",
+      "meetingCta": "Rejoignez la réunion en ligne",
+      "meetingWhere": "Ou passez nous voir",
       "videoTitle": "Événements et ateliers",
       "videoIntro": "Images de l'atelier, des événements et des timelapses de la construction.",
       "voicesTitle": "Voix de l'équipe",
@@ -386,7 +368,7 @@ export const fr: Dictionary = {
     "or": "ou"
   },
   "footer": {
-    "tagline": "L'accessibilité grâce à l'innovation.",
+    "tagline": "Inclusion dans l'innovation.",
     "sitemap": "Pages",
     "audiences": "Pour toi",
     "legal": "Légal",
@@ -396,8 +378,8 @@ export const fr: Dictionary = {
     "statutes": "Statuts",
     "contributions": "Barème des cotisations",
     "rights": "Tous droits réservés.",
-    "newsletterTitle": "Réunion d'équipe",
-    "newsletterBody": "Le jeudi à 18h15, ouvert à tous."
+    "newsletterTitle": "Réunion en ligne",
+    "newsletterBody": "Réunions ouvertes en personne et en ligne : les lundis à 17h00 et les jeudis à 18h00"
   },
   "notFound": {
     "title": "Cette page n'existe pas",

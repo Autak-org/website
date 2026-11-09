@@ -67,41 +67,37 @@ export function Involve({ dictionary }: { dictionary: Dictionary }) {
                   {card.cta}
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
+                {id === "donate" && (
+                <details className="mt-4 border-t border-ink-200 pt-4">
+                  <summary className="cursor-pointer text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700">
+                    {involve.bankLabel}
+                  </summary>
+                  <dl className="mt-4 space-y-3 text-sm">
+                    <div>
+                      <dt className="text-ink-500">{involve.bankHolder}</dt>
+                      <dd className="mt-0.5 font-semibold text-ink-900">{site.bank.holder}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-ink-500">{involve.bankName}</dt>
+                      <dd className="mt-0.5 font-semibold text-ink-900">{site.bank.name}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-ink-500">IBAN</dt>
+                      <dd className="mt-0.5 font-semibold break-all text-ink-900 tabular-nums">
+                        {site.bank.iban}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt className="text-ink-500">BIC</dt>
+                      <dd className="mt-0.5 font-semibold text-ink-900">{site.bank.bic}</dd>
+                    </div>
+                  </dl>
+                </details>
+              )}
               </Reveal>
             );
           })}
         </ul>
-
-        <Reveal delay={120}>
-          <div className="mt-10 rounded-2xl border border-white/25 bg-white/10 p-5 backdrop-blur-sm sm:p-8">
-            <h3 className="text-xs font-semibold tracking-[0.2em] text-white uppercase">
-              {involve.bankLabel}
-            </h3>
-            <hr className="mt-5 border-0 border-t border-white/25" />
-            <dl className="mt-5 grid gap-x-10 gap-y-4 text-sm sm:grid-cols-2 lg:grid-cols-4">
-              <div>
-                <dt className="text-white/70">{involve.bankHolder}</dt>
-                <dd className="mt-1 font-semibold text-white">
-                  {site.bank.holder}
-                </dd>
-              </div>
-              <div>
-                <dt className="text-white/70">{involve.bankName}</dt>
-                <dd className="mt-1 font-semibold text-white">{site.bank.name}</dd>
-              </div>
-              <div>
-                <dt className="text-white/70">IBAN</dt>
-                <dd className="mt-1 font-semibold break-all text-white tabular-nums">
-                  {site.bank.iban}
-                </dd>
-              </div>
-              <div>
-                <dt className="text-white/70">BIC</dt>
-                <dd className="mt-1 font-semibold text-white">{site.bank.bic}</dd>
-              </div>
-            </dl>
-          </div>
-        </Reveal>
       </Container>
     </section>
   );

@@ -47,17 +47,17 @@ export const de = {
     },
     users: {
       name: "Für Nutzer:innen",
-      blurb: "Produkte kaufen und mitgestalten",
+      blurb: "Produkte ansehen, kaufen und mitgestalten",
     },
     members: {
-      name: "Für Besucher:innen",
+      name: "Für Mitwirkende",
       blurb: "Reinschnuppern, kennenlernen, mitmachen",
     },
   },
 
   join: {
     label: "Mitmachen",
-    visit: "Besuchen",
+    visit: "Mitwirken",
     member: "Mitglied werden",
     memberHint: "Aufnahmeformular ausfüllen",
     meeting: "Zum Onlinetreffen",
@@ -69,10 +69,9 @@ export const de = {
   },
 
   hero: {
-    eyebrow: "Inklusion in Innovation",
-    titleLead: "Wir gegen",
-    titleAccent: "Barrieren",
-    body: "Wir bauen einen Rollstuhl, der Stufen und Bordsteinkanten überwindet — und Menschen wieder auf Augenhöhe bringt.",
+    titleLead: "Inklusion in",
+    titleAccent: "Innovation",
+    body: "Technik, die Barrieren im Alltag überwindet und Menschen ein selbstbestimmtes Leben ermöglicht",
     primary: "Projekte entdecken",
     secondary: "Verein unterstützen",
     scroll: "Weiter",
@@ -80,34 +79,16 @@ export const de = {
       "Zwei Mitglieder von Autak in pinken Vereins-T-Shirts lächeln neben einem Rollstuhl auf dem Katschhof vor dem Aachener Dom.",
   },
 
-  stats: {
-    label: "Autak in Zahlen",
-    items: [
-      {
-        value: "140 Mio.",
-        label: "Rollstuhlfahrende weltweit, für die wir Barrieren abbauen wollen",
-      },
-      {
-        value: "100 %",
-        label: "des Gewinns fließen zurück in die Entwicklung",
-      },
-      {
-        value: "3",
-        label: "Säulen: Hardware, Software und Bewusstseinsbildung",
-      },
-    ],
-  },
-
   mission: {
     eyebrow: "Unsere Mission",
     title: "Können Sie eine Rollstuhlfahrerin zu sich nach Hause einladen?",
-    lead: "Für die meisten Menschen ist diese Frage eine Rechenaufgabe aus Stufen, Schwellen und zu schmalen Türen.",
+    lead: "Nach kurzem Überlegen fällt den meisten Menschen auf, dass eine kleine Treppe oder eine zu schmale Tür ein Hindernis sein kann und Sie diese Frage mit \"Nein\" beantworten müssen.",
     body: [
-      "Autak ist ein gemeinnütziger Verein, der es sich zum Ziel gesetzt hat, Menschen mit besonderen Bedürfnissen das Leben ein wenig zu erleichtern. Wir sind Studierende aus ganz unterschiedlichen Bereichen — und wir bauen an einer Mobilität, die niemanden zurücklässt.",
-      "Mit Ihrer Hilfe können wir das Bewusstsein für mehr als 140 Millionen Rollstuhlfahrende weltweit schärfen und sie mit unseren Entwicklungen unterstützen.",
+      "Autak ist ein gemeinnütziger Verein, der es sich zum Ziel gesetzt hat, Menschen mit besonderen Bedürfnissen das Leben ein wenig zu erleichtern. Wir sind Studierende aus ganz unterschiedlichen Bereichen und wir bauen an einer Mobilität, die niemanden zurücklässt.",
+      "Mit Ihrer Hilfe können wir das Bewusstsein für mehr als 140 Millionen Rollstuhlfahrende weltweit schärfen und sie mit unseren Entwicklungen unterstützen. 100 % des Gewinns fließen zurück in die Entwicklung.",
     ],
     imageAlt:
-      "Zwei Autak-Mitglieder stehen neben einem Roll-Up mit der Aufschrift „Inklusion in Innovation“ und den drei Säulen Hardware, Software und Awareness.",
+      "Zwei Autak-Mitglieder stehen neben einem Roll-Up mit der Aufschrift „Inklusion durch Innovation“ und den drei Säulen Hardware, Software und Awareness.",
   },
 
   pillars: {
@@ -123,7 +104,7 @@ export const de = {
       },
       software: {
         name: "Software",
-        headline: "Lernplattform & Navigation",
+        headline: "Navigationsapp & Lernplattform",
         body: "Digitale Werkzeuge, die barrierefreie Wege finden und Wissen für alle zugänglich machen.",
       },
       awareness: {
@@ -172,20 +153,19 @@ export const de = {
     eyebrow: "Projekte",
     title: "Woran wir gerade arbeiten",
     subtitle:
-      "Von der Mechanik bis zur App — jedes Projekt entsteht in unserem Team in Aachen.",
+      "Von der Mechanik bis zur App beginnt jedes Projekt bei unserem Team in Aachen.",
   },
 
   partners: {
     eyebrow: "Unterstützer",
-    title: "Unsere fantastischen Unterstützer",
-    subtitle: "Ohne diese Partner gäbe es keinen Prototyp.",
+    title: "Unsere fantastischen Unterstützer"
   },
 
   involve: {
     eyebrow: "Mitmachen",
     title: "Barrieren baut man nicht allein ab",
     subtitle:
-      "Erst durch Feedback aus der Community können wir Barrieren wirklich abbauen. Komm dazu — egal ob du löten, programmieren oder organisieren willst.",
+      "Erst durch Feedback aus der Community können wir Barrieren wirklich abbauen. Komm dazu, egal ob du löten, programmieren oder organisieren willst.",
     cards: {
       member: {
         title: "Mitglied werden",
@@ -194,7 +174,7 @@ export const de = {
       },
       meeting: {
         title: "Online-Treffen",
-        body: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr. Schau einfach rein.",
+        body: "Offene Treffen hybrid vor Ort und online, Montag um 17:00 Uhr und Donnerstag um 18:00 Uhr. Schau einfach vorbei!",
         cta: "Zum Onlinetreffen",
       },
       donate: {
@@ -213,7 +193,7 @@ export const de = {
     emailLabel: "E-Mail",
     phoneLabel: "Telefon",
     addressLabel:
-      "Clubraum: Offene Treffen am Montag um 17 Uhr und Donnerstag um 18:15 Uhr",
+      "Clubraum: Offene Treffen am Montag um 17:00 Uhr und Donnerstag um 18:00 Uhr",
     directions: "Auf der Karte ansehen",
     imageAlt:
       "Ein Autak-Mitglied im pinken Vereins-T-Shirt vor dem Aachener Dom.",
@@ -226,7 +206,7 @@ export const de = {
     subjectLabel: "Betreff",
     messageLabel: "Nachricht",
     submit: "Nachricht senden",
-    hours: "Offene Treffen online (hybrid), Montag um 17 Uhr und Donnerstag um 18:15 Uhr",
+    hours: "Offene Treffen online und in Person jeden Montag um 17:00 Uhr und jeden Donnerstag um 18:00 Uhr",
   },
 
   pages: {
@@ -234,7 +214,7 @@ export const de = {
       eyebrow: "Über uns",
       title: "Ein interdisziplinäres Team aus Aachen",
       intro:
-        "Studierende und Berufstätige von RWTH und FH Aachen, die zusammen an Barrierefreiheit arbeiten — von CAD über Firmware bis zur Öffentlichkeitsarbeit.",
+        "Studierende von RWTH und FH AAchen und Berufstätige, die zusammen an Barrierefreiheit arbeiten.",
       groups: {
         team: {
           title: "Unser Team",
@@ -242,7 +222,7 @@ export const de = {
         },
         alumni: {
           title: "Alumni",
-          body: "Sie haben Autak geprägt und sind weitergezogen — vieles von dem, was heute fährt, stammt aus ihren Händen.",
+          body: "Sie haben Autak geprägt und sind weitergezogen, und vieles von dem, was heute fährt, stammt aus ihren Händen.",
         },
         supporters: {
           title: "Unterstützer:innen",
@@ -251,7 +231,7 @@ export const de = {
       },
       ctaTitle: "Wollt ihr mit uns Barrieren abbauen?",
       ctaBody:
-        "Es gibt nie genug Expertise im Team. Meldet euch bei Interesse — nur gemeinsam können wir etwas erreichen.",
+        "Expertise kann man nie genug haben!\n\n Meldet euch gerne bei Interesse, denn nur gemeinsam bringen wir das Projekt voran.",
     },
 
     projects: {
@@ -276,7 +256,7 @@ export const de = {
       eyebrow: "Neuigkeiten",
       title: "Was bei Autak passiert",
       intro:
-        "Prototypen, Events, Presse und Menschen — chronologisch, mit dem Neuesten zuerst.",
+        "Prototypen, Events, Presse und Menschen",
       categories: {
         all: "Alle",
         prototype: "Prototyp",
@@ -306,7 +286,7 @@ export const de = {
       fieldLabel: "Fachrichtung",
       proposalTitle: "Beispiel einer Themenstellung",
       proposalBody:
-        "Ein ausformuliertes Thema aus unserem App-Projekt — als Vorlage dafür, wie eine Arbeit bei uns aussehen kann.",
+        "Ein ausformuliertes Thema aus unserem App-Projekt: eine Vorlage dafür, wie eine Arbeit bei uns aussehen kann.",
       proposalCta: "Exposé herunterladen (PDF)",
       nothingTitle: "Nichts für dich dabei?",
       nothingBody:
@@ -317,7 +297,7 @@ export const de = {
       eyebrow: "Shop",
       title: "Kaufen heißt hier mitentwickeln",
       intro:
-        "100 % des Gewinns fließen zurück in die Entwicklung — zum Beispiel in den nächsten Prototyp des treppensteigenden Rollstuhls.",
+        "100 % des Gewinns fließen zurück in die Entwicklung, wie etwa in den nächsten Prototyp des treppensteigenden Rollstuhls.",
       availability: {
         available: "Verfügbar",
         soon: "Bald verfügbar",
@@ -325,15 +305,15 @@ export const de = {
       },
       notifyTitle: "Bestellen",
       notifyBody:
-        "Man kann bei uns aktuell nur direkt per E-Mail bestellen. Wir melden uns dann mit einer Rechnung zurück.",
+        "Aktuell kannst du direkt per E-Mail bei uns bestellen. Wir schicken dir im Anschluss die Rechnung und alle Details zu.",
       notifyCta: "Per E-Mail bestellen",
     },
 
     contact: {
       eyebrow: "Kontakt",
-      title: "Schreib, ruf an oder komm vorbei!",
+      title: "Schreib uns, ruf an oder komm vorbei!",
       intro:
-        "Ob Feedback zum Rollstuhl, eine Projektidee oder etwas völlig anderes — wir freuen uns auf dich.",
+        "Ob Feedback zum Rollstuhl, eine Projektidee oder etwas völlig anderes. Wir freuen uns auf dich!",
     },
 
     legal: {
@@ -355,16 +335,16 @@ export const de = {
       eyebrow: "Für Partner:innen",
       title: "Was Sie von einer Zusammenarbeit mit Autak erwarten können",
       intro:
-        "Sponsoring, Kooperationen und Auftragsentwicklung: Wir bauen Prototypen statt Präsentationen — und legen offen, wohin jeder Euro fließt.",
+        "Sponsoring, Kooperationen und Auftragsentwicklung: Wir bauen Prototypen statt Präsentationen und legen offen, wohin jeder Euro fließt.",
       pressTitle: "In der Öffentlichkeit",
       pressIntro:
-        "Wo über unsere Arbeit berichtet wurde — von Wissenschaftsmagazinen bis zu Innovationsprogrammen.",
+        "Berichte über unsere Initiative: von Wissenschaftsmagazinen bis zu Innovationsprogrammen.",
       videoTitle: "Sehen, woran wir arbeiten",
       videoIntro:
         "Statt einer Broschüre: Aufnahmen aus Werkstatt, Testfahrten und Events.",
       capabilitiesTitle: "Standort und Fähigkeiten",
       capabilitiesIntro:
-        "Was wir in Aachen selbst können — und wo wir Partner brauchen.",
+        "Was wir in Aachen selbst können und wo wir Partner brauchen.",
       financeTitle: "Wohin das Geld fließt",
       financeIntro:
         "Wir sind gemeinnützig. Der Umgang mit Mitteln ist Teil unserer Satzung, nicht eine Frage des guten Willens.",
@@ -384,7 +364,7 @@ export const de = {
       ],
       ctaTitle: "Lassen Sie uns über eine Zusammenarbeit sprechen",
       ctaBody:
-        "Sachspende, Fertigungskapazität, Förderung oder ein gemeinsames Projekt — schreiben Sie uns kurz, was Sie vorhaben.",
+        "Sachspende, Fertigungskapazität, Förderung oder ein gemeinsames Projekt? Schreiben Sie uns gerne, was Sie sich vorstellen.",
     },
 
     users: {
@@ -399,7 +379,7 @@ export const de = {
       voicesTitle: "Stimmen von Nutzer:innen",
       voicesIntro: "Rückmeldungen aus Feldtests und aus dem Shop.",
       projectsTitle: "Produkte und Projekte",
-      projectsIntro: "Was heute schon nutzbar ist — und was gerade entsteht.",
+      projectsIntro: "Was heute schon nutzbar ist und was gerade entsteht.",
       ctaTitle: "Feedback ist die wichtigste Zutat",
       ctaBody:
         "Der Rollstuhl sollte anders aussehen oder in Ihren Kleinwagen passen? Schreiben Sie uns.",
@@ -407,13 +387,14 @@ export const de = {
 
     members: {
       eyebrow: "Für Mitglieder",
-      title: "Montag um 17 Uhr, Donnerstag um 18:15 Uhr — und du bist dabei",
+      title: "Montag um 17:00 Uhr & Donnerstag um 18:00 Uhr",
       intro:
         "Löten, konstruieren, programmieren, schreiben, organisieren. Bei Autak findet jede Fähigkeit ein Projekt und jedes Projekt jemanden, der es voranbringt.",
       meetingTitle: "Komm zum offenen Treffen",
       meetingBody:
-        "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr. Kein Anmeldeformular, keine Voraussetzungen — einfach reinschauen.",
+        "Offene Treffen vor Ort und online jeden Montag um 17:00 Uhr und jeden Donnerstag um 18:00 Uhr.\n\n Es ist keine vorherige Anmeldung nötig. Du kannst einfach reinschauen und mitmachen!",
       meetingCta: "Zum Onlinetreffen",
+      meetingWhere: "Oder komm vorbei",
       videoTitle: "Events und Workshops",
       videoIntro: "Aufnahmen aus Werkstatt, Events und Zeitraffer vom Aufbau.",
       voicesTitle: "Stimmen aus dem Team",
@@ -457,7 +438,7 @@ export const de = {
     contributions: "Beitragsordnung",
     rights: "Alle Rechte vorbehalten.",
     newsletterTitle: "Online-Treffen",
-    newsletterBody: "Offene Treffen hybrid vor Ort und online, Montag um 17 Uhr und Donnerstag um 18:15 Uhr.",
+    newsletterBody: "Offene Treffen vor Ort und online: Montag um 17:00 Uhr und Donnerstag um 18:00 Uhr",
   },
 
   notFound: {

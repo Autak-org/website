@@ -14,18 +14,10 @@ tagline_fr: Le système d'attelage à bagages qui se fixe sur un fauteuil roulan
 tagline_nl: De bagagedrager die in een paar bewegingen aan een rolstoel kan worden bevestigd.
 tagline_es: El enganche para equipaje que se sujeta a una silla de ruedas en unos pocos movimientos.
 tagline_tr: Tekerlekli sandalyeye birkaç hareketle takılabilen bagaj bağlantı aparatı.
-summary_de: Mit Rollstuhl und Koffer selbstständig unterwegs sein — ohne fremde Hilfe.
-summary_en: Travelling independently with a wheelchair and a suitcase, without asking for help.
-summary_fr: Voyager de manière autonome avec un fauteuil roulant et une valise, sans demander d'aide.
-summary_nl: Zelfstandig reizen met een rolstoel en een koffer, zonder hulp te vragen.
-summary_es: Viajar de forma independiente con una silla de ruedas y una maleta, sin pedir ayuda.
-summary_tr: Yardım istemeden, tekerlekli sandalye ve bavulla bağımsız olarak seyahat etmek.
-status_de: Im Shop erhältlich
-status_en: Available in the shop
-status_fr: Disponible en magasin
-status_nl: Verkrijgbaar in de winkel
-status_es: Disponible en la tienda
-status_tr: Mağazada mevcuttur.
+summary_de: Rollstuhl und Rollkoffer? Gleichzeitig? Geht das überhaupt?
+summary_en: Wheelchair and rolling suitcase at the same time? Is that even possible?
+status_de: Frei erhältlich
+status_en: Freely available
 cover: /images/connie-detail.jpg
 cover_alt_de: Der Kofferanhänger Connie, montiert an einem Rollstuhl.
 cover_alt_en: The Connie luggage hitch mounted on a wheelchair.

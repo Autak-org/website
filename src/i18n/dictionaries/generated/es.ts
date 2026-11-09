@@ -5,7 +5,7 @@ import type { Dictionary } from "../de";
 
 export const es: Dictionary = {
   "meta": {
-    "title": "Autak e.V. — Inclusión a través de la innovación",
+    "title": "Autak e.V. — Inclusión en la Innovación",
     "description": "Autak e.V. construye una silla de ruedas para subir escaleras, software accesible y concientización para la inclusión."
   },
   "a11y": {
@@ -18,7 +18,7 @@ export const es: Dictionary = {
     "externalLink": "se abre en una nueva pestaña",
     "playVideo": "Reproducir vídeo",
     "muteVideo": "Silenciar vídeo",
-    "unmuteVideo": "Activar sonido",
+    "unmuteVideo": "Dejar silenciar vídeo",
     "carousel": "Galería de imágenes",
     "previousSlide": "Imagen anterior",
     "nextSlide": "Siguiente imagen",
@@ -32,7 +32,7 @@ export const es: Dictionary = {
     "projects": "Proyectos",
     "news": "Noticias",
     "positions": "Puestos de tesis y prácticas",
-    "positionsShort": "Posiciones",
+    "positionsShort": "Tesis/prácticas",
     "shop": "Comercio",
     "contact": "Contacto",
     "donate": "Donar",
@@ -48,61 +48,43 @@ export const es: Dictionary = {
     },
     "users": {
       "name": "Para usuarios",
-      "blurb": "Compra productos y dales forma"
+      "blurb": "Ver y comprar productos y darles forma."
     },
     "members": {
       "name": "Para miembros",
-      "blurb": "Únase, construya, pertenezca"
+      "blurb": "Visítanos, conócenos, involúcrate"
     }
   },
   "join": {
     "label": "Únase a nosotros",
-    "visit": "Visitar",
+    "visit": "Hazte miembro",
     "member": "Hazte miembro",
     "memberHint": "Complete el formulario de membresía",
-    "meeting": "Únase a la reunión del equipo",
-    "meetingHint": "Jueves 18:15, por vídeo",
+    "meeting": "Únase a la reunión en línea",
+    "meetingHint": "Lunes a las 17:00 y jueves a las 18:00",
     "positions": "Posiciones abiertas",
     "positionsHint": "Tesis y prácticas",
     "donate": "Donar",
-    "donateHint": "100 % va al prototipo."
+    "donateHint": "100% va a la accesibilidad"
   },
   "hero": {
-    "eyebrow": "Inclusión a través de la innovación",
-    "titleLead": "Las escaleras son",
-    "titleAccent": "no es un argumento",
-    "body": "Construimos una silla de ruedas que da pasos y frena con calma y coloca a las personas a la altura de los ojos.",
+    "titleLead": "Inclusión en",
+    "titleAccent": "Innovación",
+    "body": "Tecnología que supera las barreras de la vida cotidiana y permite a las personas llevar una vida autodeterminada",
     "primary": "Explora los proyectos",
     "secondary": "Apoya a la asociación",
     "scroll": "Sigue leyendo",
     "imageAlt": "Dos miembros de Autak con camisetas rosas de la asociación sonriendo junto a una silla de ruedas en la plaza Katschhof, frente a la catedral de Aquisgrán."
   },
-  "stats": {
-    "label": "Autak en números",
-    "items": [
-      {
-        "value": "140 metros",
-        "label": "usuarios de sillas de ruedas en todo el mundo queremos eliminar barreras para"
-      },
-      {
-        "value": "100 %",
-        "label": "de los beneficios vuelve al desarrollo"
-      },
-      {
-        "value": "3",
-        "label": "pilares: hardware, software y concienciación"
-      }
-    ]
-  },
   "mission": {
     "eyebrow": "Nuestra misión",
     "title": "¿Podrías invitar a un usuario de silla de ruedas a tu casa?",
-    "lead": "Para la mayoría de la gente esta pregunta se convierte en aritmética: escalones, umbrales y puertas demasiado estrechas.",
+    "lead": "Después de pensarlo un momento, la mayoría de las personas se dan cuenta de que un pequeño tramo de escaleras o una puerta demasiado estrecha pueden ser un obstáculo, y tendrás que responder a esta pregunta con un \"No\".",
     "body": [
-      "Autak es una asociación sin ánimo de lucro que trabaja para hacer la vida un poco más fácil a personas con necesidades especiales. Somos estudiantes de campos muy diferentes y estamos construyendo una movilidad que no deja a nadie atrás.",
-      "Con tu ayuda podemos concienciar a más de 140 millones de usuarios de sillas de ruedas en todo el mundo y apoyarles con lo que desarrollamos."
+      "Autak es una asociación sin ánimo de lucro que trabaja para hacer la vida un poco más fácil a personas con necesidades especiales. Somos estudiantes de ámbitos muy diferentes y estamos construyendo una movilidad que no deje a nadie atrás.",
+      "Con tu ayuda podemos concienciar a más de 140 millones de usuarios de sillas de ruedas en todo el mundo y apoyarles con lo que desarrollamos. El 100% de los beneficios se destinan al desarrollo."
     ],
-    "imageAlt": "Dos socios de Autak junto a un banner enrollable que decía “Inclusión a través de la innovación” con los tres pilares hardware, software y concienciación."
+    "imageAlt": "Dos miembros de Autak junto a un banner enrollable que decía “Inclusión mediante la innovación” con los tres pilares hardware, software y concienciación."
   },
   "pillars": {
     "eyebrow": "Tres pilares",
@@ -116,7 +98,7 @@ export const es: Dictionary = {
       },
       "software": {
         "name": "Software",
-        "headline": "Plataforma de aprendizaje y navegación",
+        "headline": "Aplicación de navegación y plataforma de aprendizaje",
         "body": "Herramientas digitales que encuentran rutas accesibles y ponen el conocimiento al alcance de todos."
       },
       "awareness": {
@@ -138,7 +120,7 @@ export const es: Dictionary = {
       "Desarrollado abiertamente, financiado como una organización sin fines de lucro."
     ],
     "cta": "Más sobre la silla de ruedas",
-    "imageAlt": "El prototipo actual de Autak: una silla de ruedas negra con un logo rosa y varias ruedas pequeñas a cada lado que permiten subir escaleras."
+    "imageAlt": "El prototipo actual de Autak: una silla de ruedas negra con el logo rosa de Autak y varias ruedas pequeñas a cada lado que permiten subir escaleras."
   },
   "gallery": {
     "eyebrow": "Vislumbres",
@@ -150,19 +132,18 @@ export const es: Dictionary = {
     "title": "Autak sobre “Einfach genial”",
     "body": "El programa científico MDR visitó nuestro prototipo y mostró cómo la silla de ruedas sube escaleras.",
     "watch": "Mira la función",
-    "privacyNote": "El video solo se carga desde YouTube después de hacer clic. Antes de eso no se transmite nada.",
+    "privacyNote": "Los videos de YouTube se cargan solo después de hacer clic. Los clips cortos del taller comienzan silenciados cuando aparecen en la vista.",
     "videoTitle": "MDR “Einfach genial” en la silla de ruedas Autak",
     "citations": "Más cobertura"
   },
   "projects": {
     "eyebrow": "Proyectos",
     "title": "En qué estamos trabajando",
-    "subtitle": "Desde la mecánica hasta la aplicación: cada proyecto lo construye nuestro equipo en Aquisgrán."
+    "subtitle": "Desde la mecánica hasta la aplicación, cada proyecto comienza con nuestro equipo en Aquisgrán."
   },
   "partners": {
     "eyebrow": "Partidarios",
-    "title": "Nuestros fantásticos seguidores",
-    "subtitle": "Sin estos socios no habría prototipo."
+    "title": "Nuestros fantásticos seguidores"
   },
   "involve": {
     "eyebrow": "Complicarse",
@@ -175,13 +156,13 @@ export const es: Dictionary = {
         "cta": "Ir al formulario de membresía"
       },
       "meeting": {
-        "title": "reunión de equipo",
-        "body": "Todos los jueves a las 18:15, abierto a todos. Sólo entra.",
-        "cta": "Únete a la videollamada"
+        "title": "reunión en línea",
+        "body": "Reuniones híbridas abiertas, presenciales y online: lunes a las 17:00 horas y jueves a las 18:15 horas. Sólo entra.",
+        "cta": "Únase a la reunión en línea"
       },
       "donate": {
         "title": "Donar",
-        "body": "El 100 % de tu donación se destina al próximo prototipo.",
+        "body": "El 100% de tu donación se destina a accesibilidad.",
         "cta": "Donar a través de PayPal"
       }
     },
@@ -193,7 +174,7 @@ export const es: Dictionary = {
     "eyebrow": "Contacto",
     "emailLabel": "Correo electrónico",
     "phoneLabel": "Teléfono",
-    "addressLabel": "DIRECCIÓN",
+    "addressLabel": "Sala Club: Reuniones abiertas los lunes a las 17:00 y jueves a las 18:00",
     "directions": "Ver en el mapa",
     "imageAlt": "Un miembro de Autak con una camiseta rosa de la asociación delante de la catedral de Aquisgrán.",
     "teamImageAlt": "El equipo de Autak en la sala del club: ocho miembros sentados en sofás frente a una pared vegetal, uno de ellos en silla de ruedas.",
@@ -203,29 +184,29 @@ export const es: Dictionary = {
     "subjectLabel": "Sujeto",
     "messageLabel": "Mensaje",
     "submit": "enviar mensaje",
-    "hours": "Reunión del equipo todos los jueves a las 18:15"
+    "hours": "Reuniones abiertas online y presenciales: lunes a las 17:00 y jueves a las 18:00"
   },
   "pages": {
     "about": {
       "eyebrow": "Sobre nosotros",
       "title": "Un equipo interdisciplinario de Aquisgrán",
-      "intro": "Estudiantes y profesionales de RWTH y FH Aachen trabajan juntos en la accesibilidad: desde el fresado hasta el firmware y el trabajo de prensa.",
+      "intro": "Estudiantes de RWTH y FH Aachen y profesionales que trabajan juntos en materia de accesibilidad.",
       "groups": {
         "team": {
           "title": "Nuestro equipo",
-          "body": "Las personas que trabajan actualmente en el prototipo, la aplicación y los eventos."
+          "body": "Las personas que actualmente trabajan en prototipos, aplicaciones y eventos."
         },
         "alumni": {
           "title": "Antiguos alumnos",
-          "body": "Ellos dieron forma a Autak y siguieron adelante; gran parte de lo que impulsa hoy proviene de sus manos."
+          "body": "Ellos dieron forma a Autak y siguieron adelante, y gran parte de lo que impulsa hoy vino de sus manos."
         },
         "supporters": {
           "title": "Partidarios",
           "body": "Mentores, mecenas y expertos que nos respaldan con experiencia, redes y crítica."
         }
       },
-      "ctaTitle": "¿Quieres mejorar el mundo con nosotros?",
-      "ctaBody": "Nunca hay suficiente experiencia en el equipo. Póngase en contacto si está interesado; solo podemos hacerlo juntos."
+      "ctaTitle": "¿Quieres ayudarnos a derribar barreras?",
+      "ctaBody": "¡Nunca se puede tener demasiada experiencia!\n\n No dude en comunicarse si está interesado. Sólo juntos podremos hacer avanzar este proyecto."
     },
     "projects": {
       "eyebrow": "Proyectos",
@@ -245,7 +226,7 @@ export const es: Dictionary = {
     "news": {
       "eyebrow": "Noticias",
       "title": "¿Qué está pasando en Autak?",
-      "intro": "Prototipos, eventos, prensa y personas, en orden, lo último primero.",
+      "intro": "Prototipos, eventos, prensa y personas.",
       "categories": {
         "all": "Todo",
         "prototype": "Prototipo",
@@ -271,7 +252,7 @@ export const es: Dictionary = {
       "learnLabel": "lo que aprenderás",
       "fieldLabel": "Campo",
       "proposalTitle": "Un tema de ejemplo",
-      "proposalBody": "Un tema completamente escrito de nuestro proyecto de aplicación, como modelo de cómo sería una tesis con nosotros.",
+      "proposalBody": "Un tema completamente escrito de nuestro proyecto de aplicación: una plantilla de cómo es una tesis con nosotros.",
       "proposalCta": "Descargar la propuesta (PDF)",
       "nothingTitle": "¿Nada para ti aquí?",
       "nothingBody": "Ven a nuestra reunión semanal y encuentra algo. Hay algo que hacer para todos."
@@ -279,20 +260,20 @@ export const es: Dictionary = {
     "shop": {
       "eyebrow": "Comercio",
       "title": "Comprar aquí significa financiar el desarrollo",
-      "intro": "El 100 % de los beneficios se destina al desarrollo, por ejemplo al próximo prototipo de silla de ruedas para subir escaleras.",
+      "intro": "El 100% de los beneficios se reinvierte en desarrollo, como el próximo prototipo de silla de ruedas sube escaleras.",
       "availability": {
         "available": "Disponible",
         "soon": "Disponible pronto",
         "sold-out": "Agotado"
       },
-      "notifyTitle": "la tienda se esta moviendo",
-      "notifyBody": "Hasta que la nueva tienda esté en línea, realice su pedido directamente con nosotros por correo electrónico. Le responderemos con disponibilidad y costos de envío.",
-      "notifyCta": "Orden por correo electrónico",
+      "notifyTitle": "Orden por correo electrónico",
+      "notifyBody": "Ahora mismo, puede realizar un pedido con nosotros directamente por correo electrónico. Luego te enviaremos la factura y todos los detalles.",
+      "notifyCta": "Orden por correo electrónico"
     },
     "contact": {
       "eyebrow": "Contacto",
-      "title": "Ponte en contacto",
-      "intro": "Ya sea que tengas comentarios sobre la silla de ruedas, una idea de proyecto o algo completamente diferente, nos encantará saber de ti."
+      "title": "¡Escríbanos, llámenos o visítenos!",
+      "intro": "Ya sea que tenga comentarios sobre la silla de ruedas, una idea de proyecto o algo completamente diferente, esperamos tener noticias suyas."
     },
     "legal": {
       "eyebrow": "Legal",
@@ -311,7 +292,7 @@ export const es: Dictionary = {
     "partners": {
       "eyebrow": "Para socios",
       "title": "Qué esperar de trabajar con Autak",
-      "intro": "Patrocinio, cooperación y desarrollo de contratos: construimos prototipos en lugar de diapositivas, y somos abiertos sobre adónde va cada euro.",
+      "intro": "Patrocinio, cooperación y desarrollo de contratos: construimos prototipos en lugar de diapositivas y somos abiertos sobre adónde va cada euro.",
       "pressTitle": "En público",
       "pressIntro": "Dónde se ha cubierto nuestro trabajo: desde programas científicos hasta esquemas de innovación.",
       "videoTitle": "Mira en qué trabajamos",
@@ -335,7 +316,7 @@ export const es: Dictionary = {
         }
       ],
       "ctaTitle": "Hablemos de trabajar juntos",
-      "ctaBody": "Una donación en especie, capacidad de fabricación, financiación o un proyecto conjunto: cuéntenos brevemente lo que tiene en mente."
+      "ctaBody": "¿Una donación en especie, capacidad de fabricación, financiación o un proyecto conjunto? Cuéntanos brevemente qué tienes en mente."
     },
     "users": {
       "eyebrow": "Para usuarios",
@@ -354,11 +335,12 @@ export const es: Dictionary = {
     },
     "members": {
       "eyebrow": "Para miembros",
-      "title": "Jueves, 18:15 — y estás en",
+      "title": "Lunes a las 17:00 y jueves a las 18:00",
       "intro": "Soldar, diseñar, programar, escribir, organizar. En Autak cada habilidad encuentra un proyecto y cada proyecto encuentra a alguien que lo saca adelante.",
-      "meetingTitle": "Ven a la reunión del equipo",
-      "meetingBody": "Todos los jueves a las 18:15 nos reunimos por vídeo. Sin registro ni requisitos previos: simplemente acérquese.",
-      "meetingCta": "Únete a la videollamada",
+      "meetingTitle": "Ven a una reunión abierta",
+      "meetingBody": "Reuniones abiertas presenciales y online todos los lunes a las 17:00 horas y todos los jueves a las 18:00 horas.\n\n No se requiere registro previo. ¡Visítanos y únete!",
+      "meetingCta": "Únase a la reunión en línea",
+      "meetingWhere": "O pasar por",
       "videoTitle": "Eventos y talleres",
       "videoIntro": "Imágenes del taller, de eventos y lapsos de tiempo de la construcción.",
       "voicesTitle": "Voces del equipo",
@@ -379,14 +361,14 @@ export const es: Dictionary = {
     "seeAllProjects": "Ver todos los proyectos",
     "seeAllNews": "Todas las noticias",
     "apply": "Aplicar ahora",
-    "contactNow": "Contactar ahora",
+    "contactNow": "Contáctenos ahora",
     "writeUs": "Escríbenos",
     "backHome": "Volver a la página de inicio",
     "externalShop": "ir a la tienda",
     "or": "o"
   },
   "footer": {
-    "tagline": "Accesibilidad a través de la innovación.",
+    "tagline": "Inclusión en la innovación.",
     "sitemap": "paginas",
     "audiences": "Para ti",
     "legal": "Legal",
@@ -396,8 +378,8 @@ export const es: Dictionary = {
     "statutes": "Estatutos",
     "contributions": "Calendario de contribuciones",
     "rights": "Reservados todos los derechos.",
-    "newsletterTitle": "reunión de equipo",
-    "newsletterBody": "Los jueves a las 18:15, abierto a todos."
+    "newsletterTitle": "reunión en línea",
+    "newsletterBody": "Reuniones abiertas presenciales y online: lunes a las 17:00 y jueves a las 18:00"
   },
   "notFound": {
     "title": "Esta pagina no existe",
