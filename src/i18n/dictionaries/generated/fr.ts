@@ -313,6 +313,7 @@ export const fr: Dictionary = {
       ],
       "ctaTitle": "Parlons de travailler ensemble",
       "ctaBody": "Dons en nature, capacité de fabrication, financement ou projet commun : nous sommes ouverts à vos suggestions et idées."
+
     },
     "users": {
       "eyebrow": "Pour les utilisateurs",

@@ -158,6 +158,7 @@ export const tr: Dictionary = {
       "meeting": {
         "title": "Çevrimiçi toplantı",
         "body": "Kişisel ve çevrimiçi açık hibrit toplantılar: Pazartesi 17:00 ve Perşembe 18:15. Sadece uğrayın.",
+
         "cta": "Çevrimiçi toplantıya katılın"
       },
       "donate": {
@@ -299,6 +300,7 @@ export const tr: Dictionary = {
       "videoIntro": "Broşür yerine: atölyeden, test sürüşlerinden ve etkinliklerden görüntüler.",
       "capabilitiesTitle": "Konum ve yetenekler",
       "capabilitiesIntro": "Aachen'de yanımızda getireceklerimiz.",
+
       "financeTitle": "Para nereye gidiyor",
       "financeIntro": "Kâr amacı gütmeyen bir kuruluş olarak tüm fonların tüzüğümüze uygun şekilde harcanması gerekir. Spesifik olarak bu, belirli bir amaç için ayrılmamış fonların bile ekiplerimizin gelişimini desteklemek için kullanıldığı anlamına gelir. Daha fazla bilgi için lütfen tüzüğümüzü okuyun.",
       "finance": [
@@ -322,6 +324,7 @@ export const tr: Dictionary = {
       "projectsIntro": "Üzerinde çalıştığımız veya halihazırda üzerinde çalıştığımız şey.",
       "videoTitle": "Kullanılan ürünler",
       "videoIntro": "Güncel modeller ve prototiplerimizin fotoğrafları.",
+
       "ctaTitle": "Geri bildirim en önemli bileşendir",
       "ctaBody": "Sizin de hayatınızı nasıl kolaylaştırabileceğimize dair harika bir fikriniz var mı? Bize yazın."
     },
@@ -329,6 +332,7 @@ export const tr: Dictionary = {
       "eyebrow": "Üyeler için",
       "title": "Pazartesi 17:00 ve Perşembe 18:00",
       "intro": "Lehimleme, tasarlama, programlama, yazma ve organize etme, yalnızca ihtiyacımız olan değil aynı zamanda öğretebileceğimiz becerilerdir.",
+
       "meetingTitle": "Açık toplantıya gelin",
       "meetingBody": "Her Pazartesi saat 17:00 ve Perşembe saat 18:00'de yüz yüze ve çevrimiçi olarak açık toplantılar.\n\n Önceden kayıt yapılmasına gerek yoktur. Sadece uğrayın ve katılın!",
       "meetingCta": "Çevrimiçi toplantıya katılın",

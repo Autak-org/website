@@ -344,7 +344,9 @@ export const de = {
         "Statt einer Broschüre: Aufnahmen aus Werkstatt, Testfahrten und Events.",
       capabilitiesTitle: "Standort und Fähigkeiten",
       capabilitiesIntro:
+
         "Was wir in Aachen selbst mitbringen.",
+
       financeTitle: "Wohin das Geld fließt",
       financeIntro:
         "Als gemeinnütziger Verein, müssen alle Gelder satzungsgemäß ausgegeben werden. Im Konkreten bedeutet das: selbst Gelder, die nicht zweckgebunden sind, werden für die Entwicklung in den Teams ausgegeben. Für mehr Informationen lesen sie bitte unsere Satzung.",
@@ -361,6 +363,7 @@ export const de = {
       ctaTitle: "Lassen Sie uns über eine Zusammenarbeit sprechen",
       ctaBody:
         "Sachspende, Fertigungskapazität, Förderung oder ein gemeinsames Projekt: Wir sind offen für Ihre Vorschläge und Ideen.",
+
     },
 
     users: {
