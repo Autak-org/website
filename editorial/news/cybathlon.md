@@ -1,19 +1,19 @@
 ---
 date: 2024-10-27
 category: event
-title_de: Unterwegs beim CYBATHLON
-title_en: On the road at CYBATHLON
-title_fr: En route à CYBATHLON
-title_nl: Onderweg bij CYBATHLON
-title_es: En la carretera en CYBATHLON
-title_tr: CYBATHLON 'de yolda
-excerpt_de: Assistenztechnik im Wettbewerb, entwickelt mit den Menschen, die sie benutzen. Genau die Haltung, mit der wir am Rollstuhl arbeiten.
-excerpt_en: Assistive technology in competition, developed with the people who use it. Exactly the attitude we build the wheelchair with.
-excerpt_fr: Des technologies d'assistance en compétition, développées avec les utilisateurs. C'est précisément dans cet esprit que nous concevons nos fauteuils roulants.
-excerpt_nl: Hulpmiddelen in wedstrijdverband, ontwikkeld mét de gebruikers. Precies de instelling waarmee we de rolstoel bouwen.
-excerpt_es: Tecnología de asistencia en competición, desarrollada con las personas que la utilizan. Precisamente con esa misma filosofía diseñamos la silla de ruedas.
-excerpt_tr: Yardımcı teknoloji, onu kullanan kişilerle birlikte geliştirilerek rekabet halinde sunuluyor. Tekerlekli sandalyeyi de tam olarak bu anlayışla üretiyoruz.
-image: /images/media/booth-indoor.jpg
+title_de: Unser Prototyp durchläuft den CYBATHLON
+title_en: Our prototype completes the CYBATHLON course
+title_fr: Notre prototype termine le parcours du CYBATHLON
+title_nl: Ons prototype voltooit het CYBATHLON-parcours
+title_es: Nuestro prototipo completa el recorrido del CYBATHLON
+title_tr: Prototipimiz CYBATHLON parkurunu tamamlıyor
+excerpt_de: Der CYBATHLON ist ein internationaler Wettbewerb für Assistenztechnik. Wir fahren nach Zürich und absolvieren erfolgreich den Rollstuhl-Parcours mit unserem neuesten Prototypen.
+excerpt_en: The CYBATHLON is an international competition for assistive technology. We travel to Zurich and successfully complete the wheelchair course with our latest prototype.
+excerpt_fr: Le CYBATHLON est une compétition internationale de technologies d’assistance. Nous nous rendons à Zurich et terminons avec succès le parcours en fauteuil roulant avec notre tout dernier prototype.
+excerpt_nl: De CYBATHLON is een internationale wedstrijd voor assistieve technologie. We reizen naar Zürich en leggen het rolstoelparcours met ons nieuwste prototype met succes af.
+excerpt_es: El CYBATHLON es una competición internacional de tecnología de asistencia. Viajamos a Zúrich y completamos con éxito el recorrido en silla de ruedas con nuestro prototipo más reciente.
+excerpt_tr: CYBATHLON, yardımcı teknolojiler için uluslararası bir yarışmadır. Zürih’e gidip tekerlekli sandalye parkurunu en yeni prototipimizle başarıyla tamamlıyoruz.
+image: /images/media/cybathlon.png
 image_alt_de: Messestand mit dem Autak-Rollstuhl-Prototyp.
 image_alt_en: Trade fair booth with the Autak wheelchair prototype.
 image_alt_fr: Stand d'exposition présentant le prototype de fauteuil roulant Autak .

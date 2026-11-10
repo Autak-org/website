@@ -1,5 +1,5 @@
 ---
-date: 2023-03-14
+date: 2020-12-15
 category: press
 title_de: Autak bei „Einfach genial“ im MDR
 title_en: |-
