@@ -214,7 +214,7 @@ export const de = {
       eyebrow: "Über uns",
       title: "Ein interdisziplinäres Team aus Aachen",
       intro:
-        "Studierende von RWTH und FH AAchen und Berufstätige, die zusammen an Barrierefreiheit arbeiten.",
+        "Studierende der RWTH und FH Aachen sowie Berufstätige, die zusammen an Barrierefreiheit arbeiten.",
       groups: {
         team: {
           title: "Unser Team",
@@ -335,10 +335,10 @@ export const de = {
       eyebrow: "Für Partner:innen",
       title: "Was Sie von einer Zusammenarbeit mit Autak erwarten können",
       intro:
-        "Wir sind auf Sponsoring und Kooperationen angewiesen. Im gegenzug lassen wir die Gelder und Güter vollständig in unsere Arbeit fließen, um präsentierbare Produkte hervorzubringen. Jede helfende Hand kommt uns gelegen, weshalb wir uns auch mühe geben zu zeigen wer unsere Sponsoren sind.",
+        "Wir sind auf Sponsoring und Kooperationen angewiesen. Im Gegenzug lassen wir die Gelder und Güter vollständig in unsere Arbeit fließen, um präsentierbare Produkte hervorzubringen. Jede helfende Hand kommt uns gelegen, weshalb wir uns auch Mühe geben, zu zeigen, wer unsere Sponsoren sind.",
       pressTitle: "In der Öffentlichkeit",
       pressIntro:
-        "Über unsere Arbeit wurde bereits berichtet in Beiträgen von Regionalsendern bis hin zu Innovationsprogrammen. Generell sind wir bemüht uns für unsere Sponsoren der Öffentlichkeit zu präsentieren.",
+        "Über unsere Arbeit wurde bereits in Beiträgen von Regionalsendern bis hin zu Innovationsprogrammen berichtet. Generell sind wir bemüht, unsere Sponsoren der Öffentlichkeit zu präsentieren.",
       videoTitle: "Sehen, woran wir arbeiten",
       videoIntro:
         "Statt einer Broschüre: Aufnahmen aus Werkstatt, Testfahrten und Events.",
@@ -349,7 +349,7 @@ export const de = {
 
       financeTitle: "Wohin das Geld fließt",
       financeIntro:
-        "Als gemeinnütziger Verein, müssen alle Gelder satzungsgemäß ausgegeben werden. Im Konkreten bedeutet das: selbst Gelder, die nicht zweckgebunden sind, werden für die Entwicklung in den Teams ausgegeben. Für mehr Informationen lesen sie bitte unsere Satzung.",
+        "Als gemeinnütziger Verein müssen alle Gelder satzungsgemäß ausgegeben werden. Konkret bedeutet das: Selbst Gelder, die nicht zweckgebunden sind, werden für die Entwicklung in den Teams ausgegeben. Für mehr Informationen lesen Sie bitte unsere Satzung.",
       finance: [
         {
           title: "100 % in die Entwicklung",
@@ -377,14 +377,14 @@ export const de = {
       videoIntro: "Aktuelle Modelle und Fotos rund um unsere Prototypen.",
       ctaTitle: "Feedback ist die wichtigste Zutat",
       ctaBody:
-        "Sie haben eine großartige Idee wie wir auch ihnen das Leben erleichtern könnten? Schreiben Sie uns.",
+        "Sie haben eine großartige Idee, wie wir auch Ihnen das Leben erleichtern könnten? Schreiben Sie uns.",
     },
 
     members: {
       eyebrow: "Für Mitglieder",
       title: "Montag um 17:00 Uhr & Donnerstag um 18:00 Uhr",
       intro:
-        "Löten, Konstruieren, Programmieren, Schreiben, Organisieren sind alles Fähigkeit, die wir sowohl brauchen, aber auch vermitteln können.",
+        "Löten, Konstruieren, Programmieren, Schreiben und Organisieren sind alles Fähigkeiten, die wir brauchen, aber auch vermitteln können.",
       meetingTitle: "Komm zum offenen Treffen",
       meetingBody:
         "Offene Treffen vor Ort und online jeden Montag um 17:00 Uhr und jeden Donnerstag um 18:00 Uhr.\n\n Es ist keine vorherige Anmeldung nötig. Du kannst einfach reinschauen und mitmachen!",

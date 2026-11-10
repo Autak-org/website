@@ -1,5 +1,5 @@
 ---
-date: 2022-06-08
+date: 2022-06-07
 category: product
 title_de: Connie ist im Shop
 title_en: Connie is in the shop
