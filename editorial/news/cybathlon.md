@@ -1,8 +1,8 @@
 ---
 date: 2024-10-27
 category: event
-title_de: Unser Prototyp durchläuft den CYBATHLON
-title_en: Our prototype completes the CYBATHLON course
+title_de: Prototyp meistert CYBATHLON
+title_en: Prototype completes CYBATHLON
 title_fr: Notre prototype termine le parcours du CYBATHLON
 title_nl: Ons prototype voltooit het CYBATHLON-parcours
 title_es: Nuestro prototipo completa el recorrido del CYBATHLON
