@@ -3,7 +3,7 @@ group: team
 order: 15
 name: Katharina Ludwig
 photo: /images/people/bild_folgt.jpeg
-role_de: 1. Vorsitzender
+role_de: 1. Vorsitzende
 role_en: 1st Chair
 role_fr: 1ère chaise
 role_nl: 1e stoel
