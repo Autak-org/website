@@ -348,7 +348,7 @@ export const es: Dictionary = {
       "projectsTitle": "Proyectos buscando personas",
       "projectsIntro": "Cada proyecto dice exactamente qué trabajo está esperando en este momento.",
       "positionsTitle": "Tesis abiertas y prácticas",
-      "positionsIntro": "Formalmente supervisado, de tema abierto: tu trabajo termina en el prototipo, no en un estante.",
+      "positionsIntro": "Supervisado formalmente, con un tema abierto: tu trabajo termina en el prototipo, no en un estante.",
       "ctaTitle": "¿Listo para empezar?",
       "ctaBody": "Convertirse en miembro pasa por el formulario de membresía. La instalación funciona de inmediato."
     }
