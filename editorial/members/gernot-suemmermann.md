@@ -1,5 +1,5 @@
 ---
-group: team
+group: alumni
 order: 3
 name: Gernot Sümmermann
 photo: /images/people/gernot-suemmermann.jpg

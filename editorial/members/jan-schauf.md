@@ -1,6 +1,6 @@
 ---
 group: team
-order: 14
+order: 2
 name: Jan Schauf
 photo: /images/people/bild_folgt.jpeg
 role_de: 2. Vorsitzender

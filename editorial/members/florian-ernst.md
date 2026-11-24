@@ -1,6 +1,6 @@
 ---
 group: team
-order: 13
+order: 7
 name: Florian Ernst
 photo: /images/people/florian-ernst.jpg
 ---

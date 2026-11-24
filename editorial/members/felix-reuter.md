@@ -1,5 +1,5 @@
 ---
-group: team
+group: alumni
 order: 6
 name: Felix Reuter
 photo: /images/people/felix-reuter.jpg

@@ -1,5 +1,5 @@
 ---
-group: team
+group: alumni
 order: 7
 name: Abhishek Ganesh
 photo: /images/people/abhishek-ganesh.jpg

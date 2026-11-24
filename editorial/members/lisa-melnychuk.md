@@ -1,7 +1,7 @@
 ---
 group: team
-order: 18
-name: Lisa
+order: 9
+name: Lisa Melnychuk
 photo: /images/people/bild_folgt.jpeg
 tags: #Elektrotechnik, #Hilfsbereit
 bio_de: Als Elektrotechnikstudentin bin ich am Bau des Rollstuhls beteiligt. Ich helfe bei Konstruktion des Modells über das PCB-Design bis hin zur Programmierung. Ich packe überall mit an, wo Technik und meine Hände gefragt sind, denn ich liebe es, Dinge zum Laufen zu bringen.

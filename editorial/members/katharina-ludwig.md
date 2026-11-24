@@ -1,6 +1,6 @@
 ---
 group: team
-order: 15
+order: 1
 name: Katharina Ludwig
 photo: /images/people/bild_folgt.jpeg
 role_de: 1. Vorsitzende

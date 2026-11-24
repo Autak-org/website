@@ -1,5 +1,5 @@
 ---
-group: team
+group: alumni
 order: 4
 name: Dr. Thomas Hönig
 photo: /images/people/thomas-hoenig.jpg

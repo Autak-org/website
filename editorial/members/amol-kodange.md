@@ -1,6 +1,6 @@
 ---
 group: team
-order: 8
+order: 6
 name: Amol Kodange
 photo: /images/people/amol-kodange.jpg
 tags: |-

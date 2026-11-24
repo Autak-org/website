@@ -1,6 +1,6 @@
 ---
 group: team
-order: 1
+order: 5
 name: Manuel Wessely
 photo: /images/people/manuel-wessely.jpg
 tags: |-
