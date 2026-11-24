@@ -1,5 +1,5 @@
 ---
-group: team
+group: alumni
 order: 10
 name: Subhangee Sahoo
 photo: /images/people/subhangee-sahoo.jpg

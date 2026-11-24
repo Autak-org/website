@@ -81,7 +81,7 @@ export const tr: Dictionary = {
     "title": "Tekerlekli sandalye kullanıcısını evinize davet edebilir misiniz?",
     "lead": "Bir an düşündükten sonra çoğu insan, küçük bir merdiven katının veya çok dar bir kapının engel olabileceğini fark eder ve bu soruyu \"Hayır\" olarak yanıtlamak zorunda kalırsınız.",
     "body": [
-      "Autak, belirli ihtiyaçları olan insanlar için hayatı biraz daha kolaylaştırmak için çalışan, kar amacı gütmeyen bir dernektir. Biz çok farklı alanlardan öğrencileriz ve kimseyi geride bırakmayan bir hareketlilik inşa ediyoruz.",
+      "Autak, belirli ihtiyaçları olan insanlar için hayatı biraz daha kolaylaştırmak için çalışan, kar amacı gütmeyen bir dernektir. Bizler çok farklı alanlardan öğrencileriz ve kimseyi geride bırakmayan bir hareketlilik inşa ediyoruz.",
       "Sizin yardımınızla dünya çapında 140 milyondan fazla tekerlekli sandalye kullanıcısını bilinçlendirebilir ve geliştirdiklerimizle onları destekleyebiliriz. Kârın %100'ü geliştirmeye geri dönüyor."
     ],
     "imageAlt": "İki Autak üyesi, donanım, yazılım ve farkındalığın üç sütununu içeren \"İnovasyon Yoluyla Katılım\" yazılı bir pankartın yanında."
@@ -295,7 +295,7 @@ export const tr: Dictionary = {
       "title": "Autak ile çalışmaktan neler beklenebilir?",
       "intro": "Sponsorluklara ve ortaklıklara güveniyoruz. Karşılığında, tüm fonları ve malları doğrudan yüksek kaliteli ürünler yaratmak için çalışmalarımıza aktarıyoruz. Her yardım eli memnuniyetle karşılanır, bu nedenle sponsorlarımızın kim olduğunu vurgulamaya özen gösteriyoruz.",
       "pressTitle": "halka açık",
-      "pressIntro": "Çalışmalarımız halihazırda bölgesel yayınlardan inovasyon programlarına kadar çeşitli raporlarda yer alıyor. Genel olarak sponsorlarımızı kamuoyuna tanıtmaya çalışıyoruz.",
+      "pressIntro": "Çalışmamızın kapsandığı yerler: bilim programlarından inovasyon planlarına.",
       "videoTitle": "Ne üzerinde çalıştığımızı görün",
       "videoIntro": "Broşür yerine: atölyeden, test sürüşlerinden ve etkinliklerden görüntüler.",
       "capabilitiesTitle": "Konum ve yetenekler",
@@ -314,7 +314,7 @@ export const tr: Dictionary = {
         }
       ],
       "ctaTitle": "Birlikte çalışmayı konuşalım",
-      "ctaBody": "Ayni bağış, üretim kapasitesi, finansman veya ortak proje: öneri ve fikirlerinize açığız."
+      "ctaBody": "Ayni bir bağış mı, üretim kapasitesi mi, finansman mı yoksa ortak proje mi? Aklınızdan geçenleri bize kısaca anlatın."
     },
     "users": {
       "eyebrow": "Kullanıcılar için",
@@ -342,7 +342,9 @@ export const tr: Dictionary = {
       "voicesTitle": "Ekipten sesler",
       "voicesIntro": "Üyeler bizimle nasıl başladı?",
       "projectsTitle": "İnsanları arayan projeler",
-      "projectsIntro": "Hiçbir şey bulamazsanız neden uğrayıp kendi projenizi başlatmıyorsunuz?",
+      "projectsIntro": "Her proje şu anda tam olarak hangi işin beklediğini söylüyor.",
+      "positionsTitle": "Açık tezler ve stajlar",
+      "positionsIntro": "Resmi olarak denetlenir, konusu açık: Çalışmanız rafta değil prototipte biter.",
       "ctaTitle": "Başlamaya hazır mısınız?",
       "ctaBody": "Üye olmak üyelik formundan geçer. Ancak önceden uğrayıp bizi tanımaktan çekinmeyin."
     }

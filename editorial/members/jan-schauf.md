@@ -1,10 +1,14 @@
 ---
 group: team
-order: 14
+order: 2
 name: Jan Schauf
 photo: /images/people/bild_folgt.jpeg
-role_de: Kassenwart
-role_en: Treasurer
+role_de: 2. Vorsitzender
+role_en: 2nd Chair
+role_fr: 2ème chaise
+role_nl: 2e stoel
+role_es: Segunda silla
+role_tr: 2. Sandalye
 tags: #Produktentwicklung, #Medizintechnik
 bio_de: Als Maschinenbauer maßgäblich beteiligt am Bau des Rollstuhles. Die Person die man fragt, wenn man etwas sucht.
 bio_en: As a mechanical engineer, he played a key role in the design of the wheelchair. He's the person you turn to when you're looking for something.

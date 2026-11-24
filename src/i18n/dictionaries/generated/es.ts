@@ -338,7 +338,9 @@ export const es: Dictionary = {
       "voicesTitle": "Voces del equipo",
       "voicesIntro": "Cómo los miembros comenzaron con nosotros.",
       "projectsTitle": "Proyectos buscando personas",
-      "projectsIntro": "Si no encuentras nada, ¿por qué no pasas por aquí y comienzas tu propio proyecto?",
+      "projectsIntro": "Cada proyecto dice exactamente qué trabajo está esperando en este momento.",
+      "positionsTitle": "Tesis abiertas y prácticas",
+      "positionsIntro": "Supervisado formalmente, con un tema abierto: tu trabajo termina en el prototipo, no en un estante.",
       "ctaTitle": "¿Listo para empezar?",
       "ctaBody": "Convertirse en miembro pasa por el formulario de membresía. Pero no dudes en pasarte antes y conocernos."
     }

@@ -6,7 +6,7 @@ import type { Dictionary } from "../de";
 export const nl: Dictionary = {
   "meta": {
     "title": "Autak e.V. — Inclusie in innovatie",
-    "description": "Autak e.V. bouwt een traplooprolstoel, toegankelijke software en bewustzijn voor inclusie."
+    "description": "Autak e.V. bouwt een traplooprolstoel, toegankelijke software en bewustwording voor inclusie."
   },
   "a11y": {
     "skipToContent": "Ga naar de inhoud",
@@ -291,8 +291,8 @@ export const nl: Dictionary = {
     },
     "partners": {
       "eyebrow": "Voor partners",
-      "title": "Wat je kunt verwachten als je met Autak werkt",
-      "intro": "Wij zijn afhankelijk van sponsoring en samenwerkingsverbanden. In ruil daarvoor kunnen we alle fondsen en goederen rechtstreeks in ons werk steken om producten van hoge kwaliteit te creëren. Iedere helpende hand is welkom en daarom maken wij er een punt van om in de kijker te zetten wie onze sponsors zijn.",
+      "title": "Wat u kunt verwachten van het werken met Autak",
+      "intro": "Sponsoring, samenwerking en contractontwikkeling: we bouwen prototypes in plaats van slidedecks en zijn open over waar elke euro naartoe gaat.",
       "pressTitle": "In het openbaar",
       "pressIntro": "Ons werk is al te zien geweest in reportages variërend van regionale uitzendingen tot innovatieprogramma’s. Over het algemeen streven we ernaar om onze sponsors aan het publiek onder de aandacht te brengen.",
       "videoTitle": "Bekijk waar wij aan werken",

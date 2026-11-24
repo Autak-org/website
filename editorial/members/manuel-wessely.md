@@ -1,14 +1,8 @@
 ---
 group: team
-order: 1
+order: 5
 name: Manuel Wessely
-photo: /images/people/manuel-wessely.jpg
-role_de: 1. Vorsitzender
-role_en: 1st Chair
-role_fr: 1ère chaise
-role_nl: 1e stoel
-role_es: Primera silla
-role_tr: 1. Sandalye
+photo: /images/people/manuel-wessely-neu-neu.jpeg
 tags: |-
   #Informatik, #Vertrauensperson
 bio_de: Für Manu ist als motivierter Informatiker das Zehnfingersystem ein Klacks. Zudem setzt er sich für seine Mitmenschen ein.
