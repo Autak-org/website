@@ -14,7 +14,7 @@ import { localizeVideos, videoLabels } from "@/lib/videos";
 import { getDictionary, isLocale, locales, t } from "@/i18n";
 import { routes } from "@/lib/routes";
 import { site } from "@/lib/site";
-import { RichText } from "@/components/ui/richt-text";
+import { RichText } from "@/components/ui/rich-text";
 
 type ProjectParams = { params: Promise<{ locale: string; slug: string }> };
 
@@ -102,10 +102,12 @@ export default async function ProjectPage({ params }: ProjectParams) {
               <Rule />
               <div>
                 <dt className="text-xs font-semibold tracking-[0.16em] text-ink-500 uppercase">
-                  {pages.project.contributeTitle}
+                  {project.contributionTitle
+                    ? t(project.contributionTitle, locale)
+                    : pages.project.contributeTitle}
                 </dt>
                 <dd className="mt-2 leading-relaxed text-ink-600">
-                  {t(project.contribution, locale)}
+                  <RichText text={t(project.contribution, locale)} />
                 </dd>
               </div>
             </dl>

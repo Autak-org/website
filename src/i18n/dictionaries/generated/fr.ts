@@ -93,18 +93,18 @@ export const fr: Dictionary = {
     "items": {
       "hardware": {
         "name": "Matériel",
-        "headline": "Fauteuil roulant monte-escalier",
-        "body": "Un fauteuil roulant qui franchit les marches et les bordures et ramène son utilisateur au niveau des yeux."
+        "headline": "Outils et équipements pour la vie quotidienne",
+        "body": "Inspirés par les personnes concernées, nous développons des solutions basées sur les objets pour leur faciliter la vie."
       },
       "software": {
         "name": "Logiciel",
-        "headline": "Application de navigation et plateforme d'apprentissage",
+        "headline": "Applications et sites Web",
         "body": "Des outils numériques qui trouvent des itinéraires accessibles et mettent les connaissances à la disposition de tous."
       },
       "awareness": {
         "name": "Conscience",
-        "headline": "Inclusion et égalité des chances",
-        "body": "Campagnes, événements et réseaux sociaux qui rendent les barrières visibles avant que nous les supprimions."
+        "headline": "Parler et comprendre",
+        "body": "Campagnes, événements et publications sur les réseaux sociaux qui mettent en évidence les obstacles, même pour ceux qui ne sont pas directement concernés par ceux-ci."
       }
     }
   },
@@ -211,7 +211,7 @@ export const fr: Dictionary = {
     "projects": {
       "eyebrow": "Projets",
       "title": "Matériel, logiciels et sensibilisation",
-      "intro": "Chaque projet alimente l'un des trois piliers. Ensemble, ils créent une mobilité qui ne laisse personne de côté.",
+      "intro": "Ce sont les trois piliers de notre organisation. Chacun de nos projets s’inscrit dans l’un de ces piliers.",
       "contribution": "Vous pouvez aider avec",
       "status": "Statut"
     },
@@ -221,7 +221,7 @@ export const fr: Dictionary = {
       "videos": "Vidéos",
       "gallery": "Galerie",
       "nextProject": "Projet suivant",
-      "contributeTitle": "Où vous pouvez contribuer"
+      "contributeTitle": "Vous pouvez contribuer ici"
     },
     "news": {
       "eyebrow": "Nouvelles",
@@ -292,15 +292,15 @@ export const fr: Dictionary = {
     "partners": {
       "eyebrow": "Pour les partenaires",
       "title": "À quoi s'attendre en travaillant avec Autak",
-      "intro": "Sponsoring, coopération et développement de contrats : nous construisons des prototypes plutôt que des diapositives et nous sommes ouverts sur la destination de chaque euro.",
+      "intro": "Nous comptons sur des mécénats et des partenariats. En retour, nous canalisons tous les fonds et tous les biens directement dans notre travail pour créer des produits de haute qualité. Chaque coup de main est le bienvenu, c'est pourquoi nous mettons un point d'honneur à mettre en avant qui sont nos sponsors.",
       "pressTitle": "En public",
-      "pressIntro": "Où notre travail a été couvert : des programmes scientifiques aux programmes d'innovation.",
+      "pressIntro": "Notre travail a déjà été présenté dans des reportages allant des émissions régionales aux programmes d'innovation. De manière générale, nous nous efforçons de mettre en valeur nos sponsors auprès du public.",
       "videoTitle": "Découvrez sur quoi nous travaillons",
       "videoIntro": "Au lieu d'une brochure : des images de l'atelier, des essais routiers et des événements.",
       "capabilitiesTitle": "Emplacement et capacités",
-      "capabilitiesIntro": "Ce que nous pouvons faire nous-mêmes à Aix-la-Chapelle et là où nous avons besoin de partenaires.",
+      "capabilitiesIntro": "Ce que nous apportons avec nous à Aix-la-Chapelle.",
       "financeTitle": "Où va l'argent",
-      "financeIntro": "Nous sommes une organisation à but non lucratif. La manière dont nous gérons les fonds est inscrite dans nos statuts et ne relève pas de bonnes intentions.",
+      "financeIntro": "En tant qu'organisation à but non lucratif, tous les fonds doivent être dépensés conformément à nos statuts. Concrètement, cela signifie que même les fonds qui ne sont pas affectés à un objectif précis sont utilisés pour soutenir le développement de nos équipes. Pour plus d’informations, veuillez lire nos statuts.",
       "finance": [
         {
           "title": "100 % en développement",
@@ -309,48 +309,39 @@ export const fr: Dictionary = {
         {
           "title": "Géré par des bénévoles",
           "body": "L'association fonctionne grâce au bénévolat. Les cotisations et les dons couvrent le matériel, les ateliers et les événements."
-        },
-        {
-          "title": "Reçus sur demande",
-          "body": "Nous émettons un reçu de don simplifié, et nos statuts et barèmes de cotisations sont publics."
         }
       ],
       "ctaTitle": "Parlons de travailler ensemble",
-      "ctaBody": "Un don en nature, une capacité de fabrication, un financement ou un projet commun ? Dites-nous brièvement ce que vous avez en tête."
+      "ctaBody": "Dons en nature, capacité de fabrication, financement ou projet commun : nous sommes ouverts à vos suggestions et idées."
+
     },
     "users": {
       "eyebrow": "Pour les utilisateurs",
       "title": "Construit avec les personnes qui l'utilisent",
-      "intro": "Nos produits sont issus des commentaires des utilisateurs de fauteuils roulants, de leurs proches et des testeurs. Chaque commande finance la prochaine itération.",
-      "newsTitle": "Nouveau chez Autak",
-      "newsIntro": "Les dernières étapes du développement, brièvement.",
-      "videoTitle": "Produits utilisés",
-      "videoIntro": "Courts extraits de tests et d’utilisation quotidienne.",
-      "voicesTitle": "Ce que disent les utilisateurs",
-      "voicesIntro": "Retours d'essais sur le terrain et en boutique.",
+      "intro": "Nos produits sont développés sur la base des commentaires des personnes concernées, de leurs proches et des sujets de test. Votre avis est important pour nous.",
       "projectsTitle": "Produits et projets",
-      "projectsIntro": "Ce que vous pouvez déjà utiliser et ce qui est en cours de construction.",
+      "projectsIntro": "Ce sur quoi nous travaillons ou avons déjà travaillé.",
+      "videoTitle": "Produits utilisés",
+      "videoIntro": "Modèles actuels et photos de nos prototypes.",
       "ctaTitle": "Les commentaires sont l’ingrédient le plus important",
-      "ctaBody": "Vous pensez que le fauteuil roulant devrait avoir un aspect différent ou s'adapter à votre petite voiture ? Écrivez-nous."
+      "ctaBody": "Avez-vous également une bonne idée sur la façon dont nous pourrions vous faciliter la vie ? Écrivez-nous."
     },
     "members": {
       "eyebrow": "Pour les membres",
       "title": "Lundi à 17h00 et jeudi à 18h00",
-      "intro": "Souder, concevoir, programmer, écrire, organiser. Chez Autak chaque compétence trouve un projet et chaque projet trouve quelqu'un pour le faire avancer.",
+      "intro": "Souder, concevoir, programmer, écrire et organiser sont autant de compétences dont nous avons non seulement besoin, mais que nous pouvons également enseigner.",
       "meetingTitle": "Venez à une réunion ouverte",
       "meetingBody": "Réunions ouvertes en personne et en ligne tous les lundis à 17h00 et tous les jeudis à 18h00.\n\n Aucune inscription préalable n’est requise. Passez nous voir et participez !",
       "meetingCta": "Rejoignez la réunion en ligne",
       "meetingWhere": "Ou passez nous voir",
       "videoTitle": "Événements et ateliers",
-      "videoIntro": "Images de l'atelier, des événements et des timelapses de la construction.",
+      "videoIntro": "Images de l'atelier, des événements et de la configuration.",
       "voicesTitle": "Voix de l'équipe",
       "voicesIntro": "Comment les membres ont commencé avec nous.",
       "projectsTitle": "Projets à la recherche de personnes",
-      "projectsIntro": "Chaque projet indique exactement quel travail attend actuellement.",
-      "positionsTitle": "Thèses ouvertes et stages",
-      "positionsIntro": "Formellement supervisé, sujet ouvert : votre travail finit dans le prototype, pas sur une étagère.",
+      "projectsIntro": "Si vous ne trouvez rien, pourquoi ne pas passer nous voir et démarrer votre propre projet ?",
       "ctaTitle": "Prêt à commencer ?",
-      "ctaBody": "Devenir membre passe par le formulaire d'adhésion. Déposer les travaux tout de suite."
+      "ctaBody": "Devenir membre passe par le formulaire d'adhésion. Mais n'hésitez pas à passer nous voir au préalable et à faire notre connaissance."
     }
   },
   "common": {

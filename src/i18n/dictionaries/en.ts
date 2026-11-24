@@ -102,18 +102,18 @@ export const en: Dictionary = {
     items: {
       hardware: {
         name: "Hardware",
-        headline: "Stair-climbing wheelchair",
-        body: "A wheelchair that takes steps and kerbs, and brings its user back to eye level.",
+        headline: "Tools and Equipment for Everyday Life",
+        body: "Inspired by those affected, we develop object-based solutions to make life easier.",
       },
       software: {
         name: "Software",
-        headline: "Navigation app & learning platform",
+        headline: "Apps and Websites",
         body: "Digital tools that find accessible routes and make knowledge available to everyone.",
       },
       awareness: {
         name: "Awareness",
-        headline: "Inclusion & equal opportunities",
-        body: "Campaigns, events and social media that make barriers visible before we remove them.",
+        headline: "Speaking and Understanding",
+        body: "Campaigns, events, and social media posts that highlight barriers—even for those who aren't directly affected by them.",
       },
     },
   },
@@ -241,7 +241,7 @@ export const en: Dictionary = {
       eyebrow: "Projects",
       title: "Hardware, software and awareness",
       intro:
-        "Every project feeds one of the three pillars. Together they add up to mobility that leaves nobody behind.",
+        "These are the three pillars of our organization. Each of our projects falls under one of these pillars.",
       contribution: "You can help with",
       status: "Status",
     },
@@ -252,7 +252,7 @@ export const en: Dictionary = {
       videos: "Videos",
       gallery: "Gallery",
       nextProject: "Next project",
-      contributeTitle: "Where you can contribute",
+      contributeTitle: "You can contribute here",
     },
 
     news: {
@@ -338,19 +338,19 @@ export const en: Dictionary = {
       eyebrow: "For partners",
       title: "What to expect from working with Autak",
       intro:
-        "Sponsoring, cooperation and contract development: we build prototypes rather than slide decks and we are open about where every euro goes.",
+        "We rely on sponsorships and partnerships. In return, we channel all of the funds and goods directly into our work to create high-quality products. Every helping hand is welcome, which is why we make a point of highlighting who our sponsors are.",
       pressTitle: "In public",
       pressIntro:
-        "Where our work has been covered: from science programmes to innovation schemes.",
+        "Our work has already been featured in reports ranging from regional broadcasts to innovation programs. In general, we strive to showcase our sponsors to the public.",
       videoTitle: "See what we work on",
       videoIntro:
         "Instead of a brochure: footage from the workshop, test drives and events.",
       capabilitiesTitle: "Location and capabilities",
       capabilitiesIntro:
-        "What we can do ourselves in Aachen and where we need partners.",
+        "What we bring with us in Aachen.",
       financeTitle: "Where the money goes",
       financeIntro:
-        "We are a non-profit. How we handle funds is written into our statutes, not left to good intentions.",
+        "As a nonprofit organization, all funds must be spent in accordance with our bylaws. Specifically, this means that even funds that are not earmarked for a specific purpose are used to support the development of our teams. For more information, please read our bylaws.",
       finance: [
         {
           title: "100 % into development",
@@ -360,57 +360,46 @@ export const en: Dictionary = {
           title: "Run by volunteers",
           body: "The association runs on volunteer work. Membership fees and donations cover material, workshop and events.",
         },
-        {
-          title: "Receipts on request",
-          body: "We issue a simplified donation receipt, and our statutes and schedule of contributions are public.",
-        },
       ],
       ctaTitle: "Let's talk about working together",
       ctaBody:
-        "A donation in kind, manufacturing capacity, funding or a joint project? Tell us briefly what you have in mind.",
+        "Donations in kind, manufacturing capacity, funding, or a joint project: we are open to your suggestions and ideas.",
     },
 
     users: {
       eyebrow: "For users",
       title: "Built with the people who use it",
       intro:
-        "Our products come out of feedback from wheelchair users, relatives and testers. Every order funds the next iteration.",
-      newsTitle: "New at Autak",
-      newsIntro: "The latest steps in development, briefly.",
+        "Our products are developed based on feedback from those affected, their loved ones, and test subjects. Your opinion is important to us.",
+      projectsTitle: "Products and Projects",
+      projectsIntro: "What we're working on or have already worked on.",
       videoTitle: "Products in use",
-      videoIntro: "Short clips from tests and everyday use.",
-      voicesTitle: "What users say",
-      voicesIntro: "Feedback from field tests and from the shop.",
-      projectsTitle: "Products and projects",
-      projectsIntro: "What you can already use and what is being built.",
+      videoIntro: "Current models and photos of our prototypes.",
       ctaTitle: "Feedback is the most important ingredient",
       ctaBody:
-        "Think the wheelchair should look different, or fit in your small car? Write to us.",
+        "Do you have a great idea on how we could make your life easier, too? Write to us.",
     },
 
     members: {
       eyebrow: "For members",
       title: "Monday at 17:00 & Thursday at 18:00",
       intro:
-        "Soldering, designing, programming, writing, organising. At Autak every skill finds a project and every project finds someone to move it forward.",
+        "Soldering, designing, programming, writing, and organizing are all skills that we not only need but can also teach.",
       meetingTitle: "Come to an open meeting",
       meetingBody:
         "Open meetings in person and online every Monday at 17:00 and every Thursday at 18:00.\n\n No prior registration is required. Just drop by and join in!",
       meetingCta: "Join the online meeting",
       meetingWhere: "Or drop by",
       videoTitle: "Events and workshops",
-      videoIntro: "Footage from the workshop, from events and time lapses of the build.",
+      videoIntro: "Footage from the workshop, from events and setup.",
       voicesTitle: "Voices from the team",
       voicesIntro: "How members got started with us.",
       projectsTitle: "Projects looking for people",
       projectsIntro:
-        "Each project says exactly what work is waiting right now.",
-      positionsTitle: "Open theses and internships",
-      positionsIntro:
-        "Formally supervised, open in topic: your work ends up in the prototype, not on a shelf.",
+        "If you can't find anything, why not stop by and start your own project?",
       ctaTitle: "Ready to start?",
       ctaBody:
-        "Becoming a member goes through the membership form. Dropping in works right away.",
+        "Becoming a member goes through the membership form. But feel free to stop by beforehand and get to know us.",
     },
   },
 

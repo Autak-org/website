@@ -7,11 +7,9 @@ import { ButtonLink } from "@/components/ui/button";
 import { VideoGallery } from "@/components/ui/video";
 import { VoiceGrid } from "@/components/voice-grid";
 import { ProjectCard } from "@/components/project-card";
-import { PositionCard } from "@/components/position-card";
 import { Calendar } from "@/components/icons";
 import { eventVideos, memberVoices } from "@/content/media";
 import { featuredProjects } from "@/content/projects";
-import { positions } from "@/content/positions";
 import { localizeVideos, videoLabels } from "@/lib/videos";
 import { resolvePage, type LocaleParams } from "@/lib/page";
 import { getDictionary, isLocale } from "@/i18n";
@@ -136,40 +134,17 @@ export default async function MembersPage({ params }: LocaleParams) {
         />
 
         <ul className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {featuredProjects.map((project, index) => (
-            <Reveal as="li" key={project.slug} delay={(index % 3) * 90}>
-              <ProjectCard
-                project={project}
-                locale={locale}
-                contribution={pages.projects.contribution}
-              />
-            </Reveal>
-          ))}
-        </ul>
-      </Section>
-
-      <Section divide>
-        <SectionHeader
-          eyebrow="04 / 04"
-          title={copy.positionsTitle}
-          intro={copy.positionsIntro}
-          actions={
-            <ButtonLink href={routes.positions(locale)} variant="ghost" arrow>
-              {nav.positions}
-            </ButtonLink>
-          }
-        />
-
-        <ul className="mt-12 grid gap-6 md:grid-cols-2">
-          {positions.map((position, index) => (
-            <Reveal as="li" key={position.id} delay={(index % 2) * 90}>
-              <PositionCard
-                position={position}
-                locale={locale}
-                dictionary={dictionary}
-              />
-            </Reveal>
-          ))}
+          {featuredProjects
+            .filter((project) => project.slug !== "connie")
+            .map((project, index) => (
+              <Reveal as="li" key={project.slug} delay={(index % 3) * 90}>
+                <ProjectCard
+                  project={project}
+                  locale={locale}
+                  contribution={pages.projects.contribution}
+                />
+              </Reveal>
+            ))}
         </ul>
       </Section>
 

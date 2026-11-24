@@ -25,10 +25,16 @@ cover_alt_fr: Le porte-bagages Connie monté sur un fauteuil roulant.
 cover_alt_nl: De Connie bagagedrager gemonteerd op een rolstoel.
 cover_alt_es: El enganche de equipaje Connie montado en una silla de ruedas.
 cover_alt_tr: Tekerlekli sandalyeye monte edilmiş Connie bagaj bağlantı aparatı.
-contribution_de: Fertigung, Verpackung und Versand sowie Rückmeldungen aus dem Alltag von Nutzerinnen und Nutzern.
-contribution_en: Manufacturing, packing and shipping, plus everyday feedback from the people who use it.
-contribution_fr: Fabrication, emballage et expédition, ainsi que les retours quotidiens des utilisateurs.
-contribution_nl: Productie, verpakking en verzending, plus dagelijkse feedback van de gebruikers.
-contribution_es: Fabricación, embalaje y envío, además de las opiniones diarias de los usuarios.
-contribution_tr: Üretim, paketleme ve sevkiyat süreçleri, ayrıca ürünü kullanan kişilerden gelen günlük geri bildirimler.
+contribution_title_de: Hier kannst du ihn bekommen
+contribution_title_en: Where to get it
+contribution_title_fr: Où se le procurer
+contribution_title_nl: Waar je Connie kunt krijgen
+contribution_title_es: Dónde conseguirlo
+contribution_title_tr: Nereden edinebilirsiniz
+contribution_de: Wir haben die Connie an Help24 abgegeben. Diese vertreiben sie unter dem Markennamen Arnie unter [arnie-travelhero.com](https://www.arnie-travelhero.com/).
+contribution_en: We handed Connie over to Help24. They sell it under the brand name Arnie at [arnie-travelhero.com](https://www.arnie-travelhero.com/).
+contribution_fr: Nous avons cédé la Connie à Help24. Cette société la commercialise sous la marque Arnie sur [arnie-travelhero.com](https://www.arnie-travelhero.com/).
+contribution_nl: We hebben de Connie aan Help24 geleverd. Zij verkopen deze onder de merknaam Arnie via [arnie-travelhero.com](https://www.arnie-travelhero.com/).
+contribution_es: Hemos entregado la Connie a Help24. La comercializan bajo la marca Arnie en [arnie-travelhero.com](https://www.arnie-travelhero.com/).
+contribution_tr: Connie’yi Help24’e teslim ettik. Onlar da bu ürünü Arnie markası altında [arnie-travelhero.com](https://www.arnie-travelhero.com/) adresinde satıyorlar.
 ---

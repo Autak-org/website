@@ -36,6 +36,7 @@ export type Project = {
   coverAlt: Localized<string>;
   /** What a new member can pick up on this project. */
   contribution: Localized<string>;
+  contributionTitle?: Localized<string>;
   sections: readonly ProjectSection[];
   gallery?: readonly { src: string; alt: Localized<string> }[];
   videos?: readonly SourceVideo[];

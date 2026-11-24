@@ -7,20 +7,20 @@ name_fr: Événements
 name_nl: Evenementen
 name_es: Eventos
 name_tr: Olaylar
-tagline_de: Aufmerksamkeit — und selbst ausprobieren
-tagline_en: Attention — and trying it yourself
-tagline_fr: Attention — et essayez-le vous-même
-tagline_nl: Let op — en probeer het zelf eens.
-tagline_es: Atención: ¡pruébalo tú mismo!
-tagline_tr: Dikkat — ve kendiniz deneyin
+tagline_de: Sieh wie Menschen zusammenkommen
+tagline_en: See how people come together
+tagline_fr: Regarde comment les gens se rassemblent
+tagline_nl: Kijk hoe mensen bij elkaar komen
+tagline_es: Mira cómo se reúnen las personas
+tagline_tr: İnsanların bir araya gelişini izle
 summary_de: |-
-  Rollstuhl-Lasertag, Podiumsdiskussionen und Biathlon: Inklusion zum Anfassen.
+  Rollstuhl-Lasertag, Podiumsdiskussionen und Ausflüge: Inklusion zum Anfassen.
 summary_en: |-
-  Wheelchair laser tag, panel discussions and biathlon: inclusion you can take part in.
-summary_fr: Laser tag en fauteuil roulant, tables rondes et biathlon : des activités inclusives auxquelles vous pouvez participer.
-summary_nl: Lasergamen in een rolstoel, paneldiscussies en biatlon: inclusie waaraan u kunt deelnemen.
-summary_es: Laser tag en silla de ruedas, mesas redondas y biatlón: actividades inclusivas en las que puedes participar.
-summary_tr: Tekerlekli sandalye lazer oyunu, panel tartışmaları ve biatlon: Katılabileceğiniz kapsayıcılık etkinlikleri.
+  Wheelchair laser tag, panel discussions and excursions: inclusion you can take part in.
+summary_fr: Laser tag en fauteuil roulant, tables rondes et les sorties: des activités inclusives auxquelles vous pouvez participer.
+summary_nl: Lasergamen in een rolstoel, paneldiscussies en uitstapjes: inclusie waaraan u kunt deelnemen.
+summary_es: Laser tag en silla de ruedas, mesas redondas y excursiones: actividades inclusivas en las que puedes participar.
+summary_tr: Tekerlekli sandalye lazer oyunu, panel tartışmaları ve geziler: Katılabileceğiniz kapsayıcılık etkinlikleri.
 status_de: Mehrmals im Jahr
 status_en: Several times a year
 status_fr: Plusieurs fois par an

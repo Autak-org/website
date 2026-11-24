@@ -1,16 +1,16 @@
 ---
 order: 6
 pillar: awareness
-name_de: Critical Social Media
-name_en: Critical social media
-name_fr: Médias sociaux critiques
-name_nl: Kritische sociale media
-name_es: Redes sociales críticas
-name_tr: Eleştirel sosyal medya
+name_de: Informationskampagnen 
+name_en: Campañas informativas
+name_fr: Campagnes d'information
+name_nl: Voorlichtingscampagnes
+name_es: Campañas informativas
+name_tr: Bilgilendirme kampanyaları
 tagline_de: Kritisch hinterfragen, was als normal gilt
 tagline_en: Questioning what counts as normal
 tagline_fr: S'interroger sur ce qui est considéré comme normal
-tagline_nl: De vraag stellen wat als normaal wordt beschouwd
+tagline_nl: Kritisch nagaan wat als normaal wordt beschouwd
 tagline_es: Cuestionar qué se considera normal
 tagline_tr: Normal sayılan şeyin ne olduğunu sorgulamak
 summary_de: Durch Videos, Bilder und Texte bringen wir Inklusion in die Köpfe aller.
