@@ -1,6 +1,6 @@
 ---
 group: team
-order: 9
+order: 10
 name: Lisa Melnychuk
 photo: /images/people/bild_folgt.jpeg
 tags: #Elektrotechnik, #Hilfsbereit
